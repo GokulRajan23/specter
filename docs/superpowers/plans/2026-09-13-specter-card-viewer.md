@@ -1805,7 +1805,7 @@ Expected: FAIL — `public/manifest.json` does not exist.
 {
   "name": "Specter",
   "short_name": "Specter",
-  "description": "One topic a week, in real depth. A feed that ends.",
+  "description": "Scroll something worth it. One topic a week, in real depth.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
@@ -1828,7 +1828,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Specter",
-  description: "One topic a week, in real depth. A feed that ends.",
+  description: "Scroll something worth it. One topic a week, in real depth.",
   manifest: "/manifest.json",
   icons: {
     icon: [{ url: "/favicon-32.png", sizes: "32x32", type: "image/png" }],
@@ -2232,6 +2232,8 @@ Expected: both pass.
 
 ```markdown
 # Specter
+
+**Scroll something worth it.**
 
 One topic a week, in real depth. A feed that ends.
 

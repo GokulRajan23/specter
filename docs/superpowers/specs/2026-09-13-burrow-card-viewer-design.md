@@ -45,6 +45,15 @@ Settled during brainstorming on 2026-09-13. Recorded so they are not re-litigate
 
 **Name: `Specter`.** A working name — chosen to unblock the build, not settled.
 
+**Tagline: `Scroll something worth it.`** Names the gesture, then claims this one earns it. It appears
+in the manifest description, the README, and anywhere the app is introduced — **not** under the
+home-screen icon, which carries the app name alone.
+
+Considered and not taken: `doomscroll something worth it` (sharper, and the only funny one, but it
+casts the user as a doomscroller daily, which is a poor engine for a year-long habit);
+`worth the scroll`; `scroll that sticks`; `scroll deep, not wide`; `what stays with you`;
+`a feed that ends`.
+
 **Mark: a descending stack.** Four bars narrowing as they fall, each one fainter than the last, with
 a blue weight below them. It was drawn as a sounding line — a plumb dropped to measure depth — and it
 reads two other ways that are just as true: a stack of cards, and a feed with a bottom to hit.
