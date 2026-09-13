@@ -9,19 +9,369 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Suit (clothing) · lead",
-          "url": "https://en.wikipedia.org/wiki/Suit_(clothing)",
-          "media": ["https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760"],
-          "excerpt": "A suit is a set of clothes comprising a suit jacket and trousers of identical textiles.",
-          "connector": "Start with the word itself."
+          "detail": "Suit · lead",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/7/76/Matt_Smith_on_%22Christopher_And_His_Kind%22_set.jpg"
+          ],
+          "excerpt": "A suit, also called a lounge suit, business suit, dress suit, or formal suit, is a set of clothes comprising a suit jacket and trousers of identical textiles generally worn with a collared dress shirt, necktie, and dress shoes.  A skirt suit is similar, but with a matching pencil skirt instead of trousers.  It is currently considered semi-formal wear or business wear in contemporary Western dress codes; however, when the suit was originally developed it was considered an informal or more casual option compared to the prevailing clothing standards of aristocrats and businessmen.  The lounge suit originated in 19th-century Britain as sportswear and British country clothing, which is why it was seen as more casual than citywear at that time, with the roots of the suit coming from early modern Western Europe formal court or military clothes.",
+          "connector": "Where the map starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit jacket · in parts",
+          "url": "https://en.wikipedia.org/wiki/Suit_jacket",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Single-Double-Breasted.svg/960px-Single-Double-Breasted.svg.png",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "A suit jacket, also called a lounge jacket, dress jacket, lounge coat or suit coat, is a jacket in classic menswear that is part of a suit.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Waistcoat",
+          "url": "https://en.wikipedia.org/wiki/Waistcoat",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/92/Waistcoat.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Necktie · two views",
+          "url": "https://en.wikipedia.org/wiki/Necktie",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/b/bc/Memphis_tie_1A.JPG",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "A necktie – also called a long tie or, more usually, simply a tie – is a cloth article of formal neckwear or office attire worn for decorative or symbolic purposes, knotted at the throat, resting under a folded shirt collar, and usually draped down the chest.",
+          "connector": "One line, two views, then on."
         }
       ]
     },
-    { "day": "tuesday", "slot": "Origins", "cards": [] },
-    { "day": "wednesday", "slot": "Mechanics", "cards": [] },
-    { "day": "thursday", "slot": "The arguments", "cards": [] },
-    { "day": "friday", "slot": "Primary sources", "cards": [] },
-    { "day": "saturday", "slot": "The frontier", "cards": [] },
-    { "day": "sunday", "slot": "Recall", "cards": [] }
+    {
+      "day": "tuesday",
+      "slot": "Origins",
+      "cards": [
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Savile Row · lead",
+          "url": "https://en.wikipedia.org/wiki/Savile_Row",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/6/63/Savile_Row_from_Burlington_Gardens.jpg"
+          ],
+          "excerpt": "Savile Row is a street in Mayfair, central London.  Known principally for its traditional bespoke tailoring for men, the street has also accommodated the headquarters of the Royal Geographical Society at 1 Savile Row, where British explorations to Africa and the South Pole were planned; and more recently, the headquarters of the Beatles' Apple Corps business at 3 Savile Row, on whose roof the band gave its final live performance.",
+          "connector": "Where origins starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Frock coat · in parts",
+          "url": "https://en.wikipedia.org/wiki/Frock_coat",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f3/Frock_Coat_April_1904.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "A frock coat is a formal men's coat characterised by a knee-length skirt cut all around the base just above the knee, popular during the Victorian and Edwardian periods (1830s–1910s).  It is a fitted, long-sleeved coat with a centre vent at the back and some features unusual in post-Victorian dress.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Beau Brummell",
+          "url": "https://en.wikipedia.org/wiki/Beau_Brummell",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/9b/BrummellEngrvFrmMiniature.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dandy · two views",
+          "url": "https://en.wikipedia.org/wiki/Dandy",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/3/3b/Dandies_of_1831.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "A dandy is a man who places particular importance upon physical appearance and personal grooming, refined language and leisurely hobbies.",
+          "connector": "One line, two views, then on."
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "slot": "Mechanics",
+      "cards": [
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Bespoke tailoring · lead",
+          "url": "https://en.wikipedia.org/wiki/Bespoke_tailoring",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f8/TailoringFirstFitFront01.jpg"
+          ],
+          "excerpt": "Bespoke tailoring or custom tailoring is clothing made to an individual buyer's specifications by a tailor.  \nBespoke garments are completely unique and created without the use of a pre-existing pattern, while made to measure uses a standard-sized pattern altered to fit the customer.",
+          "connector": "Where mechanics starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Wool · in parts",
+          "url": "https://en.wikipedia.org/wiki/Wool",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Royal_Winter_Fair_Wool_2.jpg/3840px-Royal_Winter_Fair_Wool_2.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Wool is the textile fiber obtained from sheep and other mammals, especially goats, rabbits, and camelids.  The term may also refer to inorganic materials, such as mineral wool and glass wool, that have some properties similar to animal wool.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Tailor",
+          "url": "https://en.wikipedia.org/wiki/Tailor",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/c/c2/A_Tailor_at_Work_%286920059143%29.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Pattern (sewing) · two views",
+          "url": "https://en.wikipedia.org/wiki/Pattern_(sewing)",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/1/1b/Drei.Hosenschnittmuster.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "In sewing and fashion design, a pattern is the template from which the parts of a garment are traced onto woven or knitted fabric before being cut out and assembled.",
+          "connector": "One line, two views, then on."
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "slot": "The arguments",
+      "cards": [
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Made-to-measure · lead",
+          "url": "https://en.wikipedia.org/wiki/Made-to-measure",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/8/89/TailoringFirstFitFront02.jpg"
+          ],
+          "excerpt": "Made-to-measure (MTM) typically refers to custom clothing that is cut and sewn using a standard-sized base pattern.  Suits and sport coats are the most common garments made-to-measure.  The fit of a made-to-measure garment is expected to be superior to that of a ready-to-wear garment because made-to-measure garments are constructed to fit each customer individually based on a few body measurements to customize the pre-existing pattern.  \nMade-to-measure garments always involve some form of standardization in the pattern and manufacturing, whereas bespoke tailoring is entirely made from scratch based on a customer's specifications with far more attention to minute fit details and using multiple fittings during the construction process.",
+          "connector": "Where the arguments starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Ready-to-wear · in parts",
+          "url": "https://en.wikipedia.org/wiki/Ready-to-wear",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/5/52/ClothingReadyWear.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Ready-to-wear (RTW) – also called prêt-à-porter, or off-the-rack or off-the-peg in casual use – is the term for garments sold in finished condition in standardized sizes, as distinct from made-to-measure or bespoke clothing tailored to a particular person's frame.  In other words, it is a piece of clothing that was mass produced in different sizes and sold that way instead of it being designed and sewn for one person.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Fashion",
+          "url": "https://en.wikipedia.org/wiki/Fashion",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a6/Carolina_Herrera_AW14_12.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Slim-fit pants · two views",
+          "url": "https://en.wikipedia.org/wiki/Slim-fit_pants",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a0/Skinny20080428.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Slim-fit pants, slim jeans, or skinny jeans are tight trousers that have a snug fit through the legs and end in a small leg opening that can be anywhere from 9\" to 20\" in circumference, depending on size.",
+          "connector": "One line, two views, then on."
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "slot": "Primary sources",
+      "cards": [
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Henry Poole & Co · lead",
+          "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/4/47/Henry_Poole_%26_Co_%281%29.JPG"
+          ],
+          "excerpt": "Henry Poole & Co.  is a British bespoke tailor located at 15 Savile Row in London, England.  It is widely believed to have designed the first modern-style dinner jacket during the 1860s, according to specifications provided by the Prince of Wales.  The company has been called \"the founding father of Savile Row\".",
+          "connector": "Where primary sources starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Gieves & Hawkes · in parts",
+          "url": "https://en.wikipedia.org/wiki/Gieves_%26_Hawkes",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/TailoringFirstFitFront01.jpg?width=760"
+          ],
+          "excerpt": "Gieves & Hawkes is a luxury bespoke men's tailor and menswear retailer located at 1 Savile Row in London, England.  The business was founded in 1771.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Anderson & Sheppard",
+          "url": "https://en.wikipedia.org/wiki/Anderson_%26_Sheppard",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/d/d2/32_Old_Burlington_Street%2C_Mayfair%2C_May_2022.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "H. Huntsman & Sons · two views",
+          "url": "https://en.wikipedia.org/wiki/H._Huntsman_%26_Sons",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f5/11HSavileRow.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "H.",
+          "connector": "One line, two views, then on."
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "slot": "The frontier",
+      "cards": [
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Business casual · lead",
+          "url": "https://en.wikipedia.org/wiki/Business_casual",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Business_casual_male_%26_female.svg/1280px-Business_casual_male_%26_female.svg.png"
+          ],
+          "excerpt": "Business casual is an ambiguously defined Western dress code that is a form of smart casual wear for business purposes, replacing traditional business wear for white-collar workplaces.  For men this consists of some components of a business suit, typically a dress shirt and trousers, but without a matching suit jacket, and with neck ties optional.  A coordinating sport coat or blazer may be worn, or omitted; a sweater or vest may be worn instead.  For women, the same components can be worn, though usually in a female style, like a blouse for a shirt.",
+          "connector": "Where the frontier starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Smart casual · in parts",
+          "url": "https://en.wikipedia.org/wiki/Smart_casual",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/8/8d/Blazer.JPG",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Smart casual is an ambiguously defined Western dress code that is generally considered casual wear but with smart components of a proper lounge suit from traditional informal wear.  For men, this interpretation typically includes a dress shirt, necktie, trousers, and dress shoes, possibly worn with an odd-coloured blazer or a sports coat.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Workwear",
+          "url": "https://en.wikipedia.org/wiki/Workwear",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/ad/Agriculture_in_Britain_during_the_First_World_War_Q27691_%28cropped%29.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Casual Friday · two views",
+          "url": "https://en.wikipedia.org/wiki/Casual_Friday",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/b/b7/Casual_Friday.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Casual Friday is a Western dress code trend in which businesses relax their dress code on Fridays.",
+          "connector": "One line, two views, then on."
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "slot": "Recall",
+      "cards": [
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit · lead",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/7/76/Matt_Smith_on_%22Christopher_And_His_Kind%22_set.jpg"
+          ],
+          "excerpt": "A suit, also called a lounge suit, business suit, dress suit, or formal suit, is a set of clothes comprising a suit jacket and trousers of identical textiles generally worn with a collared dress shirt, necktie, and dress shoes.  A skirt suit is similar, but with a matching pencil skirt instead of trousers.  It is currently considered semi-formal wear or business wear in contemporary Western dress codes; however, when the suit was originally developed it was considered an informal or more casual option compared to the prevailing clothing standards of aristocrats and businessmen.  The lounge suit originated in 19th-century Britain as sportswear and British country clothing, which is why it was seen as more casual than citywear at that time, with the roots of the suit coming from early modern Western Europe formal court or military clothes.",
+          "connector": "Where recall starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Savile Row · in parts",
+          "url": "https://en.wikipedia.org/wiki/Savile_Row",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/6/63/Savile_Row_from_Burlington_Gardens.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Savile Row is a street in Mayfair, central London.  Known principally for its traditional bespoke tailoring for men, the street has also accommodated the headquarters of the Royal Geographical Society at 1 Savile Row, where British explorations to Africa and the South Pole were planned; and more recently, the headquarters of the Beatles' Apple Corps business at 3 Savile Row, on whose roof the band gave its final live performance.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Bespoke tailoring",
+          "url": "https://en.wikipedia.org/wiki/Bespoke_tailoring",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f8/TailoringFirstFitFront01.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Necktie · two views",
+          "url": "https://en.wikipedia.org/wiki/Necktie",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/b/bc/Memphis_tie_1A.JPG",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "A necktie – also called a long tie or, more usually, simply a tie – is a cloth article of formal neckwear or office attire worn for decorative or symbolic purposes, knotted at the throat, resting under a folded shirt collar, and usually draped down the chest.",
+          "connector": "One line, two views, then on."
+        }
+      ]
+    }
   ]
 }
