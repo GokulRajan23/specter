@@ -1,0 +1,27 @@
+{
+  "topic": "Suits",
+  "week": 1,
+  "days": [
+    {
+      "day": "monday",
+      "slot": "The map",
+      "cards": [
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit (clothing) · lead",
+          "url": "https://en.wikipedia.org/wiki/Suit_(clothing)",
+          "media": ["https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760"],
+          "excerpt": "A suit is a set of clothes comprising a suit jacket and trousers of identical textiles.",
+          "connector": "Start with the word itself."
+        }
+      ]
+    },
+    { "day": "tuesday", "slot": "Origins", "cards": [] },
+    { "day": "wednesday", "slot": "Mechanics", "cards": [] },
+    { "day": "thursday", "slot": "The arguments", "cards": [] },
+    { "day": "friday", "slot": "Primary sources", "cards": [] },
+    { "day": "saturday", "slot": "The frontier", "cards": [] },
+    { "day": "sunday", "slot": "Recall", "cards": [] }
+  ]
+}
