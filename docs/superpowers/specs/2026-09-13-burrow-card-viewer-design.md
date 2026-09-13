@@ -1,4 +1,4 @@
-# Spectre — card viewer, design spec
+# Specter — card viewer, design spec
 
 Date: 2026-09-13
 Status: approved for implementation
@@ -43,7 +43,7 @@ Settled during brainstorming on 2026-09-13. Recorded so they are not re-litigate
 
 ## Name and mark
 
-**Name: `Spectre`.** A working name — chosen to unblock the build, not settled.
+**Name: `Specter`.** A working name — chosen to unblock the build, not settled.
 
 **Mark: a descending stack.** Four bars narrowing as they fall, each one fainter than the last, with
 a blue weight below them. It was drawn as a sounding line — a plumb dropped to measure depth — and it
@@ -285,7 +285,7 @@ Carried from `IDEA.md`, not blocking this build.
 
 - Confirm the seven-slot arc against a real week.
 - Whether Reels ships at all.
-- The name is `Spectre`, chosen as a **working name**. See "Name and mark" above for the candidates
+- The name is `Specter`, chosen as a **working name**. See "Name and mark" above for the candidates
   already explored, so that ground is not re-covered if it changes.
 
 ## Done means

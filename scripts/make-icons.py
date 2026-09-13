@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the Spectre app icon to PNG at the sizes iOS and the manifest need.
+"""Render the Specter app icon to PNG at the sizes iOS and the manifest need.
 
 The mark is pure geometry, so it is drawn directly rather than rasterised from
 public/icon.svg — that keeps edges clean at 29px, where a rasteriser blurs them.
