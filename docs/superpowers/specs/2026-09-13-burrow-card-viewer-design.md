@@ -1,4 +1,4 @@
-# Burrow — card viewer, design spec
+# Spectre — card viewer, design spec
 
 Date: 2026-09-13
 Status: approved for implementation
@@ -40,6 +40,31 @@ Settled during brainstorming on 2026-09-13. Recorded so they are not re-litigate
   2–5 sentences rather than Instagram's one line. Revisit only if reading on device is bad.
 - **Stories-style full-screen paging** — considered and dropped in favour of the feed.
 - **Editorial and dark-object visual directions** — built as mockups, both rejected.
+
+## Name and mark
+
+**Name: `Spectre`.** A working name — chosen to unblock the build, not settled.
+
+**Mark: a descending stack.** Four bars narrowing as they fall, each one fainter than the last, with
+a blue weight below them. It was drawn as a sounding line — a plumb dropped to measure depth — and it
+reads two other ways that are just as true: a stack of cards, and a feed with a bottom to hit.
+The fading opacity also suits the name it ended up with.
+
+Assets live in `public/`. `icon.svg` is the source of truth for the geometry; `make-icons.py` redraws
+the PNGs from the same numbers rather than rasterising the SVG, which keeps edges clean at 29px —
+the size used in Settings and Spotlight, and the size that kills weak marks.
+
+Two constraints that are easy to get wrong:
+
+- **Flat square, no rounded corners.** iOS applies its own squircle mask; drawing our own corners
+  produces visible double-rounding.
+- **No alpha channel.** iOS composites transparent icons onto black and it reads as a bug.
+
+**Explored and not chosen**, recorded so the ground is not re-covered: Burrow, Ken, Vertiefung
+(from `IDEA.md`); Fathom, Plumb, Strata, Steep, Versed, Lode (depth-led); Instead, Enough, Unscroll,
+Compound, Slowscroll (purpose-led — named for replacing the doomscroll rather than for depth).
+Deliberately rejected: `Delve`, now the tell-tale word for AI-generated text, which is the wrong
+association for an app whose founding rule is that nothing is generated.
 
 ## Screens
 
@@ -196,7 +221,12 @@ content/
 scripts/
   fetch-filler.ts       throwaway Wikipedia puller
 public/
-  manifest.json, apple-touch-icon
+  icon.svg              source of truth for the mark
+  apple-touch-icon.png  180 — the one iOS actually uses
+  icon-192.png, icon-512.png, favicon-32.png
+  manifest.json
+scripts/
+  make-icons.py         redraws the PNGs from the same geometry
 ```
 
 ## iPhone specifics
@@ -255,8 +285,8 @@ Carried from `IDEA.md`, not blocking this build.
 
 - Confirm the seven-slot arc against a real week.
 - Whether Reels ships at all.
-- The name. `Burrow` is the working name and appears under the home-screen icon; shortlist was
-  Burrow, Ken, Vertiefung.
+- The name is `Spectre`, chosen as a **working name**. See "Name and mark" above for the candidates
+  already explored, so that ground is not re-covered if it changes.
 
 ## Done means
 
