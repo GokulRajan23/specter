@@ -1329,12 +1329,14 @@ describe("Feed", () => {
   it("shows the topic and the day label", () => {
     render(<Feed day={day} topic="Suits" />);
     expect(screen.getByText("Suits")).toBeInTheDocument();
-    expect(screen.getByText(/Mon/)).toBeInTheDocument();
+    // Anchored so it does not also match "That’s Monday." in the day-end card.
+    expect(screen.getByText(/Mon · 1 of 7/)).toBeInTheDocument();
   });
 
   it("ends with the day-end card naming the day", () => {
     render(<Feed day={day} topic="Suits" />);
-    expect(screen.getByText("That's Monday.")).toBeInTheDocument();
+    // Typographic apostrophe (U+2019): DayEnd renders &rsquo;, not ASCII '.
+    expect(screen.getByText("That’s Monday.")).toBeInTheDocument();
   });
 
   it("reports the number of cards in the day end", () => {
@@ -1690,17 +1692,25 @@ export default function Page() {
 }
 ```
 
-- [ ] **Step 5: Run the tests**
+- [ ] **Step 5: Remove the scaffold smoke test**
+
+The Task 1 smoke test rendered `app/page.tsx` and looked for the text "Specter". That page now renders the deck topic instead, and it calls `useSearchParams`, which returns `null` outside a Next router and throws in jsdom. The harness it proved is now proved by every other suite, so delete it:
+
+```bash
+git rm lib/__tests__/smoke.test.tsx
+```
+
+- [ ] **Step 6: Run the tests**
 
 Run: `npm test`
 Expected: PASS, all suites.
 
-- [ ] **Step 6: Verify by hand**
+- [ ] **Step 7: Verify by hand**
 
 Run: `npm run dev`, open `http://localhost:3000`.
 Expected: topic heading, seven circles, today ringed in blue, future days dim and unclickable. Then open `http://localhost:3000/?dev=1` — every circle becomes clickable. Click one and the feed renders. Stop the server.
 
-- [ ] **Step 7: Commit**
+- [ ] **Step 8: Commit**
 
 ```bash
 git add -A
@@ -1828,7 +1838,9 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     title: "Specter",
-    statusBarStyle: "black-translucent",
+    // Not "black-translucent": that forces white status-bar text, which vanishes
+    // against the #ffffff light-mode ground. "default" lets themeColor drive it.
+    statusBarStyle: "default",
   },
 };
 
@@ -2062,10 +2074,13 @@ const PLAN = [
   { day: "monday", slot: "The map", articles: ["Suit_(clothing)", "Suit_jacket", "Waistcoat", "Necktie"] },
   { day: "tuesday", slot: "Origins", articles: ["Savile_Row", "Frock_coat", "Beau_Brummell", "Dandy"] },
   { day: "wednesday", slot: "Mechanics", articles: ["Bespoke_tailoring", "Wool", "Tailor", "Pattern_(sewing)"] },
-  { day: "thursday", slot: "The arguments", articles: ["Made_to_measure", "Off-the-peg", "Fashion", "Menswear"] },
-  { day: "friday", slot: "Primary sources", articles: ["Henry_Poole_%26_Co", "Gieves_%26_Hawkes", "Anderson_%26_Sheppard"] },
-  { day: "saturday", slot: "The frontier", articles: ["Business_casual", "Smart_casual", "Workwear"] },
-  { day: "sunday", slot: "Recall", articles: ["Suit_(clothing)", "Savile_Row", "Bespoke_tailoring"] },
+  // Titles verified against the API on 2026-09-13. "Menswear" and "Huntsman_(clothing)"
+  // were replaced: the first redirects to Fashion (duplicating this day's third article),
+  // the second 404s. Re-verify with the API before adding a title, not after.
+  { day: "thursday", slot: "The arguments", articles: ["Made_to_measure", "Off-the-peg", "Fashion", "Slim-fit_pants"] },
+  { day: "friday", slot: "Primary sources", articles: ["Henry_Poole_%26_Co", "Gieves_%26_Hawkes", "Anderson_%26_Sheppard", "H._Huntsman_%26_Sons"] },
+  { day: "saturday", slot: "The frontier", articles: ["Business_casual", "Smart_casual", "Workwear", "Casual_Friday"] },
+  { day: "sunday", slot: "Recall", articles: ["Suit_(clothing)", "Savile_Row", "Bespoke_tailoring", "Necktie"] },
 ];
 
 async function summary(title) {
@@ -2103,7 +2118,8 @@ function buildDay({ day, slot, articles }, pages) {
     if (!p) return;
     const media = p.image ? [p.image] : [EXTRA_IMAGES[i % EXTRA_IMAGES.length]];
 
-    // Rotate register so adjacent cards differ: long, carousel, image-led, medium.
+    // Rotate register so adjacent cards differ: long, carousel, image-led, short carousel.
+    // Two of the four modes are carousels so a day of 4 articles clears MIN_CAROUSELS = 2.
     const mode = i % 4;
 
     if (mode === 0) {
@@ -2117,12 +2133,16 @@ function buildDay({ day, slot, articles }, pages) {
         connector: `Where ${slot.toLowerCase()} starts.`,
       });
     } else if (mode === 1) {
+      // Filtered, not sliced: when p.image is null the fallback above already came
+      // from EXTRA_IMAGES, and a repeat would collide as a React key in Carousel.
+      // Gieves & Hawkes has no lead image and lands here, so this fires in practice.
+      const extras = EXTRA_IMAGES.filter((u) => !media.includes(u)).slice(0, 2);
       cards.push({
         source: "Wikipedia",
         domain: "en.wikipedia.org",
         detail: `${p.title} · in parts`,
         url: p.url,
-        media: [...media, ...EXTRA_IMAGES.slice(0, 2)],
+        media: [...media, ...extras],
         excerpt: sentences(p.extract, 2),
         connector: "Swipe sideways — one idea, several parts.",
       });
@@ -2137,14 +2157,16 @@ function buildDay({ day, slot, articles }, pages) {
         connector: "Look before you read.",
       });
     } else {
+      // (i + 2) % 4 never equals i % 4, so this extra image cannot duplicate the
+      // fallback image chosen above. Duplicate URLs would collide as React keys.
       cards.push({
         source: "Wikipedia",
         domain: "en.wikipedia.org",
-        detail: p.title,
+        detail: `${p.title} · two views`,
         url: p.url,
-        media,
+        media: [...media, EXTRA_IMAGES[(i + 2) % EXTRA_IMAGES.length]],
         excerpt: sentences(p.extract, 1),
-        connector: "One line, then on.",
+        connector: "One line, two views, then on.",
       });
     }
   });
@@ -2169,7 +2191,7 @@ console.log("wrote content/suits.json");
 Run: `npm run filler`
 Expected: seven lines of article counts, then `wrote content/suits.json`.
 
-If a day reports fewer than 3 articles, a title in `PLAN` has moved or been renamed. Open the failing title on Wikipedia, find the current one, and correct `PLAN` — do not lower `MIN_DISTINCT_ARTICLES`.
+Every day in `PLAN` must keep at least 4 articles: modes 1 and 3 are the carousels, so a day with only 3 pages yields one carousel and fails the variety rule. If a day reports fewer than 3 articles, a title in `PLAN` has moved or been renamed. Open the failing title on Wikipedia, find the current one, and correct `PLAN` — do not lower `MIN_DISTINCT_ARTICLES`.
 
 - [ ] **Step 7: Run the full suite**
 
