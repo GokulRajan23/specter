@@ -139,6 +139,34 @@ thing distinguishing the two, and it is why no separate card type is needed.
 The schema is deliberately source-agnostic — it never encodes "Wikipedia". When the pipeline
 arrives it writes this same shape from any publisher.
 
+### Filler content
+
+The filler is not neutral. A day built by pulling 25 consecutive paragraphs out of one Wikipedia
+article would be crushingly boring, and would return a **false negative** — the conclusion would be
+"the product does not work" when what actually failed was the filler script.
+
+So the throwaway script must produce structural variety, even though it curates nothing for quality:
+
+- **Several source articles per day**, not one walked top to bottom.
+- **Mixed excerpt lengths.** Some cards one sentence, some four. Short cards between long ones.
+- **At least two carousels** in the day, to break the vertical rhythm.
+- **At least one image-led card** with barely any text.
+- **Varied register where Wikipedia allows it** — a definition, a date, a diagram, a photograph,
+  a quoted objection.
+
+This is roughly twenty minutes of extra scripting and it is what makes the week of use mean anything.
+
+**The risk it is protecting against.** Instagram holds attention through unpredictable subject and
+unpredictable emotional register. A day on one topic has neither by construction — that is the point
+of the product and also the removal of the mechanism the habit runs on. The mitigations are that the
+bar is lower than "beat Instagram" (a finite 6–7 minute deck competes differently from an infinite
+feed), and that unity of subject still permits variety of register. Both depend on the deck being
+ordered for **rhythm** rather than logic.
+
+The honest failure mode is not Monday, when any topic is fresh. It is Thursday — day four of a topic
+you are not already invested in. Testing a Thursday deck rather than a Monday deck is available and
+would be the harder, more honest test; not taken for this build.
+
 ### Progress
 
 `localStorage` on the phone. Which days are complete, and the card index reached within a day.
@@ -207,6 +235,12 @@ The model must prefer listed sources, may search beyond them when a slot has no 
 blocked from known SEO content farms. Same division of labour as the verbatim rule: the model finds
 and excerpts, the user decides what counts as authoritative.
 
+**Decks are ordered for rhythm, not just logic.** Walking a source top to bottom produces a correct
+arc and a boring one. Within a day, alternate register and length deliberately — a definition, then a
+photograph, then a one-line objection, then a diagram. The connector line in `IDEA.md` is the tool
+for this, but only if selection optimises for contrast between adjacent cards as well as for the
+slot's subject. See "Filler content" above for why this is load-bearing.
+
 Two consequences to plan for:
 
 - **Verification gets more expensive off-Wikipedia.** Wikipedia's API returns clean text to
@@ -227,7 +261,8 @@ Carried from `IDEA.md`, not blocking this build.
 ## Done means
 
 Installed on the iPhone home screen, opening full-screen. Today shows seven day-circles. Tapping
-today opens a scrolling feed of filler posts, at least one of them a carousel. The progress bar
+today opens a scrolling feed of filler posts drawn from several articles, with mixed excerpt
+lengths, at least two carousels and at least one image-led card. The progress bar
 tracks the scroll. The feed ends in "That's Monday." Progress survives closing and reopening the app.
 Both colour schemes correct.
 
