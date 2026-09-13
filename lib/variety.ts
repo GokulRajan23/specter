@@ -4,6 +4,8 @@ import type { Day } from "@/lib/content";
 const IMAGE_LED_MAX_CHARS = 40;
 const MIN_DISTINCT_ARTICLES = 3;
 const MIN_CAROUSELS = 2;
+/** IDEA.md calls for roughly 20-30 cards a day — a session, not a twenty-second scroll. */
+const MIN_CARDS = 18;
 
 /**
  * The spec requires filler with structural variety, because a day built from one
@@ -13,6 +15,10 @@ const MIN_CAROUSELS = 2;
 export function varietyViolations(day: Day): string[] {
   const out: string[] = [];
   if (day.cards.length === 0) return out;
+
+  if (day.cards.length < MIN_CARDS) {
+    out.push(`has ${day.cards.length} card(s); needs at least ${MIN_CARDS}`);
+  }
 
   const articles = new Set(day.cards.map((c) => c.url));
   if (articles.size < MIN_DISTINCT_ARTICLES) {

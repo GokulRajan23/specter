@@ -49,20 +49,35 @@ describe("varietyViolations", () => {
   });
 
   it("passes a day that satisfies every rule", () => {
-    const cards: Card[] = [
-      card({ url: "https://x.test/1", excerpt: "Short one." }),
-      card({ url: "https://x.test/2", media: ["a.jpg", "b.jpg", "c.jpg"] }),
-      card({
-        url: "https://x.test/3",
+    // Repeated to 18 cards (not just the original 6) so this also clears MIN_CARDS —
+    // a day needs enough length to be a session, not just enough shape to pass the rest.
+    const base: Array<Partial<Card>> = [
+      { excerpt: "Short one." },
+      { media: ["a.jpg", "b.jpg", "c.jpg"] },
+      {
         excerpt:
           "A considerably longer excerpt that runs on for several clauses and sentences. " +
           "It keeps going, because some cards are meant to be dense. And then it stops.",
-      }),
-      card({ url: "https://x.test/4", excerpt: "" }),
-      card({ url: "https://x.test/5", media: ["d.jpg", "e.jpg"] }),
-      card({ url: "https://x.test/6", excerpt: "Another middling excerpt, two sentences long. Like so." }),
+      },
+      { excerpt: "" },
+      { media: ["d.jpg", "e.jpg"] },
+      { excerpt: "Another middling excerpt, two sentences long. Like so." },
     ];
+    const cards: Card[] = Array.from({ length: 18 }, (_, i) =>
+      card({ url: `https://x.test/${i}`, ...base[i % base.length] }),
+    );
     expect(varietyViolations(day(cards))).toEqual([]);
+  });
+
+  it("flags a day with too few cards", () => {
+    const cards = Array.from({ length: 8 }, (_, i) =>
+      card({
+        url: `https://x.test/${i}`,
+        media: i < 2 ? ["a.jpg", "b.jpg"] : ["a.jpg"],
+        excerpt: i === 7 ? "" : "A middling excerpt with enough clauses to spread the lengths out.",
+      }),
+    );
+    expect(varietyViolations(day(cards)).join(" ")).toMatch(/card/i);
   });
 
   it("accepts an empty day, which is not filler yet", () => {

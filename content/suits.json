@@ -20,6 +20,53 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Suit · in parts",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/7/76/Matt_Smith_on_%22Christopher_And_His_Kind%22_set.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "A skirt suit is similar, but with a matching pencil skirt instead of trousers.  It is currently considered semi-formal wear or business wear in contemporary Western dress codes; however, when the suit was originally developed it was considered an informal or more casual option compared to the prevailing clothing standards of aristocrats and businessmen.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/7/76/Matt_Smith_on_%22Christopher_And_His_Kind%22_set.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit jacket · two views",
+          "url": "https://en.wikipedia.org/wiki/Suit_jacket",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Single-Double-Breasted.svg/960px-Single-Double-Breasted.svg.png",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "A suit jacket, also called a lounge jacket, dress jacket, lounge coat or suit coat, is a jacket in classic menswear that is part of a suit.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit jacket · lead",
+          "url": "https://en.wikipedia.org/wiki/Suit_jacket",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Single-Double-Breasted.svg/960px-Single-Double-Breasted.svg.png"
+          ],
+          "excerpt": "",
+          "connector": "Where the map starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Suit jacket · in parts",
           "url": "https://en.wikipedia.org/wiki/Suit_jacket",
           "media": [
@@ -27,7 +74,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "A suit jacket, also called a lounge jacket, dress jacket, lounge coat or suit coat, is a jacket in classic menswear that is part of a suit.",
+          "excerpt": "",
           "connector": "Swipe sideways — one idea, several parts."
         },
         {
@@ -44,14 +91,166 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Waistcoat · two views",
+          "url": "https://en.wikipedia.org/wiki/Waistcoat",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/92/Waistcoat.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Historically, the waistcoat can be worn either in the place of, or underneath, a larger coat, dependent upon the weather, wearer, and setting.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Waistcoat · lead",
+          "url": "https://en.wikipedia.org/wiki/Waistcoat",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/92/Waistcoat.jpg"
+          ],
+          "excerpt": "A waistcoat or vest is a sleeveless upper-body garment.  It is usually worn over a dress shirt and necktie and below a coat as a part of most men's formal wear.  It is also sported as the third piece in the traditional three-piece male suit.  Any given waistcoat can be simple or ornate, or for leisure or luxury.",
+          "connector": "Where the map starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Necktie · in parts",
+          "url": "https://en.wikipedia.org/wiki/Necktie",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/b/bc/Memphis_tie_1A.JPG",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "On rare occasions, neckties are worn above a winged shirt collar.  Neckties are usually paired with collared dress shirts under suit jackets or blazers, but have often been seen with other articles, such as sport coats and v-neck sweaters.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Necktie",
+          "url": "https://en.wikipedia.org/wiki/Necktie",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/b/bc/Memphis_tie_1A.JPG"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Necktie · two views",
           "url": "https://en.wikipedia.org/wiki/Necktie",
           "media": [
             "https://upload.wikimedia.org/wikipedia/commons/b/bc/Memphis_tie_1A.JPG",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "A necktie – also called a long tie or, more usually, simply a tie – is a cloth article of formal neckwear or office attire worn for decorative or symbolic purposes, knotted at the throat, resting under a folded shirt collar, and usually draped down the chest.",
+          "excerpt": "Neckties can also be part of a uniform; however, in occupations where manual labor is involved, the end of the necktie is often tucked into the button line front placket of a dress shirt, such as the dress uniform of the United States Marine Corps.",
           "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dress shirt · lead",
+          "url": "https://en.wikipedia.org/wiki/Dress_shirt",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a5/Camisade_pu%C3%B1o_doble.jpg"
+          ],
+          "excerpt": "In American English, a dress shirt, button shirt, button-front, button-front shirt, or button-up shirt — simply shirt in British English — is a garment with a collar and a full-length opening at the front, which is fastened using buttons or shirt studs.  A button-down or button-down shirt is a dress shirt with a button-down collar – a collar having the ends fastened to the shirt with buttons.",
+          "connector": "Where the map starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dress shirt · in parts",
+          "url": "https://en.wikipedia.org/wiki/Dress_shirt",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a5/Camisade_pu%C3%B1o_doble.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "A button-down or button-down shirt is a dress shirt with a button-down collar – a collar having the ends fastened to the shirt with buttons.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dress shirt",
+          "url": "https://en.wikipedia.org/wiki/Dress_shirt",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a5/Camisade_pu%C3%B1o_doble.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Trousers · two views",
+          "url": "https://en.wikipedia.org/wiki/Trousers",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/d/da/Trousers-colourisolated.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "To distinguish them from shorts, trousers may be called \"long trousers\" in certain contexts such as school uniform, where tailored shorts may be called \"short trousers\" in the UK.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Trousers · lead",
+          "url": "https://en.wikipedia.org/wiki/Trousers",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/d/da/Trousers-colourisolated.jpg"
+          ],
+          "excerpt": "Trousers, slacks, or pants are an item of clothing worn from the waist to anywhere between the knees and the ankles, covering both legs separately . \nShorts are similar to trousers, but with legs that come down only as far as the knee, but may be considerably shorter depending on the style of the garment.  To distinguish them from shorts, trousers may be called \"long trousers\" in certain contexts such as school uniform, where tailored shorts may be called \"short trousers\" in the UK.",
+          "connector": "Where the map starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Trousers · in parts",
+          "url": "https://en.wikipedia.org/wiki/Trousers",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/d/da/Trousers-colourisolated.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Shorts are similar to trousers, but with legs that come down only as far as the knee, but may be considerably shorter depending on the style of the garment.  To distinguish them from shorts, trousers may be called \"long trousers\" in certain contexts such as school uniform, where tailored shorts may be called \"short trousers\" in the UK.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Lapel",
+          "url": "https://en.wikipedia.org/wiki/Lapel",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/6/68/Dress-pinstripe.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Lapel · two views",
+          "url": "https://en.wikipedia.org/wiki/Lapel",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/6/68/Dress-pinstripe.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Usually it is formed by folding over the front edge of the jacket or coat and sewing it to the collar, an extra piece of fabric around the back of the neck.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Lapel · lead",
+          "url": "https://en.wikipedia.org/wiki/Lapel",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/6/68/Dress-pinstripe.jpg"
+          ],
+          "excerpt": "A lapel is a folded flap of cloth on the front of a jacket or coat below the collar.  It is most commonly found on formal clothing and suit jackets.  Usually it is formed by folding over the front edge of the jacket or coat and sewing it to the collar, an extra piece of fabric around the back of the neck.",
+          "connector": "Where the map starts."
         }
       ]
     },
@@ -73,6 +272,53 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Savile Row · in parts",
+          "url": "https://en.wikipedia.org/wiki/Savile_Row",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/6/63/Savile_Row_from_Burlington_Gardens.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Known principally for its traditional bespoke tailoring for men, the street has also accommodated the headquarters of the Royal Geographical Society at 1 Savile Row, where British explorations to Africa and the South Pole were planned; and more recently, the headquarters of the Beatles' Apple Corps business at 3 Savile Row, on whose roof the band gave its final live performance.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Savile Row",
+          "url": "https://en.wikipedia.org/wiki/Savile_Row",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/6/63/Savile_Row_from_Burlington_Gardens.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Frock coat · two views",
+          "url": "https://en.wikipedia.org/wiki/Frock_coat",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f3/Frock_Coat_April_1904.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "As was usual with all coats in the 19th century, shoulder padding was rare or minimal.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Frock coat · lead",
+          "url": "https://en.wikipedia.org/wiki/Frock_coat",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f3/Frock_Coat_April_1904.jpg"
+          ],
+          "excerpt": "A frock coat is a formal men's coat characterised by a knee-length skirt cut all around the base just above the knee, popular during the Victorian and Edwardian periods (1830s–1910s).  It is a fitted, long-sleeved coat with a centre vent at the back and some features unusual in post-Victorian dress.  These include the reverse collar and lapels, where the outer edge of the lapel is often cut from a separate piece of cloth from the main body and also a high degree of waist suppression around the waistcoat, where the coat's diameter around the waist is less than around the chest.  This is achieved by a high horizontal waist seam with side bodies, which are extra panels of fabric above the waist used to pull in the naturally cylindrical drape.",
+          "connector": "Where origins starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Frock coat · in parts",
           "url": "https://en.wikipedia.org/wiki/Frock_coat",
           "media": [
@@ -80,7 +326,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "A frock coat is a formal men's coat characterised by a knee-length skirt cut all around the base just above the knee, popular during the Victorian and Edwardian periods (1830s–1910s).  It is a fitted, long-sleeved coat with a centre vent at the back and some features unusual in post-Victorian dress.",
+          "excerpt": "It is a fitted, long-sleeved coat with a centre vent at the back and some features unusual in post-Victorian dress.  These include the reverse collar and lapels, where the outer edge of the lapel is often cut from a separate piece of cloth from the main body and also a high degree of waist suppression around the waistcoat, where the coat's diameter around the waist is less than around the chest.",
           "connector": "Swipe sideways — one idea, several parts."
         },
         {
@@ -97,14 +343,166 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Beau Brummell · two views",
+          "url": "https://en.wikipedia.org/wiki/Beau_Brummell",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/9b/BrummellEngrvFrmMiniature.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Eventually, he died from complications of neurosyphilis in Caen.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Beau Brummell · lead",
+          "url": "https://en.wikipedia.org/wiki/Beau_Brummell",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/9b/BrummellEngrvFrmMiniature.jpg"
+          ],
+          "excerpt": "George Bryan \"Beau\" Brummell was an English socialite who influenced British men's fashion during the Regency era.  He was a close friend of the Prince Regent, the future King George IV, but after the two quarrelled and Brummell got into debt, he had to take refuge in France.  Eventually, he died from complications of neurosyphilis in Caen.",
+          "connector": "Where origins starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dandy · in parts",
+          "url": "https://en.wikipedia.org/wiki/Dandy",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/3/3b/Dandies_of_1831.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "A dandy could be a self-made man both in person and persona, who emulated the aristocratic style of life regardless of his middle-class origin, birth, and background, especially during the late 18th and early 19th centuries in Britain.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dandy",
+          "url": "https://en.wikipedia.org/wiki/Dandy",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/3/3b/Dandies_of_1831.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Dandy · two views",
           "url": "https://en.wikipedia.org/wiki/Dandy",
           "media": [
             "https://upload.wikimedia.org/wikipedia/commons/3/3b/Dandies_of_1831.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "A dandy is a man who places particular importance upon physical appearance and personal grooming, refined language and leisurely hobbies.",
+          "excerpt": "",
           "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Morning dress · lead",
+          "url": "https://en.wikipedia.org/wiki/Morning_dress",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f5/Photograph_of_The_Reagans_and_Japanese_Emperor_Hirohito%2C_Tokyo%2C_Japan_-_NARA_-_198544.jpg"
+          ],
+          "excerpt": "Morning dress, also known as formal day dress, is the formal Western dress code for day attire, consisting chiefly of a morning coat, waistcoat, and formal trousers for men, and an appropriate gown for women.  The correct hat would be a formal top hat, or if on less spacious audience settings, optionally a collapsible equivalent opera hat.",
+          "connector": "Where origins starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Morning dress · in parts",
+          "url": "https://en.wikipedia.org/wiki/Morning_dress",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f5/Photograph_of_The_Reagans_and_Japanese_Emperor_Hirohito%2C_Tokyo%2C_Japan_-_NARA_-_198544.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "The correct hat would be a formal top hat, or if on less spacious audience settings, optionally a collapsible equivalent opera hat.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Morning dress",
+          "url": "https://en.wikipedia.org/wiki/Morning_dress",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f5/Photograph_of_The_Reagans_and_Japanese_Emperor_Hirohito%2C_Tokyo%2C_Japan_-_NARA_-_198544.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Top hat · two views",
+          "url": "https://en.wikipedia.org/wiki/Top_hat",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/3/3c/1910_top_hat.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "A collapsible variant of a top hat, developed in the 19th century, is known as an opera hat.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Top hat · lead",
+          "url": "https://en.wikipedia.org/wiki/Top_hat",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/3/3c/1910_top_hat.jpg"
+          ],
+          "excerpt": "A top hat is a tall, flat-crowned hat traditionally associated with formal wear in Western dress codes, meaning white tie, morning dress, or frock coat.  Traditionally made of black silk or sometimes grey, the top hat emerged in Western fashion by the end of the 18th century.  Although such hats fell out of fashion through the 20th century, being almost entirely phased out by the time of the counterculture of the 1960s, it remains a formal fashion accessory.  A collapsible variant of a top hat, developed in the 19th century, is known as an opera hat.",
+          "connector": "Where origins starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Top hat · in parts",
+          "url": "https://en.wikipedia.org/wiki/Top_hat",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/3/3c/1910_top_hat.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Traditionally made of black silk or sometimes grey, the top hat emerged in Western fashion by the end of the 18th century.  Although such hats fell out of fashion through the 20th century, being almost entirely phased out by the time of the counterculture of the 1960s, it remains a formal fashion accessory.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Victorian fashion",
+          "url": "https://en.wikipedia.org/wiki/Victorian_fashion",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/2/27/Fashions.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Victorian fashion · two views",
+          "url": "https://en.wikipedia.org/wiki/Victorian_fashion",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/2/27/Fashions.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Various movements in architecture, literature, and the decorative and visual arts as well as a changing perception of gender roles also influenced fashion.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Victorian fashion · lead",
+          "url": "https://en.wikipedia.org/wiki/Victorian_fashion",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/2/27/Fashions.jpg"
+          ],
+          "excerpt": "Victorian fashion consists of the various fashions and trends in clothing in British culture that emerged and developed in the United Kingdom and the British Empire throughout the Victorian era, roughly from the 1830s through 1900.  The period saw many changes in fashion, including changes in styles, fashion technology and methods of distribution.  Various movements in architecture, literature, and the decorative and visual arts as well as a changing perception of gender roles also influenced fashion.",
+          "connector": "Where origins starts."
         }
       ]
     },
@@ -126,6 +524,53 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Bespoke tailoring · in parts",
+          "url": "https://en.wikipedia.org/wiki/Bespoke_tailoring",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f8/TailoringFirstFitFront01.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Bespoke garments are completely unique and created without the use of a pre-existing pattern, while made to measure uses a standard-sized pattern altered to fit the customer.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Bespoke tailoring",
+          "url": "https://en.wikipedia.org/wiki/Bespoke_tailoring",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f8/TailoringFirstFitFront01.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Wool · two views",
+          "url": "https://en.wikipedia.org/wiki/Wool",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Royal_Winter_Fair_Wool_2.jpg/3840px-Royal_Winter_Fair_Wool_2.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "The term may also refer to inorganic materials, such as mineral wool and glass wool, that have some properties similar to animal wool.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Wool · lead",
+          "url": "https://en.wikipedia.org/wiki/Wool",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Royal_Winter_Fair_Wool_2.jpg/3840px-Royal_Winter_Fair_Wool_2.jpg"
+          ],
+          "excerpt": "Wool is the textile fiber obtained from sheep and other mammals, especially goats, rabbits, and camelids.  The term may also refer to inorganic materials, such as mineral wool and glass wool, that have some properties similar to animal wool.",
+          "connector": "Where mechanics starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Wool · in parts",
           "url": "https://en.wikipedia.org/wiki/Wool",
           "media": [
@@ -133,7 +578,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "Wool is the textile fiber obtained from sheep and other mammals, especially goats, rabbits, and camelids.  The term may also refer to inorganic materials, such as mineral wool and glass wool, that have some properties similar to animal wool.",
+          "excerpt": "",
           "connector": "Swipe sideways — one idea, several parts."
         },
         {
@@ -150,14 +595,166 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Tailor · two views",
+          "url": "https://en.wikipedia.org/wiki/Tailor",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/c/c2/A_Tailor_at_Work_%286920059143%29.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "The Oxford English Dictionary dates the term to the thirteenth century.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Tailor · lead",
+          "url": "https://en.wikipedia.org/wiki/Tailor",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/c/c2/A_Tailor_at_Work_%286920059143%29.jpg"
+          ],
+          "excerpt": "A tailor is a person who makes or alters clothing, particularly men's clothing.  The Oxford English Dictionary dates the term to the thirteenth century.",
+          "connector": "Where mechanics starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Pattern (sewing) · in parts",
+          "url": "https://en.wikipedia.org/wiki/Pattern_(sewing)",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/1/1b/Drei.Hosenschnittmuster.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Patterns are usually made of paper, and are sometimes made of sturdier materials like paperboard or cardboard if they need to be more robust to withstand repeated use.  The process of making or cutting patterns is sometimes referred to as patternmaking, but it can also be written as pattern making or pattern cutting.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Pattern (sewing)",
+          "url": "https://en.wikipedia.org/wiki/Pattern_(sewing)",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/1/1b/Drei.Hosenschnittmuster.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Pattern (sewing) · two views",
           "url": "https://en.wikipedia.org/wiki/Pattern_(sewing)",
           "media": [
             "https://upload.wikimedia.org/wikipedia/commons/1/1b/Drei.Hosenschnittmuster.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "In sewing and fashion design, a pattern is the template from which the parts of a garment are traced onto woven or knitted fabric before being cut out and assembled.",
+          "excerpt": "The process of making or cutting patterns is sometimes referred to as patternmaking, but it can also be written as pattern making or pattern cutting.",
           "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Sewing machine · lead",
+          "url": "https://en.wikipedia.org/wiki/Sewing_machine",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sewingmachine1.jpg"
+          ],
+          "excerpt": "A sewing machine is a machine used to sew fabric and materials together with thread.  Sewing machines were invented during the first Industrial Revolution to decrease the amount of manual sewing work performed in clothing companies.  Since the invention of the first sewing machine, generally considered to have been the work of Englishman Thomas Saint in 1790, the sewing machine has greatly improved the efficiency and productivity of the clothing industry.",
+          "connector": "Where mechanics starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Sewing machine · in parts",
+          "url": "https://en.wikipedia.org/wiki/Sewing_machine",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sewingmachine1.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Sewing machines were invented during the first Industrial Revolution to decrease the amount of manual sewing work performed in clothing companies.  Since the invention of the first sewing machine, generally considered to have been the work of Englishman Thomas Saint in 1790, the sewing machine has greatly improved the efficiency and productivity of the clothing industry.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Sewing machine",
+          "url": "https://en.wikipedia.org/wiki/Sewing_machine",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sewingmachine1.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Lining (sewing) · two views",
+          "url": "https://en.wikipedia.org/wiki/Lining_(sewing)",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Boris_Kustodiev_-_Portrait_of_Fyodor_Chaliapin_-_Google_Art_Project.jpg/3840px-Boris_Kustodiev_-_Portrait_of_Fyodor_Chaliapin_-_Google_Art_Project.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "In sewing and tailoring, a lining is an inner layer of fabric, fur, or other material inserted into clothing, hats, luggage, curtains, handbags and similar items.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Lining (sewing) · lead",
+          "url": "https://en.wikipedia.org/wiki/Lining_(sewing)",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Boris_Kustodiev_-_Portrait_of_Fyodor_Chaliapin_-_Google_Art_Project.jpg/3840px-Boris_Kustodiev_-_Portrait_of_Fyodor_Chaliapin_-_Google_Art_Project.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Where mechanics starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Lining (sewing) · in parts",
+          "url": "https://en.wikipedia.org/wiki/Lining_(sewing)",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Boris_Kustodiev_-_Portrait_of_Fyodor_Chaliapin_-_Google_Art_Project.jpg/3840px-Boris_Kustodiev_-_Portrait_of_Fyodor_Chaliapin_-_Google_Art_Project.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Buttonhole",
+          "url": "https://en.wikipedia.org/wiki/Buttonhole",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/d/df/Keyhole_buttonhole.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Buttonhole · two views",
+          "url": "https://en.wikipedia.org/wiki/Buttonhole",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/d/df/Keyhole_buttonhole.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Some forms of button, such as a frog, use a loop of cloth or rope instead of a buttonhole.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Buttonhole · lead",
+          "url": "https://en.wikipedia.org/wiki/Buttonhole",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/d/df/Keyhole_buttonhole.jpg"
+          ],
+          "excerpt": "A buttonhole is a reinforced hole in fabric that a button can pass through, allowing one piece of fabric to be secured to another.  The raw edges of a buttonhole are usually finished with stitching.  This may be done either by hand or by a sewing machine.  Some forms of button, such as a frog, use a loop of cloth or rope instead of a buttonhole.",
+          "connector": "Where mechanics starts."
         }
       ]
     },
@@ -179,6 +776,53 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Made-to-measure · in parts",
+          "url": "https://en.wikipedia.org/wiki/Made-to-measure",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/8/89/TailoringFirstFitFront02.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Suits and sport coats are the most common garments made-to-measure.  The fit of a made-to-measure garment is expected to be superior to that of a ready-to-wear garment because made-to-measure garments are constructed to fit each customer individually based on a few body measurements to customize the pre-existing pattern.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Made-to-measure",
+          "url": "https://en.wikipedia.org/wiki/Made-to-measure",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/8/89/TailoringFirstFitFront02.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Ready-to-wear · two views",
+          "url": "https://en.wikipedia.org/wiki/Ready-to-wear",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/5/52/ClothingReadyWear.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "It is the opposite of haute couture.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Ready-to-wear · lead",
+          "url": "https://en.wikipedia.org/wiki/Ready-to-wear",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/5/52/ClothingReadyWear.jpg"
+          ],
+          "excerpt": "Ready-to-wear (RTW) – also called prêt-à-porter, or off-the-rack or off-the-peg in casual use – is the term for garments sold in finished condition in standardized sizes, as distinct from made-to-measure or bespoke clothing tailored to a particular person's frame.  In other words, it is a piece of clothing that was mass produced in different sizes and sold that way instead of it being designed and sewn for one person.  The term off-the-peg is sometimes used for items other than clothing, such as handbags.  It is the opposite of haute couture.",
+          "connector": "Where the arguments starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Ready-to-wear · in parts",
           "url": "https://en.wikipedia.org/wiki/Ready-to-wear",
           "media": [
@@ -186,7 +830,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "Ready-to-wear (RTW) – also called prêt-à-porter, or off-the-rack or off-the-peg in casual use – is the term for garments sold in finished condition in standardized sizes, as distinct from made-to-measure or bespoke clothing tailored to a particular person's frame.  In other words, it is a piece of clothing that was mass produced in different sizes and sold that way instead of it being designed and sewn for one person.",
+          "excerpt": "In other words, it is a piece of clothing that was mass produced in different sizes and sold that way instead of it being designed and sewn for one person.  The term off-the-peg is sometimes used for items other than clothing, such as handbags.",
           "connector": "Swipe sideways — one idea, several parts."
         },
         {
@@ -203,14 +847,166 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Fashion · two views",
+          "url": "https://en.wikipedia.org/wiki/Fashion",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a6/Carolina_Herrera_AW14_12.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "As a multifaceted term, fashion describes an industry, designs, aesthetics, and trends.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Fashion · lead",
+          "url": "https://en.wikipedia.org/wiki/Fashion",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a6/Carolina_Herrera_AW14_12.jpg"
+          ],
+          "excerpt": "Fashion is a term used interchangeably to describe the creation of clothing, footwear, accessories, cosmetics, and jewellery of different cultural aesthetics and their mix and match into outfits that depict distinctive ways of dressing as signifiers of social status, self-expression, and group belonging.  As a multifaceted term, fashion describes an industry, designs, aesthetics, and trends.",
+          "connector": "Where the arguments starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Slim-fit pants · in parts",
+          "url": "https://en.wikipedia.org/wiki/Slim-fit_pants",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a0/Skinny20080428.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Other names for this style include drainpipes, stovepipes, tight pants, cigarette pants, pencil pants, skinny pants, gas pipes, skinnies, and tight jeans.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Slim-fit pants",
+          "url": "https://en.wikipedia.org/wiki/Slim-fit_pants",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a0/Skinny20080428.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Slim-fit pants · two views",
           "url": "https://en.wikipedia.org/wiki/Slim-fit_pants",
           "media": [
             "https://upload.wikimedia.org/wikipedia/commons/a/a0/Skinny20080428.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "Slim-fit pants, slim jeans, or skinny jeans are tight trousers that have a snug fit through the legs and end in a small leg opening that can be anywhere from 9\" to 20\" in circumference, depending on size.",
+          "excerpt": "",
           "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Fast fashion · lead",
+          "url": "https://en.wikipedia.org/wiki/Fast_fashion",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/1/1b/HK_Central_Queen%27s_Road_H%26M_Department_Store_clothing_fashion_figures_night_Aug-2012.JPG"
+          ],
+          "excerpt": "Fast fashion is a business model in textile manufacturing where companies quickly create and sell clothing and footwear at affordable prices by replicating the latest fashion trends and designs using cheap and fast mass production techniques.  Fast fashion is defined by Merriam-Webster as \"an approach to the design, creation, and marketing of clothing fashions that emphasizes making fashion trends quickly and cheaply available to consumers.",
+          "connector": "Where the arguments starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Fast fashion · in parts",
+          "url": "https://en.wikipedia.org/wiki/Fast_fashion",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/1/1b/HK_Central_Queen%27s_Road_H%26M_Department_Store_clothing_fashion_figures_night_Aug-2012.JPG",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Fast fashion is defined by Merriam-Webster as \"an approach to the design, creation, and marketing of clothing fashions that emphasizes making fashion trends quickly and cheaply available to consumers.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Fast fashion",
+          "url": "https://en.wikipedia.org/wiki/Fast_fashion",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/1/1b/HK_Central_Queen%27s_Road_H%26M_Department_Store_clothing_fashion_figures_night_Aug-2012.JPG"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Sustainable fashion · two views",
+          "url": "https://en.wikipedia.org/wiki/Sustainable_fashion",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/WANNER_18.jpg/3840px-WANNER_18.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Sustainability in fashion encompasses a wide range of factors, including cutting CO2 emissions, addressing overproduction, reducing pollution and waste, supporting biodiversity and ensuring that garment workers are paid a fair wage and have safe working conditions.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Sustainable fashion · lead",
+          "url": "https://en.wikipedia.org/wiki/Sustainable_fashion",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/WANNER_18.jpg/3840px-WANNER_18.jpg"
+          ],
+          "excerpt": "Sustainable fashion is a term describing efforts within the fashion industry to reduce its environmental impacts, protect workers producing garments and uphold animal welfare.  Sustainability in fashion encompasses a wide range of factors, including cutting CO2 emissions, addressing overproduction, reducing pollution and waste, supporting biodiversity and ensuring that garment workers are paid a fair wage and have safe working conditions.",
+          "connector": "Where the arguments starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Sustainable fashion · in parts",
+          "url": "https://en.wikipedia.org/wiki/Sustainable_fashion",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/WANNER_18.jpg/3840px-WANNER_18.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Slow fashion",
+          "url": "https://en.wikipedia.org/wiki/Slow_fashion",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Made_Slow_fashion_show_%2828096808709%29.jpg/3840px-Made_Slow_fashion_show_%2828096808709%29.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Slow fashion · two views",
+          "url": "https://en.wikipedia.org/wiki/Slow_fashion",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Made_Slow_fashion_show_%2828096808709%29.jpg/3840px-Made_Slow_fashion_show_%2828096808709%29.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Contrary to fast fashion industrial practices, slow fashion involves local artisans and the use of eco-friendly materials.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Slow fashion · lead",
+          "url": "https://en.wikipedia.org/wiki/Slow_fashion",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Made_Slow_fashion_show_%2828096808709%29.jpg/3840px-Made_Slow_fashion_show_%2828096808709%29.jpg"
+          ],
+          "excerpt": "Slow fashion is an important concept in the sustainable fashion movement and is contemplated as the opposite of fast fashion.  Slow fashion is part of the \"slow movement\", which advocates for a system of clothing and apparel manufacture that is respectful to people, the environment, and animals.  Contrary to fast fashion industrial practices, slow fashion involves local artisans and the use of eco-friendly materials.",
+          "connector": "Where the arguments starts."
         }
       ]
     },
@@ -232,14 +1028,61 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Henry Poole & Co · in parts",
+          "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/4/47/Henry_Poole_%26_Co_%281%29.JPG",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "is a British bespoke tailor located at 15 Savile Row in London, England.  It is widely believed to have designed the first modern-style dinner jacket during the 1860s, according to specifications provided by the Prince of Wales.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Henry Poole & Co",
+          "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/4/47/Henry_Poole_%26_Co_%281%29.JPG"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Gieves & Hawkes · two views",
+          "url": "https://en.wikipedia.org/wiki/Gieves_%26_Hawkes",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row_from_Burlington_Gardens.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "After Trinity was subject to a winding-up petition for debt in September 2021, Gieves & Hawkes was acquired in November 2022 by Frasers Group, owner of Sports Direct.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Gieves & Hawkes · lead",
+          "url": "https://en.wikipedia.org/wiki/Gieves_%26_Hawkes",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row_from_Burlington_Gardens.jpg?width=760"
+          ],
+          "excerpt": "Gieves & Hawkes is a luxury bespoke men's tailor and menswear retailer located at 1 Savile Row in London, England.  The business was founded in 1771.  It was acquired in 2012 by the Hong Kong conglomerate Trinity Ltd. , which was in turn purchased by Shandong Ruyi in 2017.",
+          "connector": "Where primary sources starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Gieves & Hawkes · in parts",
           "url": "https://en.wikipedia.org/wiki/Gieves_%26_Hawkes",
           "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row_from_Burlington_Gardens.jpg?width=760",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/TailoringFirstFitFront01.jpg?width=760"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "Gieves & Hawkes is a luxury bespoke men's tailor and menswear retailer located at 1 Savile Row in London, England.  The business was founded in 1771.",
+          "excerpt": "The business was founded in 1771.  It was acquired in 2012 by the Hong Kong conglomerate Trinity Ltd.",
           "connector": "Swipe sideways — one idea, several parts."
         },
         {
@@ -256,14 +1099,166 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Anderson & Sheppard · two views",
+          "url": "https://en.wikipedia.org/wiki/Anderson_%26_Sheppard",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/d/d2/32_Old_Burlington_Street%2C_Mayfair%2C_May_2022.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "It also sells ready-made menswear from its shop in nearby Clifford Street and online.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Anderson & Sheppard · lead",
+          "url": "https://en.wikipedia.org/wiki/Anderson_%26_Sheppard",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/d/d2/32_Old_Burlington_Street%2C_Mayfair%2C_May_2022.jpg"
+          ],
+          "excerpt": "Anderson & Sheppard is a bespoke tailor on Savile Row, London, established in the Row in 1906.  In 2005, its shop moved to Old Burlington Street and has remained there since.  It also sells ready-made menswear from its shop in nearby Clifford Street and online.",
+          "connector": "Where primary sources starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "H. Huntsman & Sons · in parts",
+          "url": "https://en.wikipedia.org/wiki/H._Huntsman_%26_Sons",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f5/11HSavileRow.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "11 Savile Row, London.  It is known for its English bespoke menswear tailoring, cashmere ready-to-wear collections, and leather accessories.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "H. Huntsman & Sons",
+          "url": "https://en.wikipedia.org/wiki/H._Huntsman_%26_Sons",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f5/11HSavileRow.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "H. Huntsman & Sons · two views",
           "url": "https://en.wikipedia.org/wiki/H._Huntsman_%26_Sons",
           "media": [
             "https://upload.wikimedia.org/wikipedia/commons/f/f5/11HSavileRow.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "H.",
+          "excerpt": "It is known for its English bespoke menswear tailoring, cashmere ready-to-wear collections, and leather accessories.",
           "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dege & Skinner · lead",
+          "url": "https://en.wikipedia.org/wiki/Dege_%26_Skinner",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/West_End_Windows_%2812%29_-_geograph.org.uk_-_5243618.jpg/3840px-West_End_Windows_%2812%29_-_geograph.org.uk_-_5243618.jpg"
+          ],
+          "excerpt": "Dege & Skinner is an English bespoke gentleman's tailor and shirt-maker located at 10 Savile Row, London.  Founded in 1865, they are one of the oldest, continually operated bespoke tailoring companies in the world.  They have the Row's first and only permanent on-site, bespoke shirt service.",
+          "connector": "Where primary sources starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dege & Skinner · in parts",
+          "url": "https://en.wikipedia.org/wiki/Dege_%26_Skinner",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/West_End_Windows_%2812%29_-_geograph.org.uk_-_5243618.jpg/3840px-West_End_Windows_%2812%29_-_geograph.org.uk_-_5243618.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Founded in 1865, they are one of the oldest, continually operated bespoke tailoring companies in the world.  They have the Row's first and only permanent on-site, bespoke shirt service.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dege & Skinner",
+          "url": "https://en.wikipedia.org/wiki/Dege_%26_Skinner",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/West_End_Windows_%2812%29_-_geograph.org.uk_-_5243618.jpg/3840px-West_End_Windows_%2812%29_-_geograph.org.uk_-_5243618.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Ede & Ravenscroft · two views",
+          "url": "https://en.wikipedia.org/wiki/Ede_%26_Ravenscroft",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ede_%26_Ravenscroft_20130413_100.jpg/3840px-Ede_%26_Ravenscroft_20130413_100.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "In addition to clothing and robes, Ede & Ravenscroft often supply photography at ceremonial events such as graduations across the United Kingdom including at the University of Cambridge.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Ede & Ravenscroft · lead",
+          "url": "https://en.wikipedia.org/wiki/Ede_%26_Ravenscroft",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ede_%26_Ravenscroft_20130413_100.jpg/3840px-Ede_%26_Ravenscroft_20130413_100.jpg"
+          ],
+          "excerpt": "Ede & Ravenscroft are the high-end luxury and oldest tailors in London, established in 1689.  They are also recognised as the oldest continuously operating tailors in the world.  They have two London premises, in Chancery Lane and Burlington Gardens, very close to the famous Savile Row.  They make, sell and hire out legal gowns and wigs, clerical dress, civic and municipal robes, academic dress and other ceremonial and formal dress, and have shops in Oxford, Cambridge and Edinburgh.",
+          "connector": "Where primary sources starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Ede & Ravenscroft · in parts",
+          "url": "https://en.wikipedia.org/wiki/Ede_%26_Ravenscroft",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ede_%26_Ravenscroft_20130413_100.jpg/3840px-Ede_%26_Ravenscroft_20130413_100.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "They are also recognised as the oldest continuously operating tailors in the world.  They have two London premises, in Chancery Lane and Burlington Gardens, very close to the famous Savile Row.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Norton & Sons",
+          "url": "https://en.wikipedia.org/wiki/Norton_%26_Sons",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/TailoringFirstFitFront01.jpg?width=760"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Norton & Sons · two views",
+          "url": "https://en.wikipedia.org/wiki/Norton_%26_Sons",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/TailoringFirstFitFront01.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "However, the company went into liquidation in 2022 and was apparently sold to James Sleater and Ian Meiers the following year.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Norton & Sons · lead",
+          "url": "https://en.wikipedia.org/wiki/Norton_%26_Sons",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/TailoringFirstFitFront01.jpg?width=760"
+          ],
+          "excerpt": "Norton & Sons is a Savile Row bespoke tailor founded in 1821 by Walter Grant Norton.  The firm is located on the east side of the street, at No.  16. It was purchased in 2005 by Scottish designer Patrick Grant, who revitalised the tailoring house.  However, the company went into liquidation in 2022 and was apparently sold to James Sleater and Ian Meiers the following year.",
+          "connector": "Where primary sources starts."
         }
       ]
     },
@@ -285,6 +1280,53 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Business casual · in parts",
+          "url": "https://en.wikipedia.org/wiki/Business_casual",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Business_casual_male_%26_female.svg/1280px-Business_casual_male_%26_female.svg.png",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "For men this consists of some components of a business suit, typically a dress shirt and trousers, but without a matching suit jacket, and with neck ties optional.  A coordinating sport coat or blazer may be worn, or omitted; a sweater or vest may be worn instead.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Business casual",
+          "url": "https://en.wikipedia.org/wiki/Business_casual",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Business_casual_male_%26_female.svg/1280px-Business_casual_male_%26_female.svg.png"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Smart casual · two views",
+          "url": "https://en.wikipedia.org/wiki/Smart_casual",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/8/8d/Blazer.JPG",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "For men, this interpretation typically includes a dress shirt, necktie, trousers, and dress shoes, possibly worn with an odd-coloured blazer or a sports coat.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Smart casual · lead",
+          "url": "https://en.wikipedia.org/wiki/Smart_casual",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/8/8d/Blazer.JPG"
+          ],
+          "excerpt": "Smart casual is an ambiguously defined Western dress code that is generally considered casual wear but with smart components of a proper lounge suit from traditional informal wear.  For men, this interpretation typically includes a dress shirt, necktie, trousers, and dress shoes, possibly worn with an odd-coloured blazer or a sports coat.",
+          "connector": "Where the frontier starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Smart casual · in parts",
           "url": "https://en.wikipedia.org/wiki/Smart_casual",
           "media": [
@@ -292,7 +1334,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "Smart casual is an ambiguously defined Western dress code that is generally considered casual wear but with smart components of a proper lounge suit from traditional informal wear.  For men, this interpretation typically includes a dress shirt, necktie, trousers, and dress shoes, possibly worn with an odd-coloured blazer or a sports coat.",
+          "excerpt": "",
           "connector": "Swipe sideways — one idea, several parts."
         },
         {
@@ -309,14 +1351,166 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Workwear · two views",
+          "url": "https://en.wikipedia.org/wiki/Workwear",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/ad/Agriculture_in_Britain_during_the_First_World_War_Q27691_%28cropped%29.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Often those employed within trade industries elect to be outfitted in workwear because it is built to provide durability and safety.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Workwear · lead",
+          "url": "https://en.wikipedia.org/wiki/Workwear",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/ad/Agriculture_in_Britain_during_the_First_World_War_Q27691_%28cropped%29.jpg"
+          ],
+          "excerpt": "Workwear is clothing worn for work, especially work that involves manual labour.  Often those employed within trade industries elect to be outfitted in workwear because it is built to provide durability and safety.",
+          "connector": "Where the frontier starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Casual Friday · in parts",
+          "url": "https://en.wikipedia.org/wiki/Casual_Friday",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/b/b7/Casual_Friday.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Businesses that usually require employees to wear suits, dress shirts, neckties, and dress shoes, may allow more casual or business casual wear on such days.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Casual Friday",
+          "url": "https://en.wikipedia.org/wiki/Casual_Friday",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/b/b7/Casual_Friday.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Casual Friday · two views",
           "url": "https://en.wikipedia.org/wiki/Casual_Friday",
           "media": [
             "https://upload.wikimedia.org/wikipedia/commons/b/b7/Casual_Friday.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "Casual Friday is a Western dress code trend in which businesses relax their dress code on Fridays.",
+          "excerpt": "",
           "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Athleisure · lead",
+          "url": "https://en.wikipedia.org/wiki/Athleisure",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/7/71/Athleisure-wear.jpg"
+          ],
+          "excerpt": "Athleisure is a hybrid style of athletic clothing typically worn as everyday wear.  The word is a portmanteau combining the words \"athletic\" and \"leisure\".  Athleisure outfits can include tracksuits, sports jackets, hoodies, yoga pants, tights, sneakers, flats, Birkenstocks, uggs, leggings and shorts that look like athletic wear or pair well with it.  Characterized as \"fashionable, dressed-up sweats and exercise clothing\", athleisure grew during the mid-2010s, from the popularity of yoga pants that emerged throughout the mid to late 2000s.",
+          "connector": "Where the frontier starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Athleisure · in parts",
+          "url": "https://en.wikipedia.org/wiki/Athleisure",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/7/71/Athleisure-wear.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "The word is a portmanteau combining the words \"athletic\" and \"leisure\".  Athleisure outfits can include tracksuits, sports jackets, hoodies, yoga pants, tights, sneakers, flats, Birkenstocks, uggs, leggings and shorts that look like athletic wear or pair well with it.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Athleisure",
+          "url": "https://en.wikipedia.org/wiki/Athleisure",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/7/71/Athleisure-wear.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Streetwear · two views",
+          "url": "https://en.wikipedia.org/wiki/Streetwear",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row_from_Burlington_Gardens.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Streetwear is seen as an aspect of African American culture and fashion, and is associated with African American musical traditions, particularly RnB and hip-hop.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Streetwear · lead",
+          "url": "https://en.wikipedia.org/wiki/Streetwear",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row_from_Burlington_Gardens.jpg?width=760"
+          ],
+          "excerpt": "Streetwear is a style of casual clothing that gained global popularity in the 1990s.  Emerging from the fusion of African-American and Latino hip-hop fashion in New York with elements of Californian surf culture, it evolved to incorporate elements of sportswear, punk, skateboarding, 1980s nostalgia, and Japanese street fashion.  Streetwear is seen as an aspect of African American culture and fashion, and is associated with African American musical traditions, particularly RnB and hip-hop.",
+          "connector": "Where the frontier starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Streetwear · in parts",
+          "url": "https://en.wikipedia.org/wiki/Streetwear",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row_from_Burlington_Gardens.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Emerging from the fusion of African-American and Latino hip-hop fashion in New York with elements of Californian surf culture, it evolved to incorporate elements of sportswear, punk, skateboarding, 1980s nostalgia, and Japanese street fashion.  Streetwear is seen as an aspect of African American culture and fashion, and is associated with African American musical traditions, particularly RnB and hip-hop.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Normcore",
+          "url": "https://en.wikipedia.org/wiki/Normcore",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/TailoringFirstFitFront01.jpg?width=760"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Normcore · two views",
+          "url": "https://en.wikipedia.org/wiki/Normcore",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/TailoringFirstFitFront01.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Normcore fashion includes jeans, T-shirts, sweats, button-downs, and sneakers.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Normcore · lead",
+          "url": "https://en.wikipedia.org/wiki/Normcore",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/TailoringFirstFitFront01.jpg?width=760"
+          ],
+          "excerpt": "Normcore is a unisex fashion trend characterized by unpretentious, average-looking clothing.  Normcore fashion includes jeans, T-shirts, sweats, button-downs, and sneakers.",
+          "connector": "Where the frontier starts."
         }
       ]
     },
@@ -338,6 +1532,53 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Suit · in parts",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/7/76/Matt_Smith_on_%22Christopher_And_His_Kind%22_set.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "A skirt suit is similar, but with a matching pencil skirt instead of trousers.  It is currently considered semi-formal wear or business wear in contemporary Western dress codes; however, when the suit was originally developed it was considered an informal or more casual option compared to the prevailing clothing standards of aristocrats and businessmen.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/7/76/Matt_Smith_on_%22Christopher_And_His_Kind%22_set.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Savile Row · two views",
+          "url": "https://en.wikipedia.org/wiki/Savile_Row",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/6/63/Savile_Row_from_Burlington_Gardens.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Known principally for its traditional bespoke tailoring for men, the street has also accommodated the headquarters of the Royal Geographical Society at 1 Savile Row, where British explorations to Africa and the South Pole were planned; and more recently, the headquarters of the Beatles' Apple Corps business at 3 Savile Row, on whose roof the band gave its final live performance.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Savile Row · lead",
+          "url": "https://en.wikipedia.org/wiki/Savile_Row",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/6/63/Savile_Row_from_Burlington_Gardens.jpg"
+          ],
+          "excerpt": "Savile Row is a street in Mayfair, central London.  Known principally for its traditional bespoke tailoring for men, the street has also accommodated the headquarters of the Royal Geographical Society at 1 Savile Row, where British explorations to Africa and the South Pole were planned; and more recently, the headquarters of the Beatles' Apple Corps business at 3 Savile Row, on whose roof the band gave its final live performance.",
+          "connector": "Where recall starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Savile Row · in parts",
           "url": "https://en.wikipedia.org/wiki/Savile_Row",
           "media": [
@@ -345,7 +1586,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "Savile Row is a street in Mayfair, central London.  Known principally for its traditional bespoke tailoring for men, the street has also accommodated the headquarters of the Royal Geographical Society at 1 Savile Row, where British explorations to Africa and the South Pole were planned; and more recently, the headquarters of the Beatles' Apple Corps business at 3 Savile Row, on whose roof the band gave its final live performance.",
+          "excerpt": "",
           "connector": "Swipe sideways — one idea, several parts."
         },
         {
@@ -362,14 +1603,166 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Bespoke tailoring · two views",
+          "url": "https://en.wikipedia.org/wiki/Bespoke_tailoring",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f8/TailoringFirstFitFront01.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "Bespoke garments are completely unique and created without the use of a pre-existing pattern, while made to measure uses a standard-sized pattern altered to fit the customer.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Bespoke tailoring · lead",
+          "url": "https://en.wikipedia.org/wiki/Bespoke_tailoring",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/f/f8/TailoringFirstFitFront01.jpg"
+          ],
+          "excerpt": "Bespoke tailoring or custom tailoring is clothing made to an individual buyer's specifications by a tailor.  \nBespoke garments are completely unique and created without the use of a pre-existing pattern, while made to measure uses a standard-sized pattern altered to fit the customer.",
+          "connector": "Where recall starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Fashion · in parts",
+          "url": "https://en.wikipedia.org/wiki/Fashion",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a6/Carolina_Herrera_AW14_12.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "As a multifaceted term, fashion describes an industry, designs, aesthetics, and trends.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Fashion",
+          "url": "https://en.wikipedia.org/wiki/Fashion",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a6/Carolina_Herrera_AW14_12.jpg"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Fashion · two views",
+          "url": "https://en.wikipedia.org/wiki/Fashion",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a6/Carolina_Herrera_AW14_12.jpg",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Henry Poole & Co · lead",
+          "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/4/47/Henry_Poole_%26_Co_%281%29.JPG"
+          ],
+          "excerpt": "Henry Poole & Co.  is a British bespoke tailor located at 15 Savile Row in London, England.  It is widely believed to have designed the first modern-style dinner jacket during the 1860s, according to specifications provided by the Prince of Wales.  The company has been called \"the founding father of Savile Row\".",
+          "connector": "Where recall starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Henry Poole & Co · in parts",
+          "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/4/47/Henry_Poole_%26_Co_%281%29.JPG",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "is a British bespoke tailor located at 15 Savile Row in London, England.  It is widely believed to have designed the first modern-style dinner jacket during the 1860s, according to specifications provided by the Prince of Wales.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Henry Poole & Co",
+          "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/4/47/Henry_Poole_%26_Co_%281%29.JPG"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Business casual · two views",
+          "url": "https://en.wikipedia.org/wiki/Business_casual",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Business_casual_male_%26_female.svg/1280px-Business_casual_male_%26_female.svg.png",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "There is significant variation; see § Definition.",
+          "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Business casual · lead",
+          "url": "https://en.wikipedia.org/wiki/Business_casual",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Business_casual_male_%26_female.svg/1280px-Business_casual_male_%26_female.svg.png"
+          ],
+          "excerpt": "Business casual is an ambiguously defined Western dress code that is a form of smart casual wear for business purposes, replacing traditional business wear for white-collar workplaces.  For men this consists of some components of a business suit, typically a dress shirt and trousers, but without a matching suit jacket, and with neck ties optional.  A coordinating sport coat or blazer may be worn, or omitted; a sweater or vest may be worn instead.  For women, the same components can be worn, though usually in a female style, like a blouse for a shirt.",
+          "connector": "Where recall starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Business casual · in parts",
+          "url": "https://en.wikipedia.org/wiki/Business_casual",
+          "media": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Business_casual_male_%26_female.svg/1280px-Business_casual_male_%26_female.svg.png",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
+          ],
+          "excerpt": "For men this consists of some components of a business suit, typically a dress shirt and trousers, but without a matching suit jacket, and with neck ties optional.  A coordinating sport coat or blazer may be worn, or omitted; a sweater or vest may be worn instead.",
+          "connector": "Swipe sideways — one idea, several parts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Necktie",
+          "url": "https://en.wikipedia.org/wiki/Necktie",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/b/bc/Memphis_tie_1A.JPG"
+          ],
+          "excerpt": "",
+          "connector": "Look before you read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Necktie · two views",
           "url": "https://en.wikipedia.org/wiki/Necktie",
           "media": [
             "https://upload.wikimedia.org/wikipedia/commons/b/bc/Memphis_tie_1A.JPG",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
-          "excerpt": "A necktie – also called a long tie or, more usually, simply a tie – is a cloth article of formal neckwear or office attire worn for decorative or symbolic purposes, knotted at the throat, resting under a folded shirt collar, and usually draped down the chest.",
+          "excerpt": "Neckties can also be part of a uniform; however, in occupations where manual labor is involved, the end of the necktie is often tucked into the button line front placket of a dress shirt, such as the dress uniform of the United States Marine Corps.",
           "connector": "One line, two views, then on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Necktie · lead",
+          "url": "https://en.wikipedia.org/wiki/Necktie",
+          "media": [
+            "https://upload.wikimedia.org/wikipedia/commons/b/bc/Memphis_tie_1A.JPG"
+          ],
+          "excerpt": "A necktie – also called a long tie or, more usually, simply a tie – is a cloth article of formal neckwear or office attire worn for decorative or symbolic purposes, knotted at the throat, resting under a folded shirt collar, and usually draped down the chest.  On rare occasions, neckties are worn above a winged shirt collar.  Neckties are usually paired with collared dress shirts under suit jackets or blazers, but have often been seen with other articles, such as sport coats and v-neck sweaters.  Neckties can also be part of a uniform; however, in occupations where manual labor is involved, the end of the necktie is often tucked into the button line front placket of a dress shirt, such as the dress uniform of the United States Marine Corps.",
+          "connector": "Where recall starts."
         }
       ]
     }
