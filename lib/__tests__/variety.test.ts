@@ -80,6 +80,28 @@ describe("varietyViolations", () => {
     expect(varietyViolations(day(cards)).join(" ")).toMatch(/card/i);
   });
 
+  it("flags two adjacent near-empty cards, even when every other rule passes", () => {
+    // This day is a real control: 18 cards, 18 distinct articles, 2 carousels, an
+    // image-led card, and a wide excerpt spread — every existing rule is satisfied.
+    // The only defect is that its first two cards are both near-empty (<= 40 chars)
+    // and sit right next to each other, which is exactly the "wall of pictures"
+    // this rule exists to catch.
+    const cards: Card[] = Array.from({ length: 18 }, (_, i) => {
+      if (i === 0) return card({ url: "https://x.test/0", media: ["a.jpg", "b.jpg", "c.jpg"], excerpt: "" });
+      if (i === 1) return card({ url: "https://x.test/1", media: ["d.jpg", "e.jpg"], excerpt: "" });
+      if (i === 2) {
+        return card({
+          url: "https://x.test/2",
+          excerpt:
+            "A considerably longer excerpt that runs on for several clauses and sentences. " +
+            "It keeps going, because some cards are meant to be dense. And then it stops.",
+        });
+      }
+      return card({ url: `https://x.test/${i}`, excerpt: `A middling excerpt, number ${i}, long enough to spread lengths out.` });
+    });
+    expect(varietyViolations(day(cards)).join(" ")).toMatch(/consecutive/i);
+  });
+
   it("accepts an empty day, which is not filler yet", () => {
     expect(varietyViolations(day([]))).toEqual([]);
   });

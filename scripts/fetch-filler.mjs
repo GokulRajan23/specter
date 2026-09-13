@@ -32,16 +32,30 @@ const FILE = (name) =>
 // same article Monday already uses, and reusing it on Tuesday would be redundant
 // even though it lives on a different day. Re-verify with the API before adding a
 // title, not after.
+//
+// Eight articles per day (not seven): buildDay below now sometimes drops a card
+// when an article's extract is too short to cut into enough distinct text, so this
+// extra article is slack that keeps every day comfortably past MIN_CARDS = 18 even
+// after a few such drops.
 const PLAN = [
   {
     day: "monday",
     slot: "The map",
-    articles: ["Suit_(clothing)", "Suit_jacket", "Waistcoat", "Necktie", "Dress_shirt", "Trousers", "Lapel"],
+    articles: ["Suit_(clothing)", "Suit_jacket", "Waistcoat", "Necktie", "Dress_shirt", "Trousers", "Lapel", "Cufflink"],
   },
   {
     day: "tuesday",
     slot: "Origins",
-    articles: ["Savile_Row", "Frock_coat", "Beau_Brummell", "Dandy", "Morning_dress", "Top_hat", "Victorian_fashion"],
+    articles: [
+      "Savile_Row",
+      "Frock_coat",
+      "Beau_Brummell",
+      "Dandy",
+      "Morning_dress",
+      "Top_hat",
+      "Victorian_fashion",
+      "Gentleman",
+    ],
   },
   {
     day: "wednesday",
@@ -49,12 +63,30 @@ const PLAN = [
     // Titles verified against the API on 2026-09-13. "Menswear" and "Huntsman_(clothing)"
     // were replaced: the first redirects to Fashion (duplicating this day's third article),
     // the second 404s. Re-verify with the API before adding a title, not after.
-    articles: ["Bespoke_tailoring", "Wool", "Tailor", "Pattern_(sewing)", "Sewing_machine", "Lining_(sewing)", "Buttonhole"],
+    articles: [
+      "Bespoke_tailoring",
+      "Wool",
+      "Tailor",
+      "Pattern_(sewing)",
+      "Sewing_machine",
+      "Lining_(sewing)",
+      "Buttonhole",
+      "Selvage",
+    ],
   },
   {
     day: "thursday",
     slot: "The arguments",
-    articles: ["Made_to_measure", "Off-the-peg", "Fashion", "Slim-fit_pants", "Fast_fashion", "Sustainable_fashion", "Slow_fashion"],
+    articles: [
+      "Made_to_measure",
+      "Off-the-peg",
+      "Fashion",
+      "Slim-fit_pants",
+      "Fast_fashion",
+      "Sustainable_fashion",
+      "Slow_fashion",
+      "History_of_Western_fashion",
+    ],
   },
   {
     day: "friday",
@@ -72,12 +104,29 @@ const PLAN = [
   {
     day: "saturday",
     slot: "The frontier",
-    articles: ["Business_casual", "Smart_casual", "Workwear", "Casual_Friday", "Athleisure", "Streetwear", "Normcore"],
+    articles: [
+      "Business_casual",
+      "Smart_casual",
+      "Workwear",
+      "Casual_Friday",
+      "Athleisure",
+      "Streetwear",
+      "Normcore",
+    ],
   },
   {
     day: "sunday",
     slot: "Recall",
-    articles: ["Suit_(clothing)", "Savile_Row", "Bespoke_tailoring", "Fashion", "Henry_Poole_%26_Co", "Business_casual", "Necktie"],
+    articles: [
+      "Suit_(clothing)",
+      "Savile_Row",
+      "Bespoke_tailoring",
+      "Fashion",
+      "Henry_Poole_%26_Co",
+      "Business_casual",
+      "Necktie",
+      "Streetwear",
+    ],
   },
 ];
 
@@ -114,17 +163,48 @@ function splitSentences(text) {
   return merged;
 }
 
-/** Cut an extract to n sentences starting at `offset`, so lengths vary card to card. */
-function sentences(text, n, offset = 0) {
-  const parts = splitSentences(text);
-  return parts.slice(offset, offset + n).join(" ").trim();
-}
+/** Below this length a text card reads as near-empty (see IMAGE_LED_MAX_CHARS in
+ * lib/variety.ts) — slices are kept at or above it so only the deliberate mode-2
+ * card is ever that short. */
+const MIN_SLICE_CHARS = 45;
 
-/** The article's closing sentence — a different slice than the opening, so a short
- * "two views" card doesn't just repeat the first few words of the lead card. */
-function lastSentence(text) {
-  const parts = splitSentences(text);
-  return (parts[parts.length - 1] ?? "").trim();
+/**
+ * Partition an extract's sentences into up to `n` distinct, non-overlapping,
+ * ordered windows — used to cut several genuinely different excerpts from one
+ * article instead of overlapping prefixes that collide on short extracts (e.g.
+ * "first 4 sentences" and "first 2 sentences" are identical text when there are
+ * only 2). Each window keeps absorbing sentences until it clears
+ * MIN_SLICE_CHARS, so a short trailing sentence gets folded into its neighbour
+ * instead of shipping as its own near-empty card. Returns fewer than `n` windows
+ * when the extract doesn't have enough sentences to fill them all distinctly —
+ * callers must draw fewer text cards from this article rather than force a
+ * duplicate or a near-empty one.
+ */
+function distinctSlices(parts, n) {
+  if (n <= 0 || parts.length === 0) return [];
+
+  const groups = [];
+  let idx = 0;
+  for (let g = 0; g < n && idx < parts.length; g++) {
+    const isLastGroup = g === n - 1;
+    let text = parts[idx];
+    idx++;
+    while (idx < parts.length && (isLastGroup || text.trim().length < MIN_SLICE_CHARS)) {
+      text += parts[idx];
+      idx++;
+    }
+    groups.push(text.trim());
+  }
+
+  // The final group absorbs "everything left", which can still be short when the
+  // extract ran out early. Fold it into the previous group rather than ship a
+  // near-empty trailing card.
+  while (groups.length >= 2 && groups[groups.length - 1].length < MIN_SLICE_CHARS) {
+    const last = groups.pop();
+    groups[groups.length - 1] += " " + last;
+  }
+
+  return groups;
 }
 
 const EXTRA_IMAGES = [
@@ -135,7 +215,7 @@ const EXTRA_IMAGES = [
 ];
 
 // A Wikipedia summary is long enough to cut into several distinct cards, which is how
-// a 7-article day turns into a 20+ card day instead of a 7-card one.
+// an 8-article day turns into a 20+ card day instead of an 8-card one.
 const CARDS_PER_ARTICLE = 3;
 
 function buildDay({ day, slot, articles }, pages) {
@@ -150,13 +230,30 @@ function buildDay({ day, slot, articles }, pages) {
   pages.forEach((p) => {
     if (!p) return;
     const media = p.image ? [p.image] : [EXTRA_IMAGES[i % EXTRA_IMAGES.length]];
-    const usedExcerpts = new Set();
+    const parts = splitSentences(p.extract);
 
+    // Look ahead at the three modes this article is about to occupy, and count how
+    // many of them are NOT the deliberate image-led mode (2) — that's how many
+    // genuinely distinct text excerpts this article needs to supply.
+    const upcomingModes = [i % 4, (i + 1) % 4, (i + 2) % 4];
+    const textModesNeeded = upcomingModes.filter((m) => m !== 2).length;
+    const slices = distinctSlices(parts, textModesNeeded);
+
+    let textSlot = 0;
     for (let n = 0; n < CARDS_PER_ARTICLE; n++) {
       // Two of the four modes are carousels, so any run of 4+ cards clears
-      // MIN_CAROUSELS = 2; every 7-article day comfortably clears both that and
+      // MIN_CAROUSELS = 2; every 8-article day comfortably clears both that and
       // MIN_CARDS = 18 once CARDS_PER_ARTICLE multiplies it out.
       const mode = i % 4;
+
+      if (mode !== 2 && textSlot >= slices.length) {
+        // This article's extract can't honestly support another distinct text
+        // card — skip it rather than emit a blank or a repeat. The extra article
+        // in each day's PLAN is exactly the slack that keeps the day's total past
+        // MIN_CARDS despite the occasional skip like this one.
+        i++;
+        continue;
+      }
 
       let excerpt;
       let detail;
@@ -164,14 +261,14 @@ function buildDay({ day, slot, articles }, pages) {
       let cardMedia = media;
 
       if (mode === 0) {
-        excerpt = sentences(p.extract, 4);
+        excerpt = slices[textSlot++];
         detail = `${p.title} · lead`;
         connector = `Where ${slot.toLowerCase()} starts.`;
       } else if (mode === 1) {
         // Filtered, not sliced: when p.image is null the fallback above already came
         // from EXTRA_IMAGES, and a repeat would collide as a React key in Carousel.
         const extras = EXTRA_IMAGES.filter((u) => !media.includes(u)).slice(0, 2);
-        excerpt = sentences(p.extract, 2, 1);
+        excerpt = slices[textSlot++];
         detail = `${p.title} · in parts`;
         connector = "Swipe sideways — one idea, several parts.";
         cardMedia = [...media, ...extras];
@@ -180,22 +277,17 @@ function buildDay({ day, slot, articles }, pages) {
         detail = p.title;
         connector = "Look before you read.";
       } else {
-        // (i + 2) % 4 never equals i % 4, so this extra image cannot duplicate the
-        // fallback image chosen above. Duplicate URLs would collide as React keys.
-        excerpt = lastSentence(p.extract);
+        // Found by scanning, not by index arithmetic: with several cards per
+        // article, `i` at this point has drifted from the `i` used to pick
+        // `media`'s fallback above, so a fixed offset like `(i + 2) % 4` can
+        // land back on the same entry (this shipped as a real duplicate-media
+        // bug once CARDS_PER_ARTICLE > 1). Scanning for an image not already in
+        // `media` is correct regardless of how far `i` has moved.
+        const extra = EXTRA_IMAGES.find((u) => !media.includes(u)) ?? EXTRA_IMAGES[0];
+        excerpt = slices[textSlot++];
         detail = `${p.title} · two views`;
         connector = "One line, two views, then on.";
-        cardMedia = [...media, EXTRA_IMAGES[(i + 2) % EXTRA_IMAGES.length]];
-      }
-
-      // Multiple cards can be drawn from the same article; never let two of them
-      // carry identical excerpt text (mode 2's deliberate "" is exempt from this —
-      // it's allowed to recur, and re-checking it below is a no-op either way).
-      if (mode !== 2) {
-        if (excerpt && usedExcerpts.has(excerpt)) {
-          excerpt = "";
-        }
-        usedExcerpts.add(excerpt);
+        cardMedia = [...media, extra];
       }
 
       cards.push({

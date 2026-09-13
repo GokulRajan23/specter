@@ -43,5 +43,20 @@ export function varietyViolations(day: Day): string[] {
     out.push(`excerpt length spread is ${spread} characters; needs more variation`);
   }
 
+  // Image-led cards are good and expected — MIN_CAROUSELS even requires some texture
+  // like them. What's bad is two of them (or any two near-empty cards) sitting back
+  // to back: the reader sees a wall of pictures, even though the mode rotation that
+  // produced them was "technically" alternating.
+  for (let idx = 0; idx < day.cards.length - 1; idx++) {
+    const here = day.cards[idx].excerpt.trim().length <= IMAGE_LED_MAX_CHARS;
+    const next = day.cards[idx + 1].excerpt.trim().length <= IMAGE_LED_MAX_CHARS;
+    if (here && next) {
+      out.push(
+        `cards ${idx} and ${idx + 1} are consecutive near-empty excerpts (40 characters or fewer); they must not sit back to back`,
+      );
+      break;
+    }
+  }
+
   return out;
 }
