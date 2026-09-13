@@ -22,6 +22,11 @@ export function scrollProgress(
 export function Feed({ day, topic }: { day: Day; topic: string }) {
   const ref = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(FLOOR);
+  // Track what this instance has already written so we don't re-read/re-parse
+  // localStorage (via lib/progress.ts) on every one of ~60 scroll events/sec —
+  // only the write is idempotent inside lib/progress.ts, not the read+parse.
+  const lastCardRef = useRef(-1);
+  const completedRef = useRef(false);
 
   function onScroll() {
     const el = ref.current;
@@ -31,17 +36,29 @@ export function Feed({ day, topic }: { day: Day; topic: string }) {
 
     // Rough card position: good enough to resume, and free of per-post refs.
     const perCard = el.scrollHeight / Math.max(day.cards.length, 1);
-    setLastCard(day.day, Math.floor(el.scrollTop / perCard));
+    const index = Math.floor(el.scrollTop / perCard);
+    if (index !== lastCardRef.current) {
+      lastCardRef.current = index;
+      setLastCard(day.day, index);
+    }
 
-    if (el.scrollTop + el.clientHeight >= el.scrollHeight - 4) {
+    if (!completedRef.current && el.scrollTop + el.clientHeight >= el.scrollHeight - 4) {
+      completedRef.current = true;
       markComplete(day.day);
     }
   }
 
   useEffect(() => {
+    // A new day resets what this instance has already written.
+    lastCardRef.current = -1;
+    completedRef.current = false;
+
     // A day whose feed is shorter than the screen can never be scrolled to the end.
     const el = ref.current;
-    if (el && el.scrollHeight <= el.clientHeight) markComplete(day.day);
+    if (el && el.scrollHeight <= el.clientHeight) {
+      completedRef.current = true;
+      markComplete(day.day);
+    }
   }, [day.day]);
 
   return (
