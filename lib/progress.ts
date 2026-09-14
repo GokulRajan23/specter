@@ -4,10 +4,9 @@ const KEY = "specter.progress.v1";
 
 export type Progress = {
   completed: DayName[];
-  lastCard: Partial<Record<DayName, number>>;
 };
 
-export const EMPTY_PROGRESS: Progress = { completed: [], lastCard: {} };
+export const EMPTY_PROGRESS: Progress = { completed: [] };
 
 function isDayNameList(value: unknown): value is DayName[] {
   return (
@@ -20,18 +19,10 @@ function parse(raw: string): Progress {
   const data: unknown = JSON.parse(raw);
   if (typeof data !== "object" || data === null) return EMPTY_PROGRESS;
 
-  const { completed, lastCard } = data as Record<string, unknown>;
+  const { completed } = data as Record<string, unknown>;
   if (!isDayNameList(completed)) return EMPTY_PROGRESS;
-  if (typeof lastCard !== "object" || lastCard === null) return EMPTY_PROGRESS;
 
-  const cleaned: Partial<Record<DayName, number>> = {};
-  for (const [k, v] of Object.entries(lastCard)) {
-    if ((DAY_NAMES as readonly string[]).includes(k) && typeof v === "number") {
-      cleaned[k as DayName] = v;
-    }
-  }
-
-  return { completed, lastCard: cleaned };
+  return { completed };
 }
 
 export function loadProgress(): Progress {
@@ -58,15 +49,6 @@ export function markComplete(day: DayName): Progress {
   const next: Progress = p.completed.includes(day)
     ? p
     : { ...p, completed: [...p.completed, day] };
-  saveProgress(next);
-  return next;
-}
-
-export function setLastCard(day: DayName, index: number): Progress {
-  const p = loadProgress();
-  const current = p.lastCard[day] ?? -1;
-  if (index <= current) return p;
-  const next: Progress = { ...p, lastCard: { ...p.lastCard, [day]: index } };
   saveProgress(next);
   return next;
 }

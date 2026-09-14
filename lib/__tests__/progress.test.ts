@@ -1,12 +1,5 @@
 import { describe, it, expect, beforeEach, vi, afterEach } from "vitest";
-import {
-  EMPTY_PROGRESS,
-  loadProgress,
-  saveProgress,
-  markComplete,
-  setLastCard,
-  isComplete,
-} from "@/lib/progress";
+import { EMPTY_PROGRESS, loadProgress, saveProgress, markComplete, isComplete } from "@/lib/progress";
 
 beforeEach(() => {
   window.localStorage.clear();
@@ -32,8 +25,8 @@ describe("loadProgress", () => {
   });
 
   it("round-trips saved progress", () => {
-    saveProgress({ completed: ["monday"], lastCard: { monday: 4 } });
-    expect(loadProgress()).toEqual({ completed: ["monday"], lastCard: { monday: 4 } });
+    saveProgress({ completed: ["monday"] });
+    expect(loadProgress()).toEqual({ completed: ["monday"] });
   });
 });
 
@@ -48,19 +41,6 @@ describe("markComplete", () => {
     markComplete("monday");
     const p = markComplete("monday");
     expect(p.completed).toEqual(["monday"]);
-  });
-});
-
-describe("setLastCard", () => {
-  it("stores the furthest card reached", () => {
-    setLastCard("monday", 3);
-    expect(loadProgress().lastCard.monday).toBe(3);
-  });
-
-  it("never moves the marker backwards", () => {
-    setLastCard("monday", 7);
-    setLastCard("monday", 2);
-    expect(loadProgress().lastCard.monday).toBe(7);
   });
 });
 

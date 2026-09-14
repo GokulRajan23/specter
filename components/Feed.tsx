@@ -5,7 +5,7 @@ import Link from "next/link";
 import { DAY_LABELS, dayIndex, type Day } from "@/lib/content";
 import { Post } from "@/components/Post";
 import { DayEnd } from "@/components/DayEnd";
-import { markComplete, setLastCard } from "@/lib/progress";
+import { markComplete } from "@/lib/progress";
 
 const FLOOR = 0.06;
 
@@ -24,10 +24,6 @@ export function Feed({ day, topic }: { day: Day; topic: string }) {
   const ref = useRef<HTMLDivElement>(null);
   const dayEndRef = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(FLOOR);
-  // Track what this instance has already written so we don't re-read/re-parse
-  // localStorage (via lib/progress.ts) on every one of ~60 scroll events/sec —
-  // only the write is idempotent inside lib/progress.ts, not the read+parse.
-  const lastCardRef = useRef(-1);
   const completedRef = useRef(false);
 
   function complete() {
@@ -41,19 +37,10 @@ export function Feed({ day, topic }: { day: Day; topic: string }) {
     if (!el) return;
 
     setProgress(scrollProgress(el.scrollTop, el.scrollHeight, el.clientHeight));
-
-    // Rough card position: good enough to resume, and free of per-post refs.
-    const perCard = el.scrollHeight / Math.max(day.cards.length, 1);
-    const index = Math.floor(el.scrollTop / perCard);
-    if (index !== lastCardRef.current) {
-      lastCardRef.current = index;
-      setLastCard(day.day, index);
-    }
   }
 
   useEffect(() => {
     // A new day resets what this instance has already written.
-    lastCardRef.current = -1;
     completedRef.current = false;
 
     // A day whose feed is shorter than the screen can never be scrolled to the end.

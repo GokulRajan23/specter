@@ -204,16 +204,4 @@ describe("Feed completion tracking", () => {
     expect(spy).not.toHaveBeenCalled();
   });
 
-  it("does not re-invoke setLastCard when the computed index has not changed", () => {
-    stubContainerSize(2000, 800);
-    const spy = vi.spyOn(progressModule, "setLastCard");
-    render(<Feed day={day} topic="Suits" />);
-
-    scrollTo(100);
-    const callsAfterFirstScroll = spy.mock.calls.length;
-    expect(callsAfterFirstScroll).toBeGreaterThan(0);
-
-    scrollTo(100);
-    expect(spy.mock.calls.length).toBe(callsAfterFirstScroll);
-  });
 });
