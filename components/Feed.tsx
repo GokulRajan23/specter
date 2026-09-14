@@ -21,12 +21,19 @@ export function scrollProgress(
 
 export function Feed({ day, topic }: { day: Day; topic: string }) {
   const ref = useRef<HTMLDivElement>(null);
+  const dayEndRef = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(FLOOR);
   // Track what this instance has already written so we don't re-read/re-parse
   // localStorage (via lib/progress.ts) on every one of ~60 scroll events/sec —
   // only the write is idempotent inside lib/progress.ts, not the read+parse.
   const lastCardRef = useRef(-1);
   const completedRef = useRef(false);
+
+  function complete() {
+    if (completedRef.current) return;
+    completedRef.current = true;
+    markComplete(day.day);
+  }
 
   function onScroll() {
     const el = ref.current;
@@ -41,11 +48,6 @@ export function Feed({ day, topic }: { day: Day; topic: string }) {
       lastCardRef.current = index;
       setLastCard(day.day, index);
     }
-
-    if (!completedRef.current && el.scrollTop + el.clientHeight >= el.scrollHeight - 4) {
-      completedRef.current = true;
-      markComplete(day.day);
-    }
   }
 
   useEffect(() => {
@@ -56,9 +58,31 @@ export function Feed({ day, topic }: { day: Day; topic: string }) {
     // A day whose feed is shorter than the screen can never be scrolled to the end.
     const el = ref.current;
     if (el && el.scrollHeight <= el.clientHeight) {
-      completedRef.current = true;
-      markComplete(day.day);
+      complete();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [day.day]);
+
+  useEffect(() => {
+    const root = ref.current;
+    const target = dayEndRef.current;
+    if (!root || !target || typeof IntersectionObserver === "undefined") return;
+
+    // Completion is driven by the DayEnd card actually becoming visible, not by a
+    // scroll-position threshold — the scroller's bottom padding (safe-area inset
+    // plus the card's own padding) means "within N px of scrollHeight" can be
+    // reached without the card ever entering the viewport.
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          complete();
+        }
+      },
+      { root, threshold: 0 },
+    );
+    observer.observe(target);
+    return () => observer.disconnect();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [day.day]);
 
   return (
@@ -83,7 +107,9 @@ export function Feed({ day, topic }: { day: Day; topic: string }) {
         {day.cards.map((card, i) => (
           <Post key={`${card.url}-${i}`} card={card} />
         ))}
-        <DayEnd day={day.day} cardCount={day.cards.length} slot={day.slot} />
+        <div ref={dayEndRef}>
+          <DayEnd day={day.day} cardCount={day.cards.length} slot={day.slot} />
+        </div>
       </div>
     </div>
   );

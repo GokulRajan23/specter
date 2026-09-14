@@ -58,10 +58,34 @@ function scrollTo(scrollTop: number) {
   fireEvent.scroll(scroller());
 }
 
+// jsdom has no IntersectionObserver implementation. This fake records every
+// instance created so a test can reach in and fire an intersection change for
+// whichever element Feed observed (the DayEnd card).
+class FakeIntersectionObserver {
+  static instances: FakeIntersectionObserver[] = [];
+  private elements: Element[] = [];
+  constructor(private callback: IntersectionObserverCallback) {
+    FakeIntersectionObserver.instances.push(this);
+  }
+  observe(el: Element) {
+    this.elements.push(el);
+  }
+  unobserve() {}
+  disconnect() {}
+  trigger(isIntersecting: boolean) {
+    const entries = this.elements.map(
+      (target) => ({ isIntersecting, target }) as IntersectionObserverEntry,
+    );
+    this.callback(entries, this as unknown as IntersectionObserver);
+  }
+}
+
 beforeEach(() => {
   window.localStorage.clear();
   scrollHeightDescriptor = Object.getOwnPropertyDescriptor(HTMLElement.prototype, "scrollHeight");
   clientHeightDescriptor = Object.getOwnPropertyDescriptor(HTMLElement.prototype, "clientHeight");
+  FakeIntersectionObserver.instances = [];
+  vi.stubGlobal("IntersectionObserver", FakeIntersectionObserver);
 });
 
 afterEach(() => {
@@ -75,6 +99,7 @@ afterEach(() => {
   } else {
     delete (HTMLElement.prototype as Record<string, unknown>).clientHeight;
   }
+  vi.unstubAllGlobals();
   vi.restoreAllMocks();
 });
 
@@ -139,13 +164,35 @@ describe("Feed completion tracking", () => {
     expect(loadProgress().completed).not.toContain("monday");
   });
 
-  it("marks complete when scrolled to the bottom", () => {
+  it("marks complete when the day-end card becomes visible", () => {
     stubContainerSize(2000, 800);
     render(<Feed day={day} topic="Suits" />);
     expect(loadProgress().completed).not.toContain("monday");
 
-    scrollTo(1200);
+    const observer = FakeIntersectionObserver.instances.at(-1);
+    expect(observer).toBeDefined();
+    observer!.trigger(true);
     expect(loadProgress().completed).toContain("monday");
+  });
+
+  it("does not mark complete while the day-end card is not intersecting", () => {
+    stubContainerSize(2000, 800);
+    render(<Feed day={day} topic="Suits" />);
+
+    const observer = FakeIntersectionObserver.instances.at(-1);
+    observer!.trigger(false);
+    expect(loadProgress().completed).not.toContain("monday");
+  });
+
+  it("does not mark complete a second time once the day-end card intersects", () => {
+    stubContainerSize(2000, 800);
+    render(<Feed day={day} topic="Suits" />);
+    const observer = FakeIntersectionObserver.instances.at(-1);
+
+    observer!.trigger(true);
+    const spy = vi.spyOn(progressModule, "markComplete");
+    observer!.trigger(true);
+    expect(spy).not.toHaveBeenCalled();
   });
 
   it("does not re-invoke setLastCard when the computed index has not changed", () => {
