@@ -1,24 +1,22 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
-import { Suspense } from "react";
 import { getDeck, type DayName } from "@/lib/content";
 import { currentDayName } from "@/lib/schedule";
 import { loadProgress } from "@/lib/progress";
 import { DayCircles } from "@/components/DayCircles";
 
-function Today() {
+export default function Page() {
   const deck = getDeck();
-  const params = useSearchParams();
-  const dev = params.get("dev") === "1";
 
   const [today, setToday] = useState<DayName>("monday");
   const [completed, setCompleted] = useState<DayName[]>([]);
+  const [dev, setDev] = useState(false);
 
   useEffect(() => {
     setToday(currentDayName(new Date()));
     setCompleted(loadProgress().completed);
+    setDev(new URLSearchParams(window.location.search).get("dev") === "1");
   }, []);
 
   return (
@@ -30,13 +28,5 @@ function Today() {
 
       <DayCircles today={today} completed={completed} dev={dev} />
     </main>
-  );
-}
-
-export default function Page() {
-  return (
-    <Suspense>
-      <Today />
-    </Suspense>
   );
 }
