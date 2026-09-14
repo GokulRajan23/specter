@@ -1,5 +1,3 @@
-import deck from "@/content/suits.json";
-
 export const DAY_NAMES = [
   "monday",
   "tuesday",
@@ -51,12 +49,4 @@ export function dayIndex(day: DayName): number {
 
 export function isDayName(value: string): value is DayName {
   return (DAY_NAMES as readonly string[]).includes(value);
-}
-
-export function getDeck(): Deck {
-  return deck as Deck;
-}
-
-export function getDay(deck: Deck, day: DayName): Day | undefined {
-  return deck.days.find((d) => d.day === day);
 }

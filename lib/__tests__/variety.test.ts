@@ -1,6 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { varietyViolations } from "@/lib/variety";
-import { getDeck, getDay, type Card, type Day } from "@/lib/content";
+import { type Card, type Day } from "@/lib/content";
+import { getDeck, getDay } from "@/lib/deck";
 
 function card(over: Partial<Card> = {}): Card {
   return {

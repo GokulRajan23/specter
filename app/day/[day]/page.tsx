@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
-import { DAY_NAMES, getDeck, getDay, isDayName } from "@/lib/content";
+import { DAY_NAMES, isDayName } from "@/lib/content";
+import { getDeck, getDay } from "@/lib/deck";
 import { Feed } from "@/components/Feed";
 
 export function generateStaticParams() {
