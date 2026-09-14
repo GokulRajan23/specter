@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { DAY_LABELS, DAY_NAMES, dayIndex, type DayName } from "@/lib/content";
 
 const FULL: Record<DayName, string> = {
@@ -43,6 +44,9 @@ export function DayEnd({
           </>
         )}
       </p>
+      <Link href="/" className="mt-5 text-xs font-semibold text-accent">
+        Back to Today
+      </Link>
     </section>
   );
 }

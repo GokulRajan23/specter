@@ -24,7 +24,7 @@ export function Carousel({ media, alt }: { media: string[]; alt: string }) {
       <div
         ref={ref}
         onScroll={onScroll}
-        className="no-bars flex h-full snap-x snap-mandatory overflow-x-auto"
+        className="no-bars flex h-full snap-x snap-mandatory overflow-x-auto overscroll-x-contain"
       >
         {media.map((src, i) => (
           <figure key={i} className="m-0 h-full w-full flex-none snap-center">

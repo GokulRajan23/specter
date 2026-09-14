@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { DAY_LABELS, dayIndex, type Day } from "@/lib/content";
 import { Post } from "@/components/Post";
 import { DayEnd } from "@/components/DayEnd";
@@ -88,8 +89,15 @@ export function Feed({ day, topic }: { day: Day; topic: string }) {
   return (
     <div className="flex h-dvh flex-col bg-bg">
       <header className="flex-none px-4 pb-2.5 pt-[calc(env(safe-area-inset-top)+0.5rem)]">
-        <div className="mb-2 flex items-baseline justify-between">
-          <span className="text-base font-semibold tracking-tight">{topic}</span>
+        <div className="mb-2 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <Link href="/" aria-label="Back to Today" className="-ml-1 p-1 text-ink">
+              <svg viewBox="0 0 24 24" className="h-4 w-4 fill-none stroke-current stroke-[2]">
+                <path d="M15 5l-7 7 7 7" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </Link>
+            <span className="text-base font-semibold tracking-tight">{topic}</span>
+          </div>
           <span className="text-xs text-ink2">
             {DAY_LABELS[day.day]} &middot; {dayIndex(day.day) + 1} of 7
           </span>

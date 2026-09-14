@@ -149,6 +149,15 @@ describe("Feed", () => {
     render(<Feed day={day} topic="Suits" />);
     expect(screen.getByText(/2 cards/)).toBeInTheDocument();
   });
+
+  it("links back to Today from both the header and the day-end card", () => {
+    render(<Feed day={day} topic="Suits" />);
+    const backLinks = screen.getAllByRole("link", { name: /back to today/i });
+    expect(backLinks).toHaveLength(2);
+    for (const link of backLinks) {
+      expect(link).toHaveAttribute("href", "/");
+    }
+  });
 });
 
 describe("Feed completion tracking", () => {
