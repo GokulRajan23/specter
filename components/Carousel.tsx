@@ -26,8 +26,8 @@ export function Carousel({ media, alt }: { media: string[]; alt: string }) {
         onScroll={onScroll}
         className="no-bars flex h-full snap-x snap-mandatory overflow-x-auto"
       >
-        {media.map((src) => (
-          <figure key={src} className="m-0 h-full w-full flex-none snap-center">
+        {media.map((src, i) => (
+          <figure key={i} className="m-0 h-full w-full flex-none snap-center">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={src} alt={alt} loading="lazy" className="h-full w-full object-cover" />
           </figure>
@@ -45,7 +45,7 @@ export function Carousel({ media, alt }: { media: string[]; alt: string }) {
           >
             {media.map((src, i) => (
               <i
-                key={src}
+                key={i}
                 className={`h-1.5 w-1.5 rounded-full bg-white transition-opacity ${
                   i === index ? "opacity-100" : "opacity-30"
                 }`}

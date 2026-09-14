@@ -1,6 +1,10 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, vi, afterEach } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { Carousel, activeIndex } from "@/components/Carousel";
+
+afterEach(() => {
+  vi.restoreAllMocks();
+});
 
 describe("activeIndex", () => {
   it("is zero at rest", () => {
@@ -42,5 +46,15 @@ describe("Carousel", () => {
     render(<Carousel media={["a.jpg"]} alt="Waistcoat" />);
     expect(screen.queryByTestId("dots")).not.toBeInTheDocument();
     expect(screen.queryByText("1/1")).not.toBeInTheDocument();
+  });
+
+  it("renders every entry, including a repeated image, without a duplicate-key warning", () => {
+    const error = vi.spyOn(console, "error").mockImplementation(() => {});
+    render(<Carousel media={["a.jpg", "b.jpg", "a.jpg"]} alt="Waistcoat" />);
+    expect(screen.getAllByRole("img")).toHaveLength(3);
+    const keyWarnings = error.mock.calls.filter((call) =>
+      String(call[0]).includes("Encountered two children with the same key"),
+    );
+    expect(keyWarnings).toHaveLength(0);
   });
 });
