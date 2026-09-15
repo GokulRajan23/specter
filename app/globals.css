@@ -31,11 +31,6 @@ html, body {
   font-family: var(--font-sans);
 }
 
-/* iOS: kill the rubber-band bounce behind the app shell */
-html, body {
-  overscroll-behavior: none;
-}
-
 /* iOS: stop long-press raising the Copy/Share callout on cards */
 .no-callout {
   -webkit-touch-callout: none;

@@ -98,7 +98,11 @@ export function Feed({ day, topic }: { day: Day; topic: string }) {
         </div>
       </header>
 
-      <div ref={ref} onScroll={onScroll} className="no-bars flex-1 overflow-y-auto pb-[env(safe-area-inset-bottom)]">
+      <div
+        ref={ref}
+        onScroll={onScroll}
+        className="no-bars flex-1 overflow-y-auto overscroll-none pb-[env(safe-area-inset-bottom)]"
+      >
         {day.cards.map((card, i) => (
           <Post key={`${card.url}-${i}`} card={card} />
         ))}
