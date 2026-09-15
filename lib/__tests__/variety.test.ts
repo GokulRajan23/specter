@@ -135,6 +135,42 @@ describe("varietyViolations", () => {
     expect(varietyViolations(day(cards)).join(" ")).toMatch(/shared\.jpg/);
   });
 
+  it("flags a card whose copy promises multiple images but has only one", () => {
+    // A real control: 18 cards, 18 distinct articles, 2 carousels, an image-led
+    // card, a wide excerpt spread, no two near-empty cards back to back, and no
+    // image over 25% of the day — every other rule is satisfied. The only
+    // defect is card 2's "in parts" detail/connector over a single image,
+    // exactly the bug where an exhausted padding pool left multi-image copy
+    // on a carousel that got no second image.
+    const cards: Card[] = Array.from({ length: 18 }, (_, i) => {
+      if (i === 0) return card({ url: "https://x.test/0", media: ["a.jpg", "b.jpg", "c.jpg"], excerpt: "" });
+      if (i === 1) {
+        return card({
+          url: "https://x.test/1",
+          media: ["d.jpg", "e.jpg"],
+          excerpt:
+            "A considerably longer excerpt that runs on for several clauses and sentences. " +
+            "It keeps going, because some cards are meant to be dense. And then it stops.",
+        });
+      }
+      if (i === 2) {
+        return card({
+          url: "https://x.test/2",
+          media: ["f.jpg"],
+          detail: "Ede & Ravenscroft · in parts",
+          connector: "Swipe sideways — one idea, several parts.",
+          excerpt: "A middling excerpt, number 2, long enough to spread lengths out.",
+        });
+      }
+      return card({
+        url: `https://x.test/${i}`,
+        media: [`https://x.test/${i}.jpg`],
+        excerpt: `A middling excerpt, number ${i}, long enough to spread lengths out.`,
+      });
+    });
+    expect(varietyViolations(day(cards)).join(" ")).toMatch(/in parts/);
+  });
+
   it("accepts an empty day, which is not filler yet", () => {
     expect(varietyViolations(day([]))).toEqual([]);
   });

@@ -423,9 +423,20 @@ function buildDay({ day, slot, articles }, pages) {
         // Excludes media so a repeat can't collide as a React key in Carousel.
         const extras = pickPadding(media, 2);
         excerpt = slices[textSlot++];
-        detail = `${p.title} · in parts`;
-        connector = PARTS_CONNECTORS[partsConnectorN++ % PARTS_CONNECTORS.length];
-        cardMedia = [...media, ...extras];
+        if (extras.length === 0) {
+          // The padding pool is exhausted for this image (see usageCap above) —
+          // "in parts" copy over a single image is a promise the carousel can't
+          // keep, so fall back to a plain single-image text card instead of
+          // pretending there's more to swipe through. Do NOT fabricate an extra
+          // image here: that reintroduces the same-photo-all-day problem
+          // MAX_IMAGE_SHARE exists to prevent.
+          detail = `${p.title} · lead`;
+          connector = LEAD_CONNECTORS[leadConnectorN++ % LEAD_CONNECTORS.length](slot);
+        } else {
+          detail = `${p.title} · in parts`;
+          connector = PARTS_CONNECTORS[partsConnectorN++ % PARTS_CONNECTORS.length];
+          cardMedia = [...media, ...extras];
+        }
       } else if (mode === 2) {
         excerpt = ""; // deliberate — the image-led card. Do not touch.
         detail = p.title;
@@ -433,9 +444,16 @@ function buildDay({ day, slot, articles }, pages) {
       } else {
         const [extra] = pickPadding(media, 1);
         excerpt = slices[textSlot++];
-        detail = `${p.title} · two views`;
-        connector = TWO_VIEW_CONNECTORS[twoViewConnectorN++ % TWO_VIEW_CONNECTORS.length];
-        cardMedia = extra ? [...media, extra] : media;
+        if (extra) {
+          detail = `${p.title} · two views`;
+          connector = TWO_VIEW_CONNECTORS[twoViewConnectorN++ % TWO_VIEW_CONNECTORS.length];
+          cardMedia = [...media, extra];
+        } else {
+          // Same degrade as mode 1 above: no second image available, so don't
+          // ship "two views" copy over a single image.
+          detail = `${p.title} · lead`;
+          connector = LEAD_CONNECTORS[leadConnectorN++ % LEAD_CONNECTORS.length](slot);
+        }
       }
 
       bump(cardMedia);

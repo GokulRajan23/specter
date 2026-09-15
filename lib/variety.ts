@@ -63,6 +63,18 @@ export function varietyViolations(day: Day): string[] {
     }
   }
 
+  // A card whose copy promises several images ("two views", "in parts") must
+  // actually carry more than one — otherwise it's an instruction the reader
+  // can't follow (swipe for more) on a card that has nothing more to swipe to.
+  for (let idx = 0; idx < day.cards.length; idx++) {
+    const c = day.cards[idx];
+    if (/two views|in parts/.test(c.detail) && c.media.length <= 1) {
+      out.push(
+        `card ${idx} ("${c.detail}") promises multiple images but has media.length ${c.media.length}`,
+      );
+    }
+  }
+
   // Image-led cards are good and expected — MIN_CAROUSELS even requires some texture
   // like them. What's bad is two of them (or any two near-empty cards) sitting back
   // to back: the reader sees a wall of pictures, even though the mode rotation that

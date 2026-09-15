@@ -1263,13 +1263,13 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Ede & Ravenscroft · two views",
+          "detail": "Ede & Ravenscroft · lead",
           "url": "https://en.wikipedia.org/wiki/Ede_%26_Ravenscroft",
           "media": [
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ede_%26_Ravenscroft_20130413_100.jpg/3840px-Ede_%26_Ravenscroft_20130413_100.jpg"
           ],
           "excerpt": "Ede & Ravenscroft are the high-end luxury and oldest tailors in London, established in 1689.",
-          "connector": "One thought, two images. Onward."
+          "connector": "Into primary sources, to begin."
         },
         {
           "source": "Wikipedia",
@@ -1280,18 +1280,18 @@
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ede_%26_Ravenscroft_20130413_100.jpg/3840px-Ede_%26_Ravenscroft_20130413_100.jpg"
           ],
           "excerpt": "They are also recognised as the oldest continuously operating tailors in the world.",
-          "connector": "Into primary sources, to begin."
+          "connector": "The start of primary sources."
         },
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Ede & Ravenscroft · in parts",
+          "detail": "Ede & Ravenscroft · lead",
           "url": "https://en.wikipedia.org/wiki/Ede_%26_Ravenscroft",
           "media": [
             "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ede_%26_Ravenscroft_20130413_100.jpg/3840px-Ede_%26_Ravenscroft_20130413_100.jpg"
           ],
           "excerpt": "They have two London premises, in Chancery Lane and Burlington Gardens, very close to the famous Savile Row. They make, sell and hire out legal gowns and wigs, clerical dress, civic and municipal robes, academic dress and other ceremonial and formal dress, and have shops in Oxford, Cambridge and Edinburgh. In addition to clothing and robes, Ede & Ravenscroft often supply photography at ceremonial events such as graduations across the United Kingdom including at the University of Cambridge.",
-          "connector": "Swipe sideways — one idea, several parts."
+          "connector": "First stop in primary sources."
         },
         {
           "source": "Wikipedia",
@@ -1307,13 +1307,13 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Norton & Sons · two views",
+          "detail": "Norton & Sons · lead",
           "url": "https://en.wikipedia.org/wiki/Norton_%26_Sons",
           "media": [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
           "excerpt": "Norton & Sons is a Savile Row bespoke tailor founded in 1821 by Walter Grant Norton.",
-          "connector": "One line, two views, then on."
+          "connector": "Opening primary sources."
         },
         {
           "source": "Wikipedia",
@@ -1324,7 +1324,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
           "excerpt": "The firm is located on the east side of the street, at No. 16. It was purchased in 2005 by Scottish designer Patrick Grant, who revitalised the tailoring house. However, the company went into liquidation in 2022 and was apparently sold to James Sleater and Ian Meiers the following year.",
-          "connector": "The start of primary sources."
+          "connector": "Primary sources — from the top."
         }
       ]
     },
@@ -1544,13 +1544,13 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Normcore · two views",
+          "detail": "Normcore · lead",
           "url": "https://en.wikipedia.org/wiki/Normcore",
           "media": [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
           "excerpt": "Normcore is a unisex fashion trend characterized by unpretentious, average-looking clothing.",
-          "connector": "One line, two views, then on."
+          "connector": "The start of the frontier."
         },
         {
           "source": "Wikipedia",
@@ -1561,7 +1561,7 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis_tie_1A.JPG?width=760"
           ],
           "excerpt": "Normcore fashion includes jeans, T-shirts, sweats, button-downs, and sneakers.",
-          "connector": "The start of the frontier."
+          "connector": "First stop in the frontier."
         }
       ]
     },
@@ -1828,13 +1828,13 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Streetwear · two views",
+          "detail": "Streetwear · lead",
           "url": "https://en.wikipedia.org/wiki/Streetwear",
           "media": [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Waistcoat.jpg?width=760"
           ],
           "excerpt": "Emerging from the fusion of African-American and Latino hip-hop fashion in New York with elements of Californian surf culture, it evolved to incorporate elements of sportswear, punk, skateboarding, 1980s nostalgia, and Japanese street fashion. Streetwear is seen as an aspect of African American culture and fashion, and is associated with African American musical traditions, particularly RnB and hip-hop.",
-          "connector": "Two views, one line — then onward."
+          "connector": "First stop in recall."
         }
       ]
     }
