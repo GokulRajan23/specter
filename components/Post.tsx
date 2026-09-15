@@ -15,7 +15,7 @@ export function Post({ card }: { card: Card }) {
 
       <Carousel media={card.media} alt={card.detail} />
 
-      <div className="flex items-center gap-4 px-3.5 pb-1 pt-2.5">
+      <div className="flex items-center px-3.5 pb-1 pt-2.5">
         <a
           href={card.url}
           target="_blank"

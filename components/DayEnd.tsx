@@ -1,15 +1,11 @@
 import Link from "next/link";
 import { DAY_LABELS, DAY_NAMES, dayIndex, type DayName } from "@/lib/content";
 
-const FULL: Record<DayName, string> = {
-  monday: "Monday",
-  tuesday: "Tuesday",
-  wednesday: "Wednesday",
-  thursday: "Thursday",
-  friday: "Friday",
-  saturday: "Saturday",
-  sunday: "Sunday",
-};
+/** DayName values are already the full name, just lowercase ("monday") — no
+ * need for a second hardcoded Monday/Tuesday/... map alongside DAY_LABELS. */
+function fullDayName(day: DayName): string {
+  return day.charAt(0).toUpperCase() + day.slice(1);
+}
 
 export function DayEnd({
   day,
@@ -29,7 +25,7 @@ export function DayEnd({
           <path d="M4 12.5l5.5 5.5L20 7" />
         </svg>
       </span>
-      <h2 className="mb-1.5 text-base font-semibold">That&rsquo;s {FULL[day]}.</h2>
+      <h2 className="mb-1.5 text-base font-semibold">That&rsquo;s {fullDayName(day)}.</h2>
       <p className="text-xs leading-relaxed text-ink2">
         {cardCount} cards &middot; {slot}.
         {next ? (

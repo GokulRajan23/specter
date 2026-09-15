@@ -7,7 +7,6 @@
   --color-ink2: #8e8e8e;
   --color-divider: #efefef;
   --color-edge: #dbdbdb;
-  --color-link: #00376b;
   --color-accent: #0095f6;
 
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
@@ -21,7 +20,6 @@
     --color-ink2: #a8a8a8;
     --color-divider: #262626;
     --color-edge: #363636;
-    --color-link: #e0f1ff;
   }
 }
 

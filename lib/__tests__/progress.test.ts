@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, vi, afterEach } from "vitest";
-import { EMPTY_PROGRESS, loadProgress, saveProgress, markComplete, isComplete } from "@/lib/progress";
+import { EMPTY_PROGRESS, loadProgress, saveProgress, markComplete } from "@/lib/progress";
 
 beforeEach(() => {
   window.localStorage.clear();
@@ -34,7 +34,7 @@ describe("markComplete", () => {
   it("records a day as complete", () => {
     const p = markComplete("monday");
     expect(p.completed).toContain("monday");
-    expect(isComplete(loadProgress(), "monday")).toBe(true);
+    expect(loadProgress().completed).toContain("monday");
   });
 
   it("does not duplicate a day completed twice", () => {

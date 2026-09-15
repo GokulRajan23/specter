@@ -53,6 +53,3 @@ export function markComplete(day: DayName): Progress {
   return next;
 }
 
-export function isComplete(p: Progress, day: DayName): boolean {
-  return p.completed.includes(day);
-}
