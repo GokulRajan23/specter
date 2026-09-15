@@ -104,7 +104,7 @@ export function Feed({ day, topic }: { day: Day; topic: string }) {
         className="no-bars flex-1 overflow-y-auto overscroll-none pb-[env(safe-area-inset-bottom)]"
       >
         {day.cards.map((card, i) => (
-          <Post key={`${card.url}-${i}`} card={card} />
+          <Post key={`${card.url}-${i}`} card={card} day={day.day} />
         ))}
         <div ref={dayEndRef}>
           <DayEnd day={day.day} cardCount={day.cards.length} slot={day.slot} />
