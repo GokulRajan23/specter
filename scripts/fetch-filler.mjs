@@ -255,8 +255,47 @@ const EXTRA_IMAGES = [
 // an 8-article day turns into a 20+ card day instead of an 8-card one.
 const CARDS_PER_ARTICLE = 3;
 
+// Per-mode connector phrasings, cycled per day rather than fixed, so the deck
+// doesn't lean on the same handful of transitions everywhere (there were only
+// 10 distinct connector strings across all 154 cards). Each is written as a
+// fragment or gerund rather than "<slot> starts" — "Where the arguments
+// starts." and "Where primary sources starts." both read as ungrammatical
+// because a slot name's grammatical number varies ("The map" vs "Primary
+// sources") and nothing here should have to track that.
+const LEAD_CONNECTORS = [
+  (slot) => `The start of ${slot.toLowerCase()}.`,
+  (slot) => `First stop in ${slot.toLowerCase()}.`,
+  (slot) => `Opening ${slot.toLowerCase()}.`,
+  (slot) => `${slot} — from the top.`,
+  (slot) => `Into ${slot.toLowerCase()}, to begin.`,
+];
+const PARTS_CONNECTORS = [
+  "Swipe sideways — one idea, several parts.",
+  "One idea, told in parts. Swipe through.",
+  "Several angles on one idea — swipe to see them.",
+  "Swipe on: the same idea, from another side.",
+];
+const IMAGE_LED_CONNECTORS = [
+  "Look before you read.",
+  "The picture speaks first.",
+  "See it, then read on.",
+  "A pause, in pictures.",
+];
+const TWO_VIEW_CONNECTORS = [
+  "One line, two views, then on.",
+  "Two views, one line — then onward.",
+  "A second look, briefly.",
+  "One thought, two images. Onward.",
+];
+
 function buildDay({ day, slot, articles }, pages) {
   const cards = [];
+  // Cycled independently per mode so each connector array rotates through
+  // fully instead of landing on the same entry every time a mode recurs.
+  let leadConnectorN = 0;
+  let partsConnectorN = 0;
+  let imageLedConnectorN = 0;
+  let twoViewConnectorN = 0;
 
   // Every day's own fetched article images, tried before EXTRA_IMAGES — keeps
   // a day's filler photographically its own, and multiplies the pool from 4
@@ -379,23 +418,23 @@ function buildDay({ day, slot, articles }, pages) {
       if (mode === 0) {
         excerpt = slices[textSlot++];
         detail = `${p.title} · lead`;
-        connector = `Where ${slot.toLowerCase()} starts.`;
+        connector = LEAD_CONNECTORS[leadConnectorN++ % LEAD_CONNECTORS.length](slot);
       } else if (mode === 1) {
         // Excludes media so a repeat can't collide as a React key in Carousel.
         const extras = pickPadding(media, 2);
         excerpt = slices[textSlot++];
         detail = `${p.title} · in parts`;
-        connector = "Swipe sideways — one idea, several parts.";
+        connector = PARTS_CONNECTORS[partsConnectorN++ % PARTS_CONNECTORS.length];
         cardMedia = [...media, ...extras];
       } else if (mode === 2) {
         excerpt = ""; // deliberate — the image-led card. Do not touch.
         detail = p.title;
-        connector = "Look before you read.";
+        connector = IMAGE_LED_CONNECTORS[imageLedConnectorN++ % IMAGE_LED_CONNECTORS.length];
       } else {
         const [extra] = pickPadding(media, 1);
         excerpt = slices[textSlot++];
         detail = `${p.title} · two views`;
-        connector = "One line, two views, then on.";
+        connector = TWO_VIEW_CONNECTORS[twoViewConnectorN++ % TWO_VIEW_CONNECTORS.length];
         cardMedia = extra ? [...media, extra] : media;
       }
 
