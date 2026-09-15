@@ -35,7 +35,17 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-bg text-ink antialiased overscroll-none">{children}</body>
+      <body className="bg-surface text-ink antialiased overscroll-none">
+        {/*
+          Phone-first, so nothing below assumes a width. On a desktop viewport
+          that let the 1:1 card images scale to the full window — one card came
+          out taller than the screen. Cap the app at a phone's width and centre
+          it, so a laptop shows a faithful preview instead of a broken layout.
+        */}
+        <div className="mx-auto min-h-dvh w-full max-w-[430px] bg-bg sm:border-x sm:border-divider">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
