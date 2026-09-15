@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { varietyViolations } from "@/lib/variety";
-import { type Card, type Day } from "@/lib/content";
+import { type Card, type Day, DAY_NAMES } from "@/lib/content";
 import { getDeck, getDay } from "@/lib/deck";
 
 function card(over: Partial<Card> = {}): Card {
@@ -139,8 +139,10 @@ describe("varietyViolations", () => {
     expect(varietyViolations(day([]))).toEqual([]);
   });
 
-  it("holds for the committed Monday deck", () => {
-    const monday = getDay(getDeck(), "monday")!;
-    expect(varietyViolations(monday)).toEqual([]);
+  // A Monday-only assertion misses exactly the kind of bug that hit 6 of 7
+  // days at once (the filler's per-day image padding), so check every day.
+  it.each(DAY_NAMES)("holds for the committed %s deck", (dayName) => {
+    const found = getDay(getDeck(), dayName)!;
+    expect(varietyViolations(found)).toEqual([]);
   });
 });
