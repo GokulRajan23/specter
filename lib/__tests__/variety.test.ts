@@ -64,9 +64,13 @@ describe("varietyViolations", () => {
       { media: ["d.jpg", "e.jpg"] },
       { excerpt: "Another middling excerpt, two sentences long. Like so." },
     ];
-    const cards: Card[] = Array.from({ length: 18 }, (_, i) =>
-      card({ url: `https://x.test/${i}`, ...base[i % base.length] }),
-    );
+    const cards: Card[] = Array.from({ length: 18 }, (_, i) => {
+      const preset = base[i % base.length];
+      // A unique per-index image when the preset doesn't specify its own media,
+      // so this fixture doesn't itself trip the "no image over 25% of a day's
+      // cards" rule via the card() helper's shared default media.
+      return card({ url: `https://x.test/${i}`, media: preset.media ?? [`https://x.test/${i}.jpg`], ...preset });
+    });
     expect(varietyViolations(day(cards))).toEqual([]);
   });
 
@@ -101,6 +105,34 @@ describe("varietyViolations", () => {
       return card({ url: `https://x.test/${i}`, excerpt: `A middling excerpt, number ${i}, long enough to spread lengths out.` });
     });
     expect(varietyViolations(day(cards)).join(" ")).toMatch(/consecutive/i);
+  });
+
+  it("flags an image that dominates a day, even when every other rule passes", () => {
+    // A real control: 18 cards, 18 distinct articles, 2 carousels, an image-led
+    // card, a wide excerpt spread, and no two near-empty cards back to back —
+    // every existing rule is satisfied. The only defect is that "shared.jpg"
+    // was used to pad more than a quarter of the day's cards, which is exactly
+    // the "same photo all day" bug this rule exists to catch.
+    const cards: Card[] = Array.from({ length: 18 }, (_, i) => {
+      if (i === 0) return card({ url: "https://x.test/0", media: ["a.jpg", "b.jpg", "c.jpg"], excerpt: "" });
+      if (i === 1) {
+        return card({
+          url: "https://x.test/1",
+          media: ["d.jpg", "e.jpg"],
+          excerpt:
+            "A considerably longer excerpt that runs on for several clauses and sentences. " +
+            "It keeps going, because some cards are meant to be dense. And then it stops.",
+        });
+      }
+      // Cards 2-11 (10 of 18, well over 25%) all carry "shared.jpg".
+      const media = i < 12 ? ["shared.jpg"] : [`https://x.test/${i}.jpg`];
+      return card({
+        url: `https://x.test/${i}`,
+        media,
+        excerpt: `A middling excerpt, number ${i}, long enough to spread lengths out.`,
+      });
+    });
+    expect(varietyViolations(day(cards)).join(" ")).toMatch(/shared\.jpg/);
   });
 
   it("accepts an empty day, which is not filler yet", () => {

@@ -6,6 +6,9 @@ const MIN_DISTINCT_ARTICLES = 3;
 const MIN_CAROUSELS = 2;
 /** IDEA.md calls for roughly 20-30 cards a day — a session, not a twenty-second scroll. */
 const MIN_CARDS = 18;
+/** No single photo should dominate a day's cards — a repeated filler image reads as
+ * exactly the false negative the filler exists to avoid. */
+const MAX_IMAGE_SHARE = 0.25;
 
 /**
  * The spec requires filler with structural variety, because a day built from one
@@ -41,6 +44,23 @@ export function varietyViolations(day: Day): string[] {
   const spread = Math.max(...lengths) - Math.min(...lengths);
   if (spread < 80) {
     out.push(`excerpt length spread is ${spread} characters; needs more variation`);
+  }
+
+  // Count each image once per card (not once per carousel slot) — a card is what
+  // the reader perceives as "the same photo again", not a raw media-array entry.
+  const imageCardCounts = new Map<string, number>();
+  for (const c of day.cards) {
+    for (const url of new Set(c.media)) {
+      imageCardCounts.set(url, (imageCardCounts.get(url) ?? 0) + 1);
+    }
+  }
+  for (const [url, count] of imageCardCounts) {
+    const share = count / day.cards.length;
+    if (share > MAX_IMAGE_SHARE) {
+      out.push(
+        `image ${url} appears in ${count} of ${day.cards.length} cards (${Math.round(share * 100)}%); must not exceed ${Math.round(MAX_IMAGE_SHARE * 100)}%`,
+      );
+    }
   }
 
   // Image-led cards are good and expected — MIN_CAROUSELS even requires some texture

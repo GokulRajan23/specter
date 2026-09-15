@@ -130,8 +130,29 @@ const PLAN = [
   },
 ];
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+/**
+ * The REST summary API throttles bursts of anonymous requests with 429s. Retry
+ * with backoff (honouring Retry-After when present) instead of silently
+ * treating a rate limit as "no such article" and dropping a card.
+ */
+async function fetchWithRetry(url, options, attempts = 4) {
+  let res;
+  for (let attempt = 0; attempt < attempts; attempt++) {
+    res = await fetch(url, options);
+    if (res.status !== 429) return res;
+    const retryAfter = Number(res.headers.get("retry-after"));
+    const delay = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 2 ** attempt * 1000;
+    await sleep(delay);
+  }
+  return res;
+}
+
 async function summary(title) {
-  const res = await fetch(API + title, {
+  const res = await fetchWithRetry(API + title, {
     headers: { "User-Agent": "Specter/0.1 (personal project; filler generation)" },
   });
   if (!res.ok) return null;
@@ -143,6 +164,18 @@ async function summary(title) {
     url: d.content_urls?.desktop?.page ?? `https://en.wikipedia.org/wiki/${title}`,
     image: image ? image.split("?")[0] : null,
   };
+}
+
+/** Fetch a day's articles one at a time, with a small pause between requests,
+ * rather than bursting them all at once — the burst is what triggers 429s in
+ * the first place. */
+async function summaryAll(titles) {
+  const pages = [];
+  for (const title of titles) {
+    pages.push(await summary(title));
+    await sleep(150);
+  }
+  return pages;
 }
 
 /**
@@ -207,6 +240,10 @@ function distinctSlices(parts, n) {
   return groups;
 }
 
+// Shared last-resort pool. Only used to pad a day that genuinely doesn't have
+// enough of its own article images — see paddingPool in buildDay. Used alone,
+// a 4-image pool padding half of every day's cards is exactly what put
+// Waistcoat.jpg in 11 of Monday's 22 cards.
 const EXTRA_IMAGES = [
   FILE("Waistcoat.jpg"),
   FILE("Memphis_tie_1A.JPG"),
@@ -221,6 +258,85 @@ const CARDS_PER_ARTICLE = 3;
 function buildDay({ day, slot, articles }, pages) {
   const cards = [];
 
+  // Every day's own fetched article images, tried before EXTRA_IMAGES — keeps
+  // a day's filler photographically its own, and multiplies the pool from 4
+  // shared images to (usually) 7-8 per day. EXTRA_IMAGES stays in the same
+  // pool as a standing fallback (a day can have as few as 5 of its own
+  // images, once some articles turn out to have none), but usage-based
+  // selection below means it's only actually picked once the day's own
+  // images are no longer the least-used option.
+  const ownImages = pages.filter((p) => p && p.image).map((p) => p.image);
+  const paddingPool = [...ownImages, ...EXTRA_IMAGES];
+
+  // Tracks how many cards each image has appeared in — including an
+  // article's own lead photo, reused across up to CARDS_PER_ARTICLE cards —
+  // so padding picks can always favour whichever image has been used least.
+  // A fixed rotation (the previous approach) still let one image dominate
+  // when the pool was small relative to the day's card count; explicitly
+  // balancing usage is what actually keeps every image under variety.ts's
+  // MAX_IMAGE_SHARE regardless of how many of a day's articles have images.
+  const usage = new Map();
+  function bump(urls) {
+    for (const u of new Set(urls)) usage.set(u, (usage.get(u) ?? 0) + 1);
+  }
+
+  // An own (or borrowed, see below) image is guaranteed to be reused across up
+  // to CARDS_PER_ARTICLE of its article's cards regardless of anything picked
+  // as padding — that's the whole point of a lead image. Padding selection
+  // has to know about that guaranteed future usage up front, or an image can
+  // look fully available right up until its own article is processed and
+  // pushes it well past the cap in one go.
+  const ownReserve = new Map(ownImages.map((u) => [u, CARDS_PER_ARTICLE]));
+  function effectiveUsage(u) {
+    return (usage.get(u) ?? 0) + (ownReserve.get(u) ?? 0);
+  }
+
+  // A hard cap on how many cards any one image may appear in, kept well under
+  // variety.ts's MAX_IMAGE_SHARE (25%). Based on an upper-bound estimate of the
+  // day's final card count (some articles get skipped when their extract can't
+  // support another distinct excerpt, which only ever lowers the real count),
+  // with a wide safety margin so that overshoot never pushes past 25%.
+  const estimatedCards = pages.filter(Boolean).length * CARDS_PER_ARTICLE;
+  const usageCap = Math.max(CARDS_PER_ARTICLE + 1, Math.floor(estimatedCards * 0.2));
+
+  // This is a hard ceiling, not a preference: an image at or past usageCap is
+  // simply never returned, even if that means returning fewer images than
+  // asked for. An earlier version fell back to over-cap candidates when the
+  // under-cap pool ran short for a two-image pick — that fallback, not pool
+  // size, was what let a single image run well past the cap, because once a
+  // few images crossed it together the "least-over" one kept winning that
+  // fallback on every subsequent call. A carousel that gets one fewer padding
+  // image than requested still satisfies every existing variety rule (it only
+  // needs media.length > 1 to count), so degrading gracefully is fine.
+  function pickPadding(exclude, count) {
+    const available = [...new Set(paddingPool.filter((u) => !exclude.includes(u) && effectiveUsage(u) < usageCap))];
+    const byUsage = available.sort((a, b) => effectiveUsage(a) - effectiveUsage(b));
+    return byUsage.slice(0, count);
+  }
+
+  // An article with no lead photo of its own borrows one from the pool, and
+  // from that point on the borrowed image gets reused across that article's
+  // own cards just like a real lead would. Assigning (and reserving) every
+  // borrow in one pass, before any card is built, matters as much as
+  // ownReserve's own up-front computation above: an article processed early
+  // in `pages` order must see a later article's eventual borrow reserved too,
+  // not just its own real lead images.
+  const mediaFor = new Map();
+  pages.forEach((p) => {
+    if (!p) return;
+    if (p.image) {
+      mediaFor.set(p, [p.image]);
+      return;
+    }
+    // A card must have at least one image, so this one fallback ignores the
+    // cap if every candidate is somehow already at it — EXTRA_IMAGES alone
+    // gives four options against a cap of at least four, so in practice this
+    // never happens.
+    const borrowed = pickPadding([], 1)[0] ?? paddingPool[0];
+    mediaFor.set(p, [borrowed]);
+    ownReserve.set(borrowed, (ownReserve.get(borrowed) ?? 0) + CARDS_PER_ARTICLE);
+  });
+
   // Running card count for the whole day — NOT the article index. Rotating the
   // register off this keeps adjacent cards alternating (long, carousel, image-led,
   // short carousel) even across an article boundary, instead of resetting to the
@@ -229,7 +345,7 @@ function buildDay({ day, slot, articles }, pages) {
 
   pages.forEach((p) => {
     if (!p) return;
-    const media = p.image ? [p.image] : [EXTRA_IMAGES[i % EXTRA_IMAGES.length]];
+    const media = mediaFor.get(p);
     const parts = splitSentences(p.extract);
 
     // Look ahead at the three modes this article is about to occupy, and count how
@@ -265,9 +381,8 @@ function buildDay({ day, slot, articles }, pages) {
         detail = `${p.title} · lead`;
         connector = `Where ${slot.toLowerCase()} starts.`;
       } else if (mode === 1) {
-        // Filtered, not sliced: when p.image is null the fallback above already came
-        // from EXTRA_IMAGES, and a repeat would collide as a React key in Carousel.
-        const extras = EXTRA_IMAGES.filter((u) => !media.includes(u)).slice(0, 2);
+        // Excludes media so a repeat can't collide as a React key in Carousel.
+        const extras = pickPadding(media, 2);
         excerpt = slices[textSlot++];
         detail = `${p.title} · in parts`;
         connector = "Swipe sideways — one idea, several parts.";
@@ -277,19 +392,14 @@ function buildDay({ day, slot, articles }, pages) {
         detail = p.title;
         connector = "Look before you read.";
       } else {
-        // Found by scanning, not by index arithmetic: with several cards per
-        // article, `i` at this point has drifted from the `i` used to pick
-        // `media`'s fallback above, so a fixed offset like `(i + 2) % 4` can
-        // land back on the same entry (this shipped as a real duplicate-media
-        // bug once CARDS_PER_ARTICLE > 1). Scanning for an image not already in
-        // `media` is correct regardless of how far `i` has moved.
-        const extra = EXTRA_IMAGES.find((u) => !media.includes(u)) ?? EXTRA_IMAGES[0];
+        const [extra] = pickPadding(media, 1);
         excerpt = slices[textSlot++];
         detail = `${p.title} · two views`;
         connector = "One line, two views, then on.";
-        cardMedia = [...media, extra];
+        cardMedia = extra ? [...media, extra] : media;
       }
 
+      bump(cardMedia);
       cards.push({
         source: "Wikipedia",
         domain: "en.wikipedia.org",
@@ -309,7 +419,7 @@ function buildDay({ day, slot, articles }, pages) {
 
 const days = [];
 for (const entry of PLAN) {
-  const pages = await Promise.all(entry.articles.map(summary));
+  const pages = await summaryAll(entry.articles);
   days.push(buildDay(entry, pages));
   process.stdout.write(
     `${entry.day}: ${pages.filter(Boolean).length} articles, ${days[days.length - 1].cards.length} cards\n`,
