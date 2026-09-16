@@ -50,19 +50,40 @@ describe("varietyViolations", () => {
   });
 
   it("passes a day that satisfies every rule", () => {
-    // Repeated to 18 cards (not just the original 6) so this also clears MIN_CARDS —
-    // a day needs enough length to be a session, not just enough shape to pass the rest.
+    // Repeated to 18 cards (not just the original 6) so this also clears both
+    // MIN_CARDS and the estimated-reading-time floor — a day needs enough
+    // length, in cards and in words, to be a session, not just enough shape
+    // to pass the rest.
     const base: Array<Partial<Card>> = [
-      { excerpt: "Short one." },
-      { media: ["a.jpg", "b.jpg", "c.jpg"] },
+      { excerpt: "Short one, just to set the floor of the spread." },
+      {
+        media: ["a.jpg", "b.jpg", "c.jpg"],
+        excerpt:
+          "A carousel card can still carry real text alongside its several images, " +
+          "rather than leaving all the reading to the cards around it.",
+      },
       {
         excerpt:
-          "A considerably longer excerpt that runs on for several clauses and sentences. " +
-          "It keeps going, because some cards are meant to be dense. And then it stops.",
+          "A considerably longer excerpt that runs on for several clauses and sentences, " +
+          "the kind meant to be read slowly rather than skimmed on the way past. " +
+          "It keeps going for a while yet, because some cards in a real day are meant " +
+          "to be dense rather than quick, and the estimate has to reflect that weight. " +
+          "Only then, after all of that, does it finally stop for good.",
       },
       { excerpt: "" },
-      { media: ["d.jpg", "e.jpg"] },
-      { excerpt: "Another middling excerpt, two sentences long. Like so." },
+      {
+        media: ["d.jpg", "e.jpg"],
+        excerpt:
+          "A second carousel, again with a real excerpt attached to it instead of " +
+          "standing in as a bare image-only card the way the led card already does.",
+      },
+      {
+        excerpt:
+          "Another middling excerpt, several sentences long this time rather than one. " +
+          "It gives the reading-time estimate something to add up across every card, " +
+          "the way a real curated day full of genuine variation would, " +
+          "rather than a handful of clipped one-liners that never add up to a session.",
+      },
     ];
     const cards: Card[] = Array.from({ length: 18 }, (_, i) => {
       const preset = base[i % base.length];
@@ -169,6 +190,25 @@ describe("varietyViolations", () => {
       });
     });
     expect(varietyViolations(day(cards)).join(" ")).toMatch(/in parts/);
+  });
+
+  it("flags the same image on two adjacent cards, even when every other rule passes", () => {
+    // A real control: 18 cards, 18 distinct articles, 2 carousels, an image-led
+    // card, a wide excerpt spread, no two near-empty cards back to back, and no
+    // image over 25% of the day — every other rule is satisfied. The only
+    // defect is that card 4 repeats an image card 3 already showed, which is
+    // exactly the case the owner noticed and asked to be fixed.
+    const long =
+      "A considerably longer excerpt that runs on for several clauses and sentences. " +
+      "It keeps going, because some cards are meant to be dense. And then it stops.";
+    const cards: Card[] = Array.from({ length: 18 }, (_, i) => {
+      if (i === 0) return card({ url: "https://x.test/0", media: ["a.jpg", "b.jpg", "c.jpg"], excerpt: "" });
+      if (i === 1) return card({ url: "https://x.test/1", media: ["d.jpg", "e.jpg"], excerpt: long });
+      if (i === 3) return card({ url: "https://x.test/3", media: ["repeat.jpg"], excerpt: `A middling excerpt, number 3, long enough to spread lengths out.` });
+      if (i === 4) return card({ url: "https://x.test/4", media: ["repeat.jpg"], excerpt: `A middling excerpt, number 4, long enough to spread lengths out.` });
+      return card({ url: `https://x.test/${i}`, media: [`https://x.test/${i}.jpg`], excerpt: `A middling excerpt, number ${i}, long enough to spread lengths out.` });
+    });
+    expect(varietyViolations(day(cards)).join(" ")).toMatch(/repeat\.jpg.*adjacent|adjacent.*repeat\.jpg/i);
   });
 
   it("accepts an empty day, which is not filler yet", () => {
