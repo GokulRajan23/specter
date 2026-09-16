@@ -9,6 +9,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "filler": "node scripts/fetch-filler.mjs",
+    "build-deck": "node scripts/build-deck.mjs",
     "icons": "python3 scripts/make-icons.py"
   },
   "dependencies": {
