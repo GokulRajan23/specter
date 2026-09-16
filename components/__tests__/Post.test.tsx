@@ -44,6 +44,16 @@ describe("Post", () => {
     expect(screen.getByText("1/2")).toBeInTheDocument();
   });
 
+  it("renders no image block for a text-only card", () => {
+    // Post always shows a small publisher avatar (via SourceAvatar), so the
+    // no-image case is about the Carousel specifically, not every <img> on
+    // the card.
+    const { container } = render(<Post card={{ ...card, media: [] }} day="monday" />);
+    expect(container.querySelector(".aspect-square")).not.toBeInTheDocument();
+    // The rest of the card still renders normally around the missing image.
+    expect(screen.getByText(card.excerpt)).toBeInTheDocument();
+  });
+
   it("shows a save button beside the source link, with spacing between them", () => {
     const { container } = render(<Post card={card} day="monday" />);
     expect(screen.getByRole("button", { name: "Save card" })).toBeInTheDocument();

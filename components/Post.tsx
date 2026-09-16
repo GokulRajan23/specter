@@ -14,7 +14,7 @@ export function Post({ card, day }: { card: Card; day: DayName }) {
         </div>
       </header>
 
-      <Carousel media={card.media} alt={card.detail} />
+      {card.media.length > 0 && <Carousel media={card.media} alt={card.detail} />}
 
       <div className="flex items-center gap-4 px-3.5 pb-1 pt-2.5">
         <a
