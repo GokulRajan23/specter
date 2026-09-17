@@ -43,6 +43,25 @@ export type Deck = {
   days: Day[];
 };
 
+/** The bit of a day's first image-bearing card the Today screen needs to
+ * render a live preview. Never the whole Card — no connector, no url, and
+ * the excerpt is pre-truncated — so this stays small enough to pass as a
+ * prop into the client Today component. */
+export type DayPreviewCard = {
+  source: string;
+  domain: string;
+  detail: string;
+  image: string | null;
+  excerpt: string;
+};
+
+export type DayPreview = {
+  day: DayName;
+  slot: string;
+  cardCount: number;
+  card: DayPreviewCard | null;
+};
+
 export function dayIndex(day: DayName): number {
   return DAY_NAMES.indexOf(day);
 }
