@@ -51,6 +51,40 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Suit · History",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Matt_Smith_on_%22Christopher_And_His_Kind%22_set.jpg?width=760"
+          ],
+          "excerpt": "The suit's origins trace the simplified, sartorial standard established by the English king Charles II in the 17th century, following the example of his one-time host King Louis XIV's court at Versailles, who decreed that in the English Court men would wear a long coat, a waistcoat (then called a \"petticoat\"), a cravat (a precursor of the necktie), a wig, knee breeches (trousers), and a hat. The paintings of Jan Steen, Pieter Bruegel the Elder, and other painters of the Dutch Golden Era reveal that such an arrangement was already used in Holland, if not Western Europe as a whole.",
+          "connector": "Before the map splits into named pieces, a word on which king gets blamed for starting this."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit · Front buttons",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Nick_Cave_2.jpg?width=760"
+          ],
+          "excerpt": "Most single-breasted suits have two or three buttons, and four or more buttons are unusual. Dinner jackets (\"black tie\") usually have only one button. It is rare to find a suit with more than four buttons, although zoot suits can have as many as six or more due to their longer length.",
+          "connector": "Last general idea before the garment gets cut into parts — buttons already have unwritten rules."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit · Cut · in parts",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Shinz%C5%8D_Abe_and_Ivanka_Trump_(4).jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/The_Duke_and_Duchess_of_Kent.jpg?width=760"
+          ],
+          "excerpt": "The two main cuts are double-breasted suits, a conservative design with two columns of buttons, spanned by a large overlap of the left and right sides; and single-breasted suits, in which the sides meet in the centre of the torso with a single column of buttons, overlapping only enough for one, two or three buttons to close, with by convention the jacket front cut so that the lowest button is not designed to close. Different styles of tailoring create different silhouettes, from the heavily padded military-inspired cut of traditional British tailors, to the less structured Neopolitan style. An essential part of this profile shaping is the inclusion of darts, reductions of fabric which allow for the coat to have a stronger shape.",
+          "connector": "Two silhouettes are easier to tell apart in a photo than in a sentence."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Suit jacket · lead",
           "url": "https://en.wikipedia.org/wiki/Suit_jacket",
           "media": [],
@@ -104,6 +138,49 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Waistcoat · Characteristics and use",
+          "url": "https://en.wikipedia.org/wiki/Waistcoat",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Child's_Beaded_Waistcoat%2C_late_19th_or_early_20th_century%2C_X98.jpg?width=760"
+          ],
+          "excerpt": "A waistcoat has a full vertical opening in the front, which fastens with buttons or press studs (snaps in North America). Both single-breasted and double-breasted waistcoats exist, regardless of the formality of dress, but single-breasted ones are more common. In a three piece suit, the cloth used matches the jacket and trousers.",
+          "connector": "Past the name, to the piece's one hard rule: how it's allowed to close."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Waistcoat · Daywear",
+          "url": "https://en.wikipedia.org/wiki/Waistcoat",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Evening_vest_MET_48.107.1_CP4.jpg?width=760"
+          ],
+          "excerpt": "Waistcoats worn with lounge suits (now principally single-breasted) normally match the suit in cloth, and have four to six buttons. Double-breasted waistcoats are rare compared to single but are more commonly seen in morning dress. These may either match the colour of the morning coat or be in a contrasting colour, commonly buff, dove grey, or powder blue.",
+          "connector": "Its daytime version follows rules the evening version doesn't share."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Waistcoat · Evening wear · in parts",
+          "url": "https://en.wikipedia.org/wiki/Waistcoat",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/French_waistcoat.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Gilet_in_kobaltblauwe_zijde_versierd_met_florale_motieven_in_damast%2C_1861-1865%2C_MMH.2016.0034%2C_Modemuseum_Hasselt.jpg?width=760"
+          ],
+          "excerpt": "The waistcoats worn with white- and black- tie are different from standard daytime single-breasted waistcoats, being much lower in cut (with three buttons or four buttons, where all are fastened). The much larger expanse of shirt compared to a daytime waistcoat allows more variety of form, with \"U\" or \"V\" shapes possible, and there is large choice of outlines for the tips, ranging from pointed to flat or rounded.",
+          "connector": "Worth seeing the evening cut next to the day one rather than just reading the difference."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit jacket · Pockets",
+          "url": "https://en.wikipedia.org/wiki/Suit_jacket",
+          "media": [],
+          "excerpt": "Most jackets have a variety of inner pockets, and two main outer pockets, which are generally either patch pockets, flap pockets, or jetted (besom) pockets. The patch pocket is, with its single extra piece of cloth sewn directly onto the front of the jacket, a sporting option, sometimes seen on summer linen suits, or other informal styles.",
+          "connector": "Back to the jacket for the detail every review of one starts with."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Trousers · lead",
           "url": "https://en.wikipedia.org/wiki/Trousers",
           "media": [
@@ -126,6 +203,26 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Trousers · Antiquity",
+          "url": "https://en.wikipedia.org/wiki/Trousers",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Convertible_Ventilated_Trousers_shown_with_one_leg_cover_removed.jpg?width=760"
+          ],
+          "excerpt": "Remnants of short and long trousers remain from the mummified human remains in salt mines in Iran dating back to the Persian Empire. Trousers enter recorded history in the sixth century BC, on the rock carvings and artworks of Persepolis, and with the appearance of horse-riding Eurasian nomads in Greek ethnography. At this time, Iranian peoples such as Scythians, Sarmatians, Sogdians and Bactrians among others, along with Armenians and Eastern and Central Asian peoples such as the Xiongnu/Hunnu, are known to have worn trousers.",
+          "connector": "Skip ahead to the piece whose backstory runs further back than anything else on today's map."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Trousers · Fly",
+          "url": "https://en.wikipedia.org/wiki/Trousers",
+          "media": [],
+          "excerpt": "A fly is a covering over an opening join concealing the mechanism, such as a zipper, velcro, or buttons, used to join the opening. In trousers, this is most commonly an opening covering the groin, which makes the pants easier to put on or take off. The opening also allows men to urinate without lowering their trousers. Trousers have varied historically in whether or not they have a fly.",
+          "connector": "A mechanical detail, the kind that only gets written down once somebody asks."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Necktie · lead",
           "url": "https://en.wikipedia.org/wiki/Necktie",
           "media": [
@@ -144,6 +241,29 @@
           ],
           "excerpt": "Importance is given to the styling of the knot. In the late 1990s, Thomas Fink and Yong Mao of University of Cambridge mathematically determined 13 knots as \"aesthetically\" viable out of a possible total of 85, of which the commonest known are the four-in-hand, the Pratt, and the Windsor knots.",
           "connector": "Someone, at some point, actually sat down and did the math on this one."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Necktie · Tartan · in parts",
+          "url": "https://en.wikipedia.org/wiki/Necktie",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Andover_ties.JPG?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/British_Regimental_Ties_1.jpg?width=760"
+          ],
+          "excerpt": "Tartan neckties are often found as variations on the theme of clan tartans in the Scottish Register of Tartans. Tartan (Scottish Gaelic: breacan [ˈpɾʲɛxkən]) is a patterned cloth consisting of crossing horizontal and vertical bands in multiple colours, forming repeating symmetrical patterns known as setts. Originating in woven wool, tartan is most strongly associated with Scotland, where it has been used for centuries in traditional clothing such as the kilt.",
+          "connector": "One pattern gets its own aside here, worth seeing rather than just naming."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Necktie · Origins",
+          "url": "https://en.wikipedia.org/wiki/Necktie",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/British_Regimental_Ties_2.jpg?width=760"
+          ],
+          "excerpt": "The necktie that spread from Europe traces back to Croatian mercenaries serving in France during the Thirty Years' War (1618–1648). These mercenaries from the Military Frontier, wearing their traditional small, knotted neckerchiefs, aroused the interest of the Parisians. Because of the difference between the Croatian word for Croats, Hrvati, and the French word, Croates, the garment gained the name cravat (cravate in French).",
+          "connector": "Back to the same piece for where its name actually came from."
         },
         {
           "source": "Wikipedia",
@@ -172,6 +292,37 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Lapel · Notched",
+          "url": "https://en.wikipedia.org/wiki/Lapel",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Dress-pinstripe.jpg?width=760"
+          ],
+          "excerpt": "The notched lapel (American English), step lapel or step collar (British English) is sewn to the collar at an angle, creating a step effect. This is the standard on single-breasted suits, and is used on nearly all suit jackets, blazers, and sports jackets.",
+          "connector": "Broken into its three shapes now, starting with the one on almost every jacket."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Lapel · Peaked",
+          "url": "https://en.wikipedia.org/wiki/Lapel",
+          "media": [],
+          "excerpt": "The peaked lapel (American English), peak lapel, or pointed lapel (British English), is the most formal, featuring on double-breasted jackets, all formal coats such as a tailcoat or morning coat, and also commonly with a tuxedo (both single and double breasted). In the late 1920s and 1930s, the single breasted peaked lapel jacket was considered a very stylish design.",
+          "connector": "The second shape, and apparently the hardest one for a tailor to actually cut."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Lapel · Shawl",
+          "url": "https://en.wikipedia.org/wiki/Lapel",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Lapel_Watch_(USA)%2C_ca._1889_(CH_18497615).jpg?width=760"
+          ],
+          "excerpt": "The shawl lapel, shawl collar, or roll collar is a continuous curve. Originally seen on the Victorian smoking jacket, it is now most common on the dinner jacket or tuxedo.",
+          "connector": "The third shape closes the set, and it skips the suit jacket entirely."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Dress shirt · lead",
           "url": "https://en.wikipedia.org/wiki/Dress_shirt",
           "media": [
@@ -188,6 +339,17 @@
           "media": [],
           "excerpt": "A shirt has several components: A one-piece back, which is usually pleated, gathered, or eased into a section of fabric in the upper part of the back behind the neck and over the shoulders known as the yoke (either one-piece or seamed vertically in the middle). Two front panels which overlap slightly down the middle on the placket to fasten with buttons (or, more rarely, shirt studs). One-piece sleeves with plackets at the wrist with a band of fabric around each wrist known as a cuff, or else short-sleeved (cut off above the elbow), though this is not traditional.",
           "connector": "Taken apart, piece by named piece — read this one slowly."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dress shirt · Collars",
+          "url": "https://en.wikipedia.org/wiki/Dress_shirt",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Camisade_pu%C3%B1o_doble.jpg?width=760"
+          ],
+          "excerpt": "Spread collars measure from around 3+1⁄2 to 8+1⁄2 inches (89 to 216 mm) between the collar points, and the wider collars are often referred to as cutaway or Windsor collars after the Duke of Windsor. This city style is more formal, though it is common in Europe, and predominant in the UK. Point, straight, or small collars are narrow, with 2+1⁄2 to 4 inches (64 to 102 mm) between the points of the collar.",
+          "connector": "One more layer in on the same shirt, to the part that actually signals formality."
         },
         {
           "source": "Wikipedia",
@@ -210,6 +372,15 @@
           ],
           "excerpt": "Although the first cufflinks appeared in the 1600s, they did not become common until the end of the 18th century. Their development is closely related to that of the men's shirt. Men have been wearing shirt-like items of clothing since the invention of woven fabric 5,000 years BC.",
           "connector": "Small object, longer backstory than its size suggests."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Cufflink · Motif",
+          "url": "https://en.wikipedia.org/wiki/Cufflink",
+          "media": [],
+          "excerpt": "The visible part of a cufflink is often monogrammed or decorated in some way, such as with a birthstone or something which reflects a hobby or association. There are numerous styles including novelty, traditional, or contemporary. Cufflinks can and have been worn with tuxedos casual wear, informal attire or business suits, all the way to very dressy styles such as semi-formal (black tie or Stroller), and formal wear (morning dress or white tie), where they become essentially required and are matched with shirt studs.",
+          "connector": "The map closes on how this last piece gets chosen, not just what it is."
         }
       ]
     },
@@ -253,6 +424,40 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Savile Row · Nineteenth century",
+          "url": "https://en.wikipedia.org/wiki/Savile_Row",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row-_Tailoring_at_Henry_Poole_and_Co.%2C_London%2C_England%2C_UK%2C_1944_D21866.jpg?width=760"
+          ],
+          "excerpt": "Tailors started to take premises around Savile Row in the late 18th century, first in Cork Street, about 1790, then by 1803 in Savile Row itself. In 1846, Henry Poole, credited as creator of the dinner jacket or tuxedo, opened an entrance at 37 Savile Row from his late father's tailoring premises at 4 Old Burlington Street.",
+          "connector": "One of those names again, now with the year he actually opened his door."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Savile Row · Twentieth century · in parts",
+          "url": "https://en.wikipedia.org/wiki/Savile_Row",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row_from_Burlington_Gardens.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row_%C3%89difice_Pancarte.jpg?width=760"
+          ],
+          "excerpt": "In July 1968, the Beatles moved Apple Corps, their multimedia corporation, into 3 Savile Row. Apple purchased the building on 22 June for £500,000 (equivalent to £4,600,000 in 2025). A studio was built in the basement; though it was poorly designed, the Beatles recorded Let It Be there before a new studio was constructed in 1971 at an estimated cost of $1.5 million.",
+          "connector": "The street's most famous tenant had nothing to do with tailoring at all."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Savile Row · Architecture",
+          "url": "https://en.wikipedia.org/wiki/Savile_Row",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Street_by_Horwood_1819.jpg?width=760"
+          ],
+          "excerpt": "The original architectural plan for Savile Row is believed to have been drawn up by Colen Campbell, with Henry Flitcroft as the main architect of the street, under the supervision of Daniel Garrett; though 1 and 22–23 Savile Row were designed by William Kent, who moved into No. 2. These architects were all under the influence of Burlington's interpretation of Palladian architecture, known as \"Burlingtonian\", which was to have some influence on English architecture in the 16th century.",
+          "connector": "Before the street had a reputation for suits, it had an architect."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Frock coat · lead",
           "url": "https://en.wikipedia.org/wiki/Frock_coat",
           "media": [
@@ -260,6 +465,15 @@
           ],
           "excerpt": "A frock coat is a formal men's coat characterised by a knee-length skirt cut all around the base just above the knee, popular during the Victorian and Edwardian periods (1830s–1910s). It is a fitted, long-sleeved coat with a centre vent at the back and some features unusual in post-Victorian dress. These include the reverse collar and lapels, where the outer edge of the lapel is often cut from a separate piece of cloth from the main body and also a high degree of waist suppression around the waistcoat, where the coat's diameter around the waist is less than around the chest.",
           "connector": "From where the tailoring happened to what it was making before the suit existed."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Frock coat · Name",
+          "url": "https://en.wikipedia.org/wiki/Frock_coat",
+          "media": [],
+          "excerpt": "The name frock coat appeared out from the earlier frock. Earlier terminology also used redingote (or redingotte, redingot), derived from a French alteration of the English \"riding coat\", an example of re-borrowing.",
+          "connector": "Even this garment's name is borrowed from somewhere else."
         },
         {
           "source": "Wikipedia",
@@ -277,13 +491,35 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Frock coat · lead",
+          "detail": "Frock coat · Earlier frock",
           "url": "https://en.wikipedia.org/wiki/Frock_coat",
           "media": [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Blutritt_2011_Gruppe_Weingarten_Blutreiter_1a.jpg?width=760"
           ],
+          "excerpt": "During the mid-17th century, the older doublets, ruffs, paned hose, and jerkins were replaced by the precursor to the three-piece suit, comprising waistcoat, tight breeches, and a long coat called a justacorps, topped by a powdered wig and tricorne hat. This coat, popularized by Louis XIII of France and Charles II of England, was knee-length and looser fitting than the later frock coat, with turn-back cuffs and two rows of buttons.",
+          "connector": "One step earlier than the garment this whole card set is named for."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Frock coat · lead",
+          "url": "https://en.wikipedia.org/wiki/Frock_coat",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Caspar_Frederik_Wegener_1863_by_Jens_Petersen.jpg?width=760"
+          ],
           "excerpt": "From the 1920s, the frock coat was increasingly replaced as day formal wear by the cut-away morning coat. In 1936, it was suspended from the protocol of audiences at the British royal court.",
           "connector": "Every garment on this map eventually gets replaced by the next one."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Frock coat · Decline",
+          "url": "https://en.wikipedia.org/wiki/Frock_coat",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/ChurchillGeorge0001.jpg?width=760"
+          ],
+          "excerpt": "At the most formal events during the signing of the Treaty of Versailles in 1919, heads of government wore the frock coat but at more informal meetings they wore morning coats or even a lounge suit. In 1926, George V hastened the demise of the frock coat when he shocked the public by appearing at the opening of the Chelsea Flower Show wearing a morning coat.",
+          "connector": "That replacement had a date, and even a king attached to it."
         },
         {
           "source": "Wikipedia",
@@ -299,6 +535,17 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Beau Brummell · Military career",
+          "url": "https://en.wikipedia.org/wiki/Beau_Brummell",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Beau_Brummel_Gillette_ad.jpg?width=760"
+          ],
+          "excerpt": "In June 1794, Brummell purchased a cornet's commission in the British Army's 10th Light Dragoons, and soon after had his nose broken by a kick from a horse. His father died in 1795, by which time Brummell had been promoted to lieutenant.",
+          "connector": "Before the legend, an ordinary and slightly unlucky army posting."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Beau Brummell · Life",
           "url": "https://en.wikipedia.org/wiki/Beau_Brummell",
           "media": [],
@@ -308,13 +555,33 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Beau Brummell · In London society",
+          "url": "https://en.wikipedia.org/wiki/Beau_Brummell",
+          "media": [],
+          "excerpt": "It is believed that around this time Brummell and his tailor (whom he shared with the Prince Regent) Jonathan Meyer (later Meyer & Mortimer) of Conduit Street, collaborated to produce what was to become the contemporary trouser – a garment, it is alleged, that Brummell subsequently introduced to London society and that has remained standard gentleman’s attire ever since. Above all, Brummell favoured immaculate shirt linen and an elaborately knotted cravat.",
+          "connector": "This is the part of his story that actually explains Monday's trousers."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Beau Brummell · Later life, illness and death",
           "url": "https://en.wikipedia.org/wiki/Beau_Brummell",
           "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Beau_Brummel_Gillette_ad.jpg?width=760"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Beau_Brummell%2C_Paul_Walsh%2C_1930.jpg?width=760"
           ],
           "excerpt": "",
           "connector": "Not every origin story on this map ends well."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Beau Brummell · Downfall",
+          "url": "https://en.wikipedia.org/wiki/Beau_Brummell",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Beau_Brummell_Statue_Jermyn_Street.JPG?width=760"
+          ],
+          "excerpt": "The Prince Regent greeted Alvanley and Pierrepont at the event, and then \"cut\" Brummell and Mildmay by staring at their faces without speaking. This provoked Brummell's remark, \"Alvanley, who's your fat friend?\".",
+          "connector": "One line of his is the reason the ending arrived at all."
         },
         {
           "source": "Wikipedia",
@@ -325,7 +592,16 @@
             "https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_D%E2%80%99Orsay.png?width=760"
           ],
           "excerpt": "A dandy is a man who places particular importance upon physical appearance and personal grooming, refined language and leisurely hobbies.",
-          "connector": "The man from the last two cards gave his approach a name."
+          "connector": "The man from the last few cards gave his approach a name."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dandy · Etymology",
+          "url": "https://en.wikipedia.org/wiki/Dandy",
+          "media": [],
+          "excerpt": "The earliest record of the word dandy dates back to the late 1700s, in Scottish Song. Since the late 18th century, the word dandy has been rumored to be an abbreviated usage of the 17th-century British jack-a-dandy; the term was used to described a conceited man.",
+          "connector": "Even the name for his approach has its own murky backstory."
         },
         {
           "source": "Wikipedia",
@@ -341,11 +617,32 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Dandy · Black dandyism · in parts",
+          "url": "https://en.wikipedia.org/wiki/Dandy",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Dandies_of_1831.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Dandizette.jpg?width=760"
+          ],
+          "excerpt": "British-Nigerian artist Yinka Shonibare employs the neo-Victorian dandy stereotypes to illustrate Black experiences in Western European societies. Shonibare's photographic suite Dorian Gray (2001), in reference to The Picture Of Dorian Gray (1890), substitutes a disfigured Black protagonist.",
+          "connector": "The same figure gets reworked by an artist a century and a half later."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Dandy · British dandyism",
           "url": "https://en.wikipedia.org/wiki/Dandy",
           "media": [],
           "excerpt": "In the mid-19th century, amidst the restricted palette of muted colors for men's clothing, the English dandy dedicated meticulous attention to the finer details of sartorial refinement (design, cut, and style), including: \"The quality of the fine woollen cloth, the slope of a pocket flap or coat revers, exactly the right colour for the gloves, the correct amount of shine on boots and shoes, and so on. It was an image of a well-dressed man who, while taking infinite pains about his appearance, affected indifference to it. This refined dandyism continued to be regarded as an essential strand of male Englishness.\"",
           "connector": "A longer one here — this description holds up better read in full."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dandy · Dandy sociology",
+          "url": "https://en.wikipedia.org/wiki/Dandy",
+          "media": [],
+          "excerpt": "Regarding the existence and the political and cultural functions of the dandy in a society, in the essay L'Homme révolté (1951), Albert Camus said that: The dandy creates his own unity by aesthetic means. But it is an aesthetic of negation. To live and die before a mirror: that, according to Baudelaire, was the dandy's slogan.",
+          "connector": "One philosopher's read on the whole idea, worth sitting with before moving past it."
         },
         {
           "source": "Wikipedia",
@@ -372,6 +669,35 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Morning dress · Composition",
+          "url": "https://en.wikipedia.org/wiki/Morning_dress",
+          "media": [],
+          "excerpt": "Morning dress consists of: a morning coat (the morning cut of tailcoat), now always single breasted with link closure (as on some dinner jackets) or one button (or very rarely two) and with peaked lapels, may include silk piping on the edges of the coat and lapels (and cuffs on older models with turnup coat sleeves). a waistcoat, which matches the material of the coat. a pair of formal striped or checked trousers worn with braces. a shirt: either a turndown collar is worn (white detachable, fastened by collar studs; or attached) with a tie, in which case the shirt has double cuffs. otherwise, a high detachable wing collar is worn with a double-cuffed shirt; this combination is sometimes accompanied now by a formal ascot, as opposed to a day cravat which is different.",
+          "connector": "One sentence does the work an entire outfit list would otherwise take."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Morning dress · Neck wear",
+          "url": "https://en.wikipedia.org/wiki/Morning_dress",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Frederick_Douglass_%26_grandson_Joseph%2C_c1890s.jpg?width=760"
+          ],
+          "excerpt": "A wing collar and cravat may be worn with a black coat but not with a grey one. Cravats have been proscribed in the Royal Enclosure at Royal Ascot since 2012 and should therefore be treated with caution in any context in the United Kingdom and other Commonwealth realms.",
+          "connector": "Even one accessory on this register has its own recent rule change."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Morning dress · United States",
+          "url": "https://en.wikipedia.org/wiki/Morning_dress",
+          "media": [],
+          "excerpt": "The morning-dress Supreme Court tradition applies only to male SGs; for female SGs and deputies, use of the morning coat is optional. Elena Kagan, upon her appointment as SG in 2009, decided to wear a dark pantsuit instead for her arguments.",
+          "connector": "The register survives in one American courtroom tradition, with one modern exception."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Black tie · lead",
           "url": "https://en.wikipedia.org/wiki/Black_tie",
           "media": [
@@ -394,11 +720,43 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Black tie · Name",
+          "url": "https://en.wikipedia.org/wiki/Black_tie",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Cummerbund1950.JPG?width=760"
+          ],
+          "excerpt": "Tuxedo in the context of menswear originated in the United States around 1888. It was named after Tuxedo Park, a Hudson Valley enclave for New York's social elite where it was often seen in its early years. The term was capitalized until the 1930s and traditionally referred only to a white jacket.",
+          "connector": "The register's other name traces back to one specific enclave, not a general style."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Black tie · Jacket · in parts",
+          "url": "https://en.wikipedia.org/wiki/Black_tie",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Dinner_Jacket_Lapel_Boutonni%C3%A8re.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Dinner_Jacket_Link_Front_Closure.jpg?width=760"
+          ],
+          "excerpt": "The original and most formal model of dinner jacket is the single-breasted model. The typical black tie jacket is single-breasted with one button only, with jetted, or besom, pockets and is of black or midnight blue; usually of wool or a wool-mohair, or wool-polyester blend, although other materials, especially silk, are seen.",
+          "connector": "Worth seeing the single-breasted version before reading what varies on it."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Black tie · British origins in the 19th century",
           "url": "https://en.wikipedia.org/wiki/Black_tie",
           "media": [],
           "excerpt": "As such, in these early days, black tie, in contrast to formal white tie, was considered informal wear. In the following decades of the Victorian era, the style became known as a dinner jacket: a fashionable, formal alternative for the tailcoat which men of the upper classes wore every evening.",
           "connector": "One line, but it repositions everything that came before it today."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Black tie · Cummerbund",
+          "url": "https://en.wikipedia.org/wiki/Black_tie",
+          "media": [],
+          "excerpt": "A cummerbund may be worn with a dinner jacket in lieu of a waistcoat and, although it is considered slightly less formal, it is equally correct. It looks especially well with a shawl collar dinner jacket but may be worn in conjunction with peak lapels.",
+          "connector": "One accessory on this register exists only to replace another one."
         },
         {
           "source": "Wikipedia",
@@ -414,10 +772,21 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Court dress · Reform",
+          "detail": "Court dress · Advocates",
           "url": "https://en.wikipedia.org/wiki/Court_dress",
           "media": [
             "https://commons.wikimedia.org/wiki/Special:FilePath/2018-10-31_BGH_Verhandlungstermin_am_31._Oktober_2018_in_Sachen_I_ZR_104-17_(Bundesgerichtshof_zur_Ver%C3%B6ffentlichung_von_Abbildungen_gemeinfreier_Kunstwerke)_StP_3087_LR10_by_Stepro.jpg?width=760"
+          ],
+          "excerpt": "English and Welsh advocates (whether barristers, solicitors or other authorised lawyers such as chartered legal executive advocates with the appropriate right of audience) who appear before a judge who is robed must themselves be robed. All male advocates wear a white stiff wing collar with bands (two strips of cotton about 5 by 1 in (127 by 25 mm) hanging down the front of the neck).",
+          "connector": "The law even specifies what the people arguing the case have to wear."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Court dress · Reform",
+          "url": "https://en.wikipedia.org/wiki/Court_dress",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_B_145_Bild-F083310-0005%2C_Karlsruhe%2C_Bundesverfassungsgericht_(retuschiert).jpg?width=760"
           ],
           "excerpt": "There is logic in having the same formal court dress, where formality and robes are required, for criminal and civil barristers... There is strong identification of the Bar of England and Wales in the public's mind and its formal dress nationally and internationally. For the most part, the changes only affect what is worn by judges in civil courts, who now wear a simplified robe and no wig.",
           "connector": "Even the oldest register on this map isn't frozen in place."
@@ -1112,12 +1481,12 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Trousers · Terminology",
-          "url": "https://en.wikipedia.org/wiki/Trousers",
+          "detail": "Waistcoat · Names",
+          "url": "https://en.wikipedia.org/wiki/Waistcoat",
           "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Bronze_Statuette_of_a_Suebi_captive.jpg?width=760"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Argyle_pattern_sweater_vest.jpg?width=760"
           ],
-          "excerpt": "The standard English form trousers is also used, but it is sometimes pronounced in a manner approximately represented by [ˈtruːzɨrz], as Scots did not completely undergo the Great Vowel Shift, and thus retains the vowel sound of the Gaelic triubhas, from which the word originates. In North America, Australia, and South Africa, pants is the general category term, whereas trousers (sometimes slacks in Australia and North America) often refers more specifically to tailored garments with a waistband, belt-loops, and a fly-front. In these dialects, elastic-waist knitted garments would be called pants, but not trousers (or slacks).",
+          "excerpt": "The word \"waistcoat\" derives from the cutting of the coat at waist-level, since at the time of the coining, tailors cut men's formal coats well below the waist (as with dress coats). An alternative theory is that, as material was left over from the tailoring of a two-piece suit, it was fashioned into a \"waste-coat\" to avoid that material being wasted, although recent academic debate has cast doubt on this theory.",
           "connector": "Someone asks why a necktie knot looks the way it does. What do you say?"
         },
         {
@@ -1134,12 +1503,12 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Frock coat · lead",
-          "url": "https://en.wikipedia.org/wiki/Frock_coat",
+          "detail": "Savile Row · Architecture",
+          "url": "https://en.wikipedia.org/wiki/Savile_Row",
           "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Blutritt_2011_Gruppe_Weingarten_Blutreiter_1a.jpg?width=760"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Street_by_Horwood_1819.jpg?width=760"
           ],
-          "excerpt": "From the 1920s, the frock coat was increasingly replaced as day formal wear by the cut-away morning coat. In 1936, it was suspended from the protocol of audiences at the British royal court.",
+          "excerpt": "The original architectural plan for Savile Row is believed to have been drawn up by Colen Campbell, with Henry Flitcroft as the main architect of the street, under the supervision of Daniel Garrett; though 1 and 22–23 Savile Row were designed by William Kent, who moved into No. 2. These architects were all under the influence of Burlington's interpretation of Palladian architecture, known as \"Burlingtonian\", which was to have some influence on English architecture in the 16th century.",
           "connector": "Someone asks who \"the dandy\" everyone name-drops actually was. What do you say?"
         },
         {
