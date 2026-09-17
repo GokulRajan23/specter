@@ -98,9 +98,12 @@ function TodayPreview({
               </div>
             ) : null}
 
-            <p className="line-clamp-3 px-3.5 pb-3.5 pt-2.5 text-sm leading-[1.45]">
-              {preview.card.excerpt}
-            </p>
+            {/* Padding lives on the wrapper, not on the clamped element:
+                -webkit-box (which line-clamp uses) renders a sliced extra
+                line inside its own bottom padding. */}
+            <div className="px-3.5 pb-3.5 pt-2.5">
+              <p className="line-clamp-3 text-sm leading-[1.45]">{preview.card.excerpt}</p>
+            </div>
           </>
         ) : (
           <p className="px-3.5 py-3.5 text-sm leading-[1.45] text-ink2">

@@ -69,7 +69,9 @@ export function Feed({ day }: { day: Day }) {
 
       <div
         ref={ref}
-        className="no-bars h-full overflow-y-auto overscroll-none pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]"
+        // Clear the floating back button (top inset + 0.5rem offset + its 2rem
+        // height) so it never lands on the first card's source avatar.
+        className="no-bars h-full overflow-y-auto overscroll-none pt-[calc(env(safe-area-inset-top)+3rem)] pb-[env(safe-area-inset-bottom)]"
       >
         {day.cards.map((card, i) => (
           <Post key={`${card.url}-${i}`} card={card} day={day.day} />
