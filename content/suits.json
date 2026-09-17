@@ -1940,6 +1940,26 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Business casual · Definition",
+          "url": "https://en.wikipedia.org/wiki/Business_casual",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Susan_Wojcicki_at_TechCrunch_Disrupt_SF_2013.jpg?width=760"
+          ],
+          "excerpt": "There is no generally agreed definition of \"business casual\". One definition states that it includes khaki pants, slacks, and skirts, as well as short-sleeved polo shirts and long-sleeved shirts, but excludes tight or short skirts, T-shirts, and sweatshirts.",
+          "connector": "Before the predecessor, a confession: nobody actually agrees what this term means."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Business casual · Definition",
+          "url": "https://en.wikipedia.org/wiki/Business_casual",
+          "media": [],
+          "excerpt": "Another states that business casual consists of neutral colors more towards the dark shades of black, gray, navy, but can include white and off white, and reminds that the clothing should be pressed and have clean, crisp seams. The \"Dress for Success\" advice from the University of Toronto defines business casual as \"a classic, clean cut, and put together look where a full suit is not required,\" which means slacks, khakis, or skirts; blouses, polo shirts, or shirts with collar but no necktie; some sweaters; and closed-toe shoes.",
+          "connector": "Here are two more competing definitions, neither of which settles it either."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Casual Friday · lead",
           "url": "https://en.wikipedia.org/wiki/Casual_Friday",
           "media": [],
@@ -1956,6 +1976,15 @@
           ],
           "excerpt": "",
           "connector": "The image is doing the work on this one."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Casual Friday · lead",
+          "url": "https://en.wikipedia.org/wiki/Casual_Friday",
+          "media": [],
+          "excerpt": "Casual Friday began in the United States in the 1950s and 1960s, when Hewlett-Packard allowed its employees to dress more casually on Friday and work on new ideas. In Hawaii, \"Aloha Wear\" is suitable business attire any day of the week, and the term \"Aloha Friday\" is generally used simply to refer to the last day of the workweek. Valerie Steele described the introduction of casual Friday as the most radical change in work fashion since the 1970s, when women asked for the right to wear trousers in the office.",
+          "connector": "Its own short article still has one more origin story left in it, worth finishing."
         },
         {
           "source": "Wikipedia",
@@ -1980,6 +2009,46 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Athleisure · Background",
+          "url": "https://en.wikipedia.org/wiki/Athleisure",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Keeping_Fit_and_Connected_(6635665267)_(cropped).jpg?width=760"
+          ],
+          "excerpt": "By the 1970s, athletic fashion was ubiquitous throughout North American street culture which grew in popularity throughout the 1980s from old school hip hop music videos. By some accounts, the growth of the modern athleisure trend took root and became more pronounced during the mid-2010s, which itself grew out of the popularity of yoga pants that emerged throughout the mid to late 2000s. Springing from the convenience of wearing clothes allowed North American women to casually wear yoga pants for multiple occasions without having to frequently change.",
+          "connector": "That background actually starts decades before the word itself did."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Athleisure · Market size and trends",
+          "url": "https://en.wikipedia.org/wiki/Athleisure",
+          "media": [],
+          "excerpt": "Reports in USA Today and The Wall Street Journal in 2015 described the athleisure market as growing, displacing typical workwear styles, and cutting in to sales of jeans, with a market size in 2014 of US$35 billion, representing an 8% increase from the previous year. According to one estimate, the athleisure market, including footwear, was US$270 billion in 2016, and was estimated to grow 30% in the United States and Asia by the year 2020.",
+          "connector": "Whatever it's called, the market size makes the case for itself."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Athleisure · Social",
+          "url": "https://en.wikipedia.org/wiki/Athleisure",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Wrap_Pant_1.jpg?width=760"
+          ],
+          "excerpt": "Athleisure has been promoted by celebrities such as Beyoncé and Rihanna. It has been criticized because of the way it displays the feminine form.",
+          "connector": "Money aside, this is also the trend two very different celebrities get credited for."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Athleisure · Materials and technology",
+          "url": "https://en.wikipedia.org/wiki/Athleisure",
+          "media": [],
+          "excerpt": "Scientific advancements have led to the rise of new modern technical fibers being developed and used to make athleisure more resistant to wear and tear, water, grease, and stains as well as to enable greater odor reduction, sweat-wicking, and stretchability to conform to the human body's shape. Some athleisure designs allow certain segments more breathability while other parts can have greater tension or durability.",
+          "connector": "None of that popularity works without the actual fabric doing something new."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Streetwear · lead",
           "url": "https://en.wikipedia.org/wiki/Streetwear",
           "media": [
@@ -1987,6 +2056,15 @@
           ],
           "excerpt": "Streetwear is a style of casual clothing that gained global popularity in the 1990s. Emerging from the fusion of African-American and Latino hip-hop fashion in New York with elements of Californian surf culture, it evolved to incorporate elements of sportswear, punk, skateboarding, 1980s nostalgia, and Japanese street fashion. Streetwear is seen as an aspect of African American culture and fashion, and is associated with African American musical traditions, particularly RnB and hip-hop.",
           "connector": "A separate line entirely arrives at a similar place."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Streetwear · History",
+          "url": "https://en.wikipedia.org/wiki/Streetwear",
+          "media": [],
+          "excerpt": "Streetwear has been defined in many different ways, such as: a movement of widespread references from American culture in the 1990s and skater culture, as hip-hop fashion from the East Coast, as a distinct style within African American culture, or as a generalized synonym for any locale's street fashion. Streetwear style is generally accepted to have been born out of the emerging hip-hop culture of the late 1970s and early 1980s in New York City, consisting predominately of African Americans as well as Latino Americans; it then migrated to the West Coast and incorporated elements of Los Angeles surf culture and skate culture. Early streetwear in the 1970s and 1980s also took inspiration from the do-it-yourself aesthetic of punk, new wave, heavy metal.",
+          "connector": "Its own definition is contested from more directions than any other term this week."
         },
         {
           "source": "Wikipedia",
@@ -2004,9 +2082,54 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Streetwear · lead",
+          "detail": "Streetwear · Sneakerheads",
+          "url": "https://en.wikipedia.org/wiki/Streetwear",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Wang_Photo_by_Ed_Kavishe_Fashion_Wire_Press.jpg?width=760"
+          ],
+          "excerpt": "Sneaker collecting was popularized in-part by African Americans and is an important aspect of contemporary African American culture. Sneakers have been associated with streetwear since the late 1970s.",
+          "connector": "One accessory within that culture became its own collecting scene."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Streetwear · Hypebeast culture",
+          "url": "https://en.wikipedia.org/wiki/Streetwear",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Duh_club.jpg?width=760"
+          ],
+          "excerpt": "The term \"hypebeast\" originated in the mid-2000s as a AAVE term for individuals who bought streetwear primarily to follow trends. Initially used as a derogatory term, it was later reappropriated by Hong Kong journalist Kevin Ma, who named his fashion blog Hypebeast after the phrase.",
+          "connector": "That collecting scene eventually earned its own, less flattering nickname."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Streetwear · Global streetwear · in parts",
+          "url": "https://en.wikipedia.org/wiki/Streetwear",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/St%C3%BCssy_KL_230509.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Timberland_Shoes_1.jpg?width=760"
+          ],
+          "excerpt": "Streetwear now enjoys globally popularity and is regularly associated with luxury brands. Jil Sander was the earliest luxury fashion brand to collaborate with a sportswear firm, Adidas, on a co-creation project in 1998.",
+          "connector": "The nickname stayed local. The market it describes did not."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Streetwear · Cultural Appropriation",
           "url": "https://en.wikipedia.org/wiki/Streetwear",
           "media": [],
+          "excerpt": "Since streetwear is heavily associated with African American culture and has its origins in hip-hop, it has become subject of cultural appropriation claims. Aspects of Black American culture are often subjected to being popularized outside of their culture context, include AAVE, streetwear, and Black music.",
+          "connector": "That global spread is also where the harder argument about this culture starts."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Streetwear · lead",
+          "url": "https://en.wikipedia.org/wiki/Streetwear",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Wang_Photo_by_Ed_Kavishe_Fashion_Wire_Press.jpg?width=760"
+          ],
           "excerpt": "In the 21st century, streetwear intersected with haute couture, as luxury fashion houses adopted streetwear influences, while streetwear brands incorporated aspects of high fashion including runway presentation, designer collaborations, and premium branding.",
           "connector": "And this line loops back toward Friday's houses by the end."
         },
@@ -2018,6 +2141,15 @@
           "media": [],
           "excerpt": "Normcore is a unisex fashion trend characterized by unpretentious, average-looking clothing. Normcore fashion includes jeans, T-shirts, sweats, button-downs, and sneakers.",
           "connector": "One more stop before the last dress code of the week."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Normcore · Menocore",
+          "url": "https://en.wikipedia.org/wiki/Normcore",
+          "media": [],
+          "excerpt": "A variation on this concept for women has been called \"menocore\" from menopause. It is loose and comfortable clothing, usually in light or neutral colors, that fits a variety of informal social situations. The style suggests that the wearer is mature, self-confident, and not seeking attention from men.",
+          "connector": "The same idea has its own named variant, aimed at a different age bracket entirely."
         },
         {
           "source": "Wikipedia",
@@ -2042,14 +2174,57 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Smart casual · History",
+          "url": "https://en.wikipedia.org/wiki/Smart_casual",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Blazer.JPG?width=760"
+          ],
+          "excerpt": "Smart casual was first mentioned in the Iowa newspaper The Davenport Democrat And Leader in May 1924: The sleeveless dress with three-quarter overblouses, in smock appearance completing it for street wear, is accorded various interpretations. It is at once practiced and gives a smart casual appearance. Smart casual was commonly used in the 20th century and merged to form the term business casual in the 1950s, implying a more casual suit than the traditional, usual dark suit in heavy cloth.",
+          "connector": "Its own name is a century older than every other term used today."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Smart casual · Definitions",
+          "url": "https://en.wikipedia.org/wiki/Smart_casual",
+          "media": [],
+          "excerpt": "Australia's national dictionary, Macquarie Dictionary, defines smart casual as \"well-dressed in a casual style\". Oxford defines it as \"neat, conventional, yet relatively informal in style, especially as worn to conform to a particular dress code\". Dictionary.com's 21st Century Lexicon defines it as \"of clothing, somewhat informal but neat\".",
+          "connector": "Three dictionaries take a turn at defining it, and land in roughly the same place."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Smart casual · Apparel · in parts",
+          "url": "https://en.wikipedia.org/wiki/Smart_casual",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Smart-casual%2C_success%2C_confident%2C_man.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Sport_coat_Kombination_1987.jpg?width=760"
+          ],
+          "excerpt": "Personal judgment is required to interpret the ill-defined term smart casual based on its context, theme, people, location, weather and spirit. Italian fashion house Brioni explains smart casual is not an issue of inventory or classification but rather knowledge and good taste to understand the environment; demonstrating that smart casual during summer in Sardinia is different from smart casual during winter in Toronto.",
+          "connector": "One name here has come up before, on a completely different day."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Smart casual · Apparel",
+          "url": "https://en.wikipedia.org/wiki/Smart_casual",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Black_woman_with_women's_suit_4.jpg?width=760"
+          ],
+          "excerpt": "Topman explains casual and formal clothing pieces are mixed and matched, and illustrates a smart casual outfit can include a mixture of jeans, blazers, sport coats, sweaters, necktie, a pair of Brogue shoes, dress shirts or a pair of Converse shoes. Business blogger, Maurilio Amorim, notes that although jeans are usually not an option, the Burnt Hills smart casual variation allows for crisp blue jeans to be worn (no holes or places where you stepped on the heel too much).",
+          "connector": "A fast-fashion retailer's own attempt at the same advice, mixing pieces from both registers."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Smart casual · Apparel · in parts",
           "url": "https://en.wikipedia.org/wiki/Smart_casual",
           "media": [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Blazer.JPG?width=760",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Smart-casual%2C_success%2C_confident%2C_man.jpg?width=760"
           ],
-          "excerpt": "Personal judgment is required to interpret the ill-defined term smart casual based on its context, theme, people, location, weather and spirit. Italian fashion house Brioni explains smart casual is not an issue of inventory or classification but rather knowledge and good taste to understand the environment; demonstrating that smart casual during summer in Sardinia is different from smart casual during winter in Toronto.",
-          "connector": "One name here has come up before, on a completely different day."
+          "excerpt": "Global men's fashion magazine GQ in the United Kingdom attempts defining smart casual for a job interview. Wearing chinos, a blazer and white shirt to make an impression is suggested. Carrying a necktie is advisable; the author comments, \"it is far more embarrassing to be under-dressed than over\".",
+          "connector": "One more attempt at the same impossible brief, this time for a job interview."
         },
         {
           "source": "Wikipedia",
@@ -2214,21 +2389,19 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Athleisure · lead",
-          "url": "https://en.wikipedia.org/wiki/Athleisure",
-          "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Athleisure-wear.jpg?width=760"
-          ],
-          "excerpt": "Athleisure is a hybrid style of athletic clothing typically worn as everyday wear. The word is a portmanteau combining the words \"athletic\" and \"leisure\". Athleisure outfits can include tracksuits, sports jackets, hoodies, yoga pants, tights, sneakers, flats, Birkenstocks, uggs, leggings and shorts that look like athletic wear or pair well with it.",
+          "detail": "Casual Friday · lead",
+          "url": "https://en.wikipedia.org/wiki/Casual_Friday",
+          "media": [],
+          "excerpt": "Casual Friday (also known as dress-down Friday or casual day) is a Western dress code trend in which businesses relax their dress code on Fridays. Businesses that usually require employees to wear suits, dress shirts, neckties, and dress shoes, may allow more casual or business casual wear on such days.",
           "connector": "Someone asks when suits stopped being mandatory at work. What do you say?"
         },
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Streetwear · lead",
-          "url": "https://en.wikipedia.org/wiki/Streetwear",
+          "detail": "Normcore · lead",
+          "url": "https://en.wikipedia.org/wiki/Normcore",
           "media": [],
-          "excerpt": "In the 21st century, streetwear intersected with haute couture, as luxury fashion houses adopted streetwear influences, while streetwear brands incorporated aspects of high fashion including runway presentation, designer collaborations, and premium branding.",
+          "excerpt": "Normcore is a unisex fashion trend characterized by unpretentious, average-looking clothing. Normcore fashion includes jeans, T-shirts, sweats, button-downs, and sneakers.",
           "connector": "Someone asks what \"normcore\" is supposed to mean. What do you say?"
         }
       ]
