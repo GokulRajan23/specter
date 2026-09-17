@@ -15,5 +15,5 @@ export default async function DayPage({ params }: { params: Promise<{ day: strin
   const found = getDay(deck, day);
   if (!found) notFound();
 
-  return <Feed day={found} topic={deck.topic} />;
+  return <Feed day={found} />;
 }

@@ -1,42 +1,21 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
-import { DAY_LABELS, dayIndex, type Day } from "@/lib/content";
+import type { Day } from "@/lib/content";
 import { Post } from "@/components/Post";
 import { DayEnd } from "@/components/DayEnd";
 import { markComplete } from "@/lib/progress";
 
-const FLOOR = 0.06;
-
-export function scrollProgress(
-  scrollTop: number,
-  scrollHeight: number,
-  clientHeight: number,
-): number {
-  const max = scrollHeight - clientHeight;
-  if (max <= 0) return FLOOR;
-  const ratio = scrollTop / max;
-  return Math.min(Math.max(ratio, FLOOR), 1);
-}
-
-export function Feed({ day, topic }: { day: Day; topic: string }) {
+export function Feed({ day }: { day: Day }) {
   const ref = useRef<HTMLDivElement>(null);
   const dayEndRef = useRef<HTMLDivElement>(null);
-  const [progress, setProgress] = useState(FLOOR);
   const completedRef = useRef(false);
 
   function complete() {
     if (completedRef.current) return;
     completedRef.current = true;
     markComplete(day.day);
-  }
-
-  function onScroll() {
-    const el = ref.current;
-    if (!el) return;
-
-    setProgress(scrollProgress(el.scrollTop, el.scrollHeight, el.clientHeight));
   }
 
   useEffect(() => {
@@ -74,34 +53,23 @@ export function Feed({ day, topic }: { day: Day; topic: string }) {
   }, [day.day]);
 
   return (
-    <div className="flex h-dvh flex-col bg-bg">
-      <header className="flex-none px-4 pb-2.5 pt-[calc(env(safe-area-inset-top)+0.5rem)]">
-        <div className="mb-2 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Link href="/" aria-label="Back to Today" className="-ml-1 p-1 text-ink">
-              <svg viewBox="0 0 24 24" className="h-4 w-4 fill-none stroke-current stroke-[2]">
-                <path d="M15 5l-7 7 7 7" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </Link>
-            <span className="text-base font-semibold tracking-tight">{topic}</span>
-          </div>
-          <span className="text-xs text-ink2">
-            {DAY_LABELS[day.day]} &middot; {dayIndex(day.day) + 1} of 7
-          </span>
-        </div>
-        <div className="h-[2.5px] overflow-hidden rounded-full bg-divider">
-          <i
-            data-testid="progress"
-            className="block h-full rounded-full bg-accent transition-[width] duration-100"
-            style={{ width: `${progress * 100}%` }}
-          />
-        </div>
-      </header>
+    <div className="relative h-dvh bg-bg">
+      {/* No header any more, so nothing else provides an exit in standalone
+       * display mode — the iOS left-edge swipe sits under the horizontally
+       * scrolling carousels. This floats above the feed instead. */}
+      <Link
+        href="/"
+        aria-label="Back to Today"
+        className="fixed left-3 top-[calc(env(safe-area-inset-top)+0.5rem)] z-10 grid h-8 w-8 place-items-center rounded-full bg-bg/60 text-ink backdrop-blur-md"
+      >
+        <svg viewBox="0 0 24 24" className="h-4 w-4 fill-none stroke-current stroke-[2]">
+          <path d="M15 5l-7 7 7 7" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </Link>
 
       <div
         ref={ref}
-        onScroll={onScroll}
-        className="no-bars flex-1 overflow-y-auto overscroll-none pb-[env(safe-area-inset-bottom)]"
+        className="no-bars h-full overflow-y-auto overscroll-none pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]"
       >
         {day.cards.map((card, i) => (
           <Post key={`${card.url}-${i}`} card={card} day={day.day} />

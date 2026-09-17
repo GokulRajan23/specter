@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
-import { render, screen, fireEvent } from "@testing-library/react";
-import { Feed, scrollProgress } from "@/components/Feed";
+import { render, screen } from "@testing-library/react";
+import { Feed } from "@/components/Feed";
 import type { Day } from "@/lib/content";
 import { loadProgress } from "@/lib/progress";
 import * as progressModule from "@/lib/progress";
@@ -45,17 +45,6 @@ function stubContainerSize(scrollHeight: number, clientHeight: number) {
     configurable: true,
     get: () => clientHeight,
   });
-}
-
-function scroller(): HTMLElement {
-  const el = document.querySelector(".no-bars");
-  if (!el) throw new Error("scroll container not found");
-  return el as HTMLElement;
-}
-
-function scrollTo(scrollTop: number) {
-  Object.defineProperty(scroller(), "scrollTop", { configurable: true, value: scrollTop });
-  fireEvent.scroll(scroller());
 }
 
 // jsdom has no IntersectionObserver implementation. This fake records every
@@ -103,55 +92,32 @@ afterEach(() => {
   vi.restoreAllMocks();
 });
 
-describe("scrollProgress", () => {
-  it("never reads as empty, so the bar is always visible", () => {
-    expect(scrollProgress(0, 2000, 800)).toBeCloseTo(0.06);
-  });
-
-  it("reaches one at the bottom", () => {
-    expect(scrollProgress(1200, 2000, 800)).toBe(1);
-  });
-
-  it("is proportional in between", () => {
-    expect(scrollProgress(600, 2000, 800)).toBeCloseTo(0.5);
-  });
-
-  it("returns the floor when the content does not overflow", () => {
-    expect(scrollProgress(0, 500, 800)).toBeCloseTo(0.06);
-  });
-
-  it("clamps elastic overscroll past the bottom", () => {
-    expect(scrollProgress(5000, 2000, 800)).toBe(1);
-  });
-});
-
 describe("Feed", () => {
   it("renders every card in the day", () => {
-    render(<Feed day={day} topic="Suits" />);
+    render(<Feed day={day} />);
     expect(screen.getByText("First card.")).toBeInTheDocument();
     expect(screen.getByText("Second card.")).toBeInTheDocument();
   });
 
-  it("shows the topic and the day label", () => {
-    render(<Feed day={day} topic="Suits" />);
-    expect(screen.getByText("Suits")).toBeInTheDocument();
-    // Anchored so it does not also match "That’s Monday." in the day-end card.
-    expect(screen.getByText(/Mon · 1 of 7/)).toBeInTheDocument();
-  });
-
   it("ends with the day-end card naming the day", () => {
-    render(<Feed day={day} topic="Suits" />);
+    render(<Feed day={day} />);
     // Typographic apostrophe (U+2019): DayEnd renders &rsquo;, not ASCII '.
     expect(screen.getByText("That’s Monday.")).toBeInTheDocument();
   });
 
   it("reports the number of cards in the day end", () => {
-    render(<Feed day={day} topic="Suits" />);
+    render(<Feed day={day} />);
     expect(screen.getByText(/2 cards/)).toBeInTheDocument();
   });
 
-  it("links back to Today from both the header and the day-end card", () => {
-    render(<Feed day={day} topic="Suits" />);
+  it("does not render a header topic name or a progress bar", () => {
+    render(<Feed day={day} />);
+    expect(screen.queryByText("Suits")).not.toBeInTheDocument();
+    expect(screen.queryByTestId("progress")).not.toBeInTheDocument();
+  });
+
+  it("links back to Today from both the floating back button and the day-end card", () => {
+    render(<Feed day={day} />);
     const backLinks = screen.getAllByRole("link", { name: /back to today/i });
     expect(backLinks).toHaveLength(2);
     for (const link of backLinks) {
@@ -163,19 +129,19 @@ describe("Feed", () => {
 describe("Feed completion tracking", () => {
   it("marks a short feed complete on mount", () => {
     stubContainerSize(400, 800);
-    render(<Feed day={day} topic="Suits" />);
+    render(<Feed day={day} />);
     expect(loadProgress().completed).toContain("monday");
   });
 
   it("does not mark a long feed complete on mount", () => {
     stubContainerSize(2000, 800);
-    render(<Feed day={day} topic="Suits" />);
+    render(<Feed day={day} />);
     expect(loadProgress().completed).not.toContain("monday");
   });
 
   it("marks complete when the day-end card becomes visible", () => {
     stubContainerSize(2000, 800);
-    render(<Feed day={day} topic="Suits" />);
+    render(<Feed day={day} />);
     expect(loadProgress().completed).not.toContain("monday");
 
     const observer = FakeIntersectionObserver.instances.at(-1);
@@ -186,7 +152,7 @@ describe("Feed completion tracking", () => {
 
   it("does not mark complete while the day-end card is not intersecting", () => {
     stubContainerSize(2000, 800);
-    render(<Feed day={day} topic="Suits" />);
+    render(<Feed day={day} />);
 
     const observer = FakeIntersectionObserver.instances.at(-1);
     observer!.trigger(false);
@@ -195,7 +161,7 @@ describe("Feed completion tracking", () => {
 
   it("does not mark complete a second time once the day-end card intersects", () => {
     stubContainerSize(2000, 800);
-    render(<Feed day={day} topic="Suits" />);
+    render(<Feed day={day} />);
     const observer = FakeIntersectionObserver.instances.at(-1);
 
     observer!.trigger(true);
@@ -203,5 +169,4 @@ describe("Feed completion tracking", () => {
     observer!.trigger(true);
     expect(spy).not.toHaveBeenCalled();
   });
-
 });
