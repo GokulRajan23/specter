@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import Link from "next/link";
 import type { Day } from "@/lib/content";
 import { Post } from "@/components/Post";
 import { DayEnd } from "@/components/DayEnd";
@@ -54,24 +53,13 @@ export function Feed({ day }: { day: Day }) {
 
   return (
     <div className="relative h-dvh bg-bg">
-      {/* No header any more, so nothing else provides an exit in standalone
-       * display mode — the iOS left-edge swipe sits under the horizontally
-       * scrolling carousels. This floats above the feed instead. */}
-      <Link
-        href="/"
-        aria-label="Back to Today"
-        className="fixed left-3 top-[calc(env(safe-area-inset-top)+0.5rem)] z-10 grid h-8 w-8 place-items-center rounded-full bg-bg/60 text-ink backdrop-blur-md"
-      >
-        <svg viewBox="0 0 24 24" className="h-4 w-4 fill-none stroke-current stroke-[2]">
-          <path d="M15 5l-7 7 7 7" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      </Link>
-
+      {/* No back control here on purpose: the iOS left-edge swipe already
+       * exits the feed on device, and a floating chevron over the first card
+       * competed with its source avatar. The day-end card still links home
+       * for anyone who reaches the bottom. */}
       <div
         ref={ref}
-        // Clear the floating back button (top inset + 0.5rem offset + its 2rem
-        // height) so it never lands on the first card's source avatar.
-        className="no-bars h-full overflow-y-auto overscroll-none pt-[calc(env(safe-area-inset-top)+3rem)] pb-[env(safe-area-inset-bottom)]"
+        className="no-bars h-full overflow-y-auto overscroll-none pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]"
       >
         {day.cards.map((card, i) => (
           <Post key={`${card.url}-${i}`} card={card} day={day.day} />

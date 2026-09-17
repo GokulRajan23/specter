@@ -116,13 +116,14 @@ describe("Feed", () => {
     expect(screen.queryByTestId("progress")).not.toBeInTheDocument();
   });
 
-  it("links back to Today from both the floating back button and the day-end card", () => {
+  it("links back to Today from the day-end card only", () => {
+    // The feed deliberately carries no back control: the iOS left-edge swipe
+    // exits it on device, and a floating chevron overlapped the first card's
+    // source avatar. The day-end card remains the in-page route home.
     render(<Feed day={day} />);
     const backLinks = screen.getAllByRole("link", { name: /back to today/i });
-    expect(backLinks).toHaveLength(2);
-    for (const link of backLinks) {
-      expect(link).toHaveAttribute("href", "/");
-    }
+    expect(backLinks).toHaveLength(1);
+    expect(backLinks[0]).toHaveAttribute("href", "/");
   });
 });
 
