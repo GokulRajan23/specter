@@ -2255,13 +2255,55 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Waistcoat · Names",
-          "url": "https://en.wikipedia.org/wiki/Waistcoat",
+          "detail": "Suit · lead · in parts",
+          "url": "https://en.wikipedia.org/wiki/Suit",
           "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Argyle_pattern_sweater_vest.jpg?width=760"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Camino_a_la_reuni%C3%B3n_con_con_el_Presidente_de_la_Rep%C3%BAblica_Popular_China%2C_el_Excmo._Sr._Xi_Jinping._(8627337472).jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Gentleman_in_bowler.JPG?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Lapel_comparison.jpg?width=760"
           ],
-          "excerpt": "The word \"waistcoat\" derives from the cutting of the coat at waist-level, since at the time of the coining, tailors cut men's formal coats well below the waist (as with dress coats). An alternative theory is that, as material was left over from the tailoring of a two-piece suit, it was fashioned into a \"waste-coat\" to avoid that material being wasted, although recent academic debate has cast doubt on this theory.",
-          "connector": "Someone asks why a necktie knot looks the way it does. What do you say?"
+          "excerpt": "Other notable types of suits are for what would now be considered formal occasions—the tuxedo or dinner suit (black tie) and the black lounge suit (stroller)—both which originally arose as less formal alternatives for the prior formal wear standards known as white tie, which incorporated items such as the dress coat, and of morning dress, which incorporated items such as the morning coat with formal trousers.",
+          "connector": "Someone asks what a tuxedo or a morning coat actually is, next to an ordinary suit. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Trousers · lead",
+          "url": "https://en.wikipedia.org/wiki/Trousers",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_trousers_BM_VaseB673.jpg?width=760"
+          ],
+          "excerpt": "",
+          "connector": "Someone asks what a plain pair of trousers actually looks like on this map. Here's one."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Trousers · Fly",
+          "url": "https://en.wikipedia.org/wiki/Trousers",
+          "media": [],
+          "excerpt": "A fly is a covering over an opening join concealing the mechanism, such as a zipper, velcro, or buttons, used to join the opening. In trousers, this is most commonly an opening covering the groin, which makes the pants easier to put on or take off. The opening also allows men to urinate without lowering their trousers. Trousers have varied historically in whether or not they have a fly.",
+          "connector": "Someone asks how far back trousers actually go. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Necktie · Origins",
+          "url": "https://en.wikipedia.org/wiki/Necktie",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/British_Regimental_Ties_2.jpg?width=760"
+          ],
+          "excerpt": "The necktie that spread from Europe traces back to Croatian mercenaries serving in France during the Thirty Years' War (1618–1648). These mercenaries from the Military Frontier, wearing their traditional small, knotted neckerchiefs, aroused the interest of the Parisians. Because of the difference between the Croatian word for Croats, Hrvati, and the French word, Croates, the garment gained the name cravat (cravate in French).",
+          "connector": "Someone asks where the word \"cravat\" came from. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit · Terminology",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [],
+          "excerpt": "The word suit derives from French suite 'following', from some Late Latin derivative form of the Latin verb sequor 'I follow', because the component garments (jacket and trousers and waistcoat) follow each other and have the same cloth and colour and are worn together.",
+          "connector": "Someone asks why it's called a \"suit\" in the first place. What do you say?"
         },
         {
           "source": "Wikipedia",
@@ -2277,13 +2319,68 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Savile Row · Architecture",
+          "detail": "Savile Row · Twentieth century · in parts",
           "url": "https://en.wikipedia.org/wiki/Savile_Row",
           "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Street_by_Horwood_1819.jpg?width=760"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row_from_Burlington_Gardens.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row_%C3%89difice_Pancarte.jpg?width=760"
           ],
-          "excerpt": "The original architectural plan for Savile Row is believed to have been drawn up by Colen Campbell, with Henry Flitcroft as the main architect of the street, under the supervision of Daniel Garrett; though 1 and 22–23 Savile Row were designed by William Kent, who moved into No. 2. These architects were all under the influence of Burlington's interpretation of Palladian architecture, known as \"Burlingtonian\", which was to have some influence on English architecture in the 16th century.",
-          "connector": "Someone asks who \"the dandy\" everyone name-drops actually was. What do you say?"
+          "excerpt": "In July 1968, the Beatles moved Apple Corps, their multimedia corporation, into 3 Savile Row. Apple purchased the building on 22 June for £500,000 (equivalent to £4,600,000 in 2025). A studio was built in the basement; though it was poorly designed, the Beatles recorded Let It Be there before a new studio was constructed in 1971 at an estimated cost of $1.5 million.",
+          "connector": "Someone asks which famous band once recorded an album on a tailoring street. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Beau Brummell · Downfall",
+          "url": "https://en.wikipedia.org/wiki/Beau_Brummell",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Beau_Brummell_Statue_Jermyn_Street.JPG?width=760"
+          ],
+          "excerpt": "The Prince Regent greeted Alvanley and Pierrepont at the event, and then \"cut\" Brummell and Mildmay by staring at their faces without speaking. This provoked Brummell's remark, \"Alvanley, who's your fat friend?\".",
+          "connector": "Someone asks what actually ended Beau Brummell's career. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dandy · Etymology",
+          "url": "https://en.wikipedia.org/wiki/Dandy",
+          "media": [],
+          "excerpt": "The earliest record of the word dandy dates back to the late 1700s, in Scottish Song. Since the late 18th century, the word dandy has been rumored to be an abbreviated usage of the 17th-century British jack-a-dandy; the term was used to described a conceited man.",
+          "connector": "Someone asks where the word \"dandy\" itself came from. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Black tie · British origins in the 19th century",
+          "url": "https://en.wikipedia.org/wiki/Black_tie",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Cufflinks_and_Studs.jpg?width=760"
+          ],
+          "excerpt": "The earliest record of a tailless coat being worn with evening wear is an 1865 midnight blue smoking jacket in silk with matching trousers ordered by the Prince of Wales, later Edward VII of the United Kingdom, from Savile Row tailors Henry Poole & Co. The smoking jacket was tailored for use at Sandringham, the British royal family's informal country estate.",
+          "connector": "Someone asks which tailor gets credit for the first tuxedo jacket. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Black tie · Name",
+          "url": "https://en.wikipedia.org/wiki/Black_tie",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Cummerbund1950.JPG?width=760"
+          ],
+          "excerpt": "Tuxedo in the context of menswear originated in the United States around 1888. It was named after Tuxedo Park, a Hudson Valley enclave for New York's social elite where it was often seen in its early years. The term was capitalized until the 1930s and traditionally referred only to a white jacket.",
+          "connector": "Someone asks where the word \"tuxedo\" came from. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Tailor · Tailoring · in parts",
+          "url": "https://en.wikipedia.org/wiki/Tailor",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Raja_Daswani_Fitting.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/SaturdayEveningPost15Apr1916.jpg?width=760"
+          ],
+          "excerpt": "Tailoring men's jackets by adding underlayers of padding became fashionable in Europe by the 14th century. Over the years, additional areas were padded to provide an understructure that helped the garment lie neatly on the body. By the 19th century, well-tailored garments were carefully fit to the wearer with a more subtly shaped understructure. Even with the advent of modern machines, nearly 75 percent of a custom-tailored suit's stitching is still done by hand.",
+          "connector": "Someone asks how much of a suit is actually stitched by hand. What do you say?"
         },
         {
           "source": "Wikipedia",
@@ -2299,6 +2396,15 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Wool · Shearing",
+          "url": "https://en.wikipedia.org/wiki/Wool",
+          "media": [],
+          "excerpt": "Sheep shearing is the process in which a worker (a shearer) cuts off the woollen fleece of a sheep. The quality of fleeces is determined by a technique known as wool classing, whereby a qualified person, called a wool classer, groups wools of similar grading together to maximize the return for the farmer or sheep owner. Before instrumental testing became widely available, classing depended on trained comparison of staple length, crimp, handle, colour, cleanliness, and apparent fineness.",
+          "connector": "Someone asks who decides when a sheep's fleece is good enough. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Tweed · lead · in parts",
           "url": "https://en.wikipedia.org/wiki/Tweed",
           "media": [
@@ -2307,6 +2413,26 @@
           ],
           "excerpt": "Tweeds are a staple of traditional Scottish, Irish, Welsh, and English clothing, being desirable for informal outerwear, due to the material being moisture-resistant and durable. Tweeds are made to withstand harsh climates and are commonly worn for outdoor activities such as shooting and hunting.",
           "connector": "Someone asks what tweed is actually for. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Textile · History",
+          "url": "https://en.wikipedia.org/wiki/Textile",
+          "media": [],
+          "excerpt": "Textiles themselves are too fragile to survive across millennia; the tools used for spinning and weaving make up most of the prehistoric evidence for textile work. The earliest tool for spinning was the spindle, to which a whorl was eventually added. The weight of the whorl improved the thickness and twist of the spun thread.",
+          "connector": "Someone asks why so little textile history survives from before written records. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit · Fabric",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Gentleman_in_bowler.JPG?width=760"
+          ],
+          "excerpt": "Inside the jacket of a suit, between the outer fabric and the inner lining, there is a layer of sturdy interfacing fabric to prevent the wool from stretching out of shape; this layer of cloth is called the canvas after the fabric from which it was traditionally made. Expensive jackets have a floating canvas, while cheaply manufactured models have a fused (glued) canvas. A fused canvas is less soft and, if poorly done, damages the suppleness and durability of the jacket, so many tailors are quick to deride fused canvas as being less durable, particularly since they may tend to permanently pucker along the jacket's edges after some use or a few dry cleanings.",
+          "connector": "Someone asks what's actually hiding inside a jacket's lining. What do you say?"
         },
         {
           "source": "Wikipedia",
@@ -2333,6 +2459,28 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Brooks Brothers · Founding and 19th century",
+          "url": "https://en.wikipedia.org/wiki/Brooks_Brothers",
+          "media": [],
+          "excerpt": "He was wearing the coat and a Brooks Brothers suit when he was assassinated. New York state troops were outfitted with Brooks Brothers uniforms during the American Civil War. Brooks Brothers took shredded and sometimes decaying rags, glued them together and stitched them into uniforms. They would fall apart in the rain and were the subject of ridicule from other regiments. According to James Murray (primary editor of the Oxford English Dictionary from 1879 until his death in 1915) Brooks Brothers were responsible for bringing \"shoddy\" into American usage.",
+          "connector": "Someone asks where the word \"shoddy\" actually came from. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Brooks Brothers · Founding and 19th century · in parts",
+          "url": "https://en.wikipedia.org/wiki/Brooks_Brothers",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/BrooksBrothers_Flagship_Glasses.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/BrooksBrothers_Flagship_Lincoln.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brooks_Bros_11_E44_jeh.jpg?width=760"
+          ],
+          "excerpt": "In the mid-nineteenth century, Brooks Brothers outfitted United States president Abraham Lincoln and considered him a loyal customer. At his second inauguration, Lincoln wore a coat specially crafted for him by Brooks Brothers. Hand-stitched into the coat's lining was a design featuring an eagle and the inscription, \"One Country, One Destiny\".",
+          "connector": "Someone asks what a president was actually wearing when he was shot. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Fast fashion · lead · in parts",
           "url": "https://en.wikipedia.org/wiki/Fast_fashion",
           "media": [
@@ -2345,13 +2493,24 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Henry Poole & Co · lead",
+          "detail": "Brooks Brothers · Public officials",
+          "url": "https://en.wikipedia.org/wiki/Brooks_Brothers",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brooks_Clothing_Store%2C_Catharine_St._N.Y._1845.jpg?width=760"
+          ],
+          "excerpt": "Brooks Brothers has outfitted every American president since James Madison, with the exceptions of Jimmy Carter and Ronald Reagan. In 1865, President Abraham Lincoln wore a custom-made Brooks Brothers frock coat to his Second inauguration.",
+          "connector": "Someone asks which American presidents skipped this brand entirely. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Henry Poole & Co · Origins of the tuxedo",
           "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
           "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Henry_Poole_%26_Co_(1).JPG?width=760"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_of_Henry_Poole_%26_Co_as_of_2016-07-11.jpg?width=760"
           ],
-          "excerpt": "Henry Poole & Co. is a British bespoke tailor located at 15 Savile Row in London, England. It is widely believed to have designed the first modern-style dinner jacket during the 1860s, according to specifications provided by the Prince of Wales (later Edward VII).",
-          "connector": "Someone asks why Savile Row of all streets. What do you say?"
+          "excerpt": "In 1886, during a visit to London, the Prince invited James Potter of Tuxedo Park, New York, to spend a weekend at Sandringham House. He was advised that he could have a smoking jacket made by the Prince's tailor, Henry Poole & Co. When Potter returned to New York, he wore this new smoking jacket at the Tuxedo Club.",
+          "connector": "Someone asks how a New York socialite's borrowed jacket became a whole word. What do you say?"
         },
         {
           "source": "Wikipedia",
@@ -2367,24 +2526,44 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Henry Poole & Co · Origins of the tuxedo",
-          "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
-          "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Henry_Poole_%26_Co_(1).JPG?width=760"
-          ],
-          "excerpt": "In 1860, Henry Poole made a short evening or smoking jacket for the Prince of Wales to wear at informal dinner parties at Sandringham.",
-          "connector": "Someone asks where the word \"tuxedo\" came from. What do you say?"
+          "detail": "Dege & Skinner · History",
+          "url": "https://en.wikipedia.org/wiki/Dege_%26_Skinner",
+          "media": [],
+          "excerpt": "Dege & Skinner's business was originally based on catering for the needs of the British Army and the Royal Navy, and hence by association with the British royal family. During the Coronation of Queen Elizabeth II in 1953, Dege & Skinner dressed the Peers of the Realm at Westminster Abbey.",
+          "connector": "Someone asks which tailor dressed the peers at a coronation. What do you say?"
         },
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Kiton · lead",
+          "detail": "H. Huntsman & Sons · History",
+          "url": "https://en.wikipedia.org/wiki/H._Huntsman_%26_Sons",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/11HSavileRow.jpg?width=760"
+          ],
+          "excerpt": "The Prince of Wales (soon to become Edward VIII) was a customer during the 1920s, which prompted much of the jet-set of the time to follow. Cecil Beaton, Laurence Olivier, Bill Blass and Lord Louis Mountbatten were all notable clients. It was during this time that Huntsman came to acquire the two stags' heads which overlook the shop-front today.",
+          "connector": "Someone asks how a customer's forgotten lunch became permanent shop decor. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Kiton · History",
           "url": "https://en.wikipedia.org/wiki/Kiton",
           "media": [
             "https://commons.wikimedia.org/wiki/Special:FilePath/IMG_Kiton_Toronto.jpg?width=760"
           ],
-          "excerpt": "Kiton is an Italian fashion house founded by Ciro Paone in Arzano, NA 1968. Founded in Arzano, Naples in 1968 by Ciro Paone, Kiton is an Italian clothing company with its roots in traditional Italian tailoring. By the end of 2022, Kiton had 60 monobrand stores and 300 wholesale accounts worldwide. The company's slogan is Il meglio del meglio più uno (\"the best of the best plus one\"). Kiton operates five manufacturing facilities located in Arzano (for their primary production), Caserta (for sportswear), Parma (for outerwear), Fidenza (for knitwear), and Biella (for textiles).",
-          "connector": "Someone asks if any tailor on that list isn't British. What do you say?"
+          "excerpt": "In 1995, Kiton launched a line of womenswear. In 2008, Ciro Paone purchased suits and other wardrobe items that once belonged to Edward VIII, the Duke of Windsor, from a 1998 Sotheby's auction.",
+          "connector": "Someone asks what happened to a former king's actual wardrobe. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Brioni (brand) · In popular culture",
+          "url": "https://en.wikipedia.org/wiki/Brioni_(brand)",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brioniboutique.jpg?width=760"
+          ],
+          "excerpt": "Brioni dressed Pierce Brosnan in all his James Bond movies from GoldenEye (1995) on, and Daniel Craig in Casino Royale (2006). It also supplied Donald Trump with suits for his TV show The Apprentice.",
+          "connector": "Someone asks which spy franchise has a house tailor. What do you say?"
         },
         {
           "source": "Wikipedia",
@@ -2398,11 +2577,36 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Streetwear · African American culture · in parts",
+          "url": "https://en.wikipedia.org/wiki/Streetwear",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Duh_club.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/St%C3%BCssy_KL_230509.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Timberland_Shoes_1.jpg?width=760"
+          ],
+          "excerpt": "During the 1980s, designer Dapper Dan (Daniel R. Day) in Harlem, New York, created early streetwear aesthetics. Dapper Dan has been considered the original creator of streetwear fashion.",
+          "connector": "Someone asks who's actually credited with inventing streetwear. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Normcore · lead",
           "url": "https://en.wikipedia.org/wiki/Normcore",
           "media": [],
           "excerpt": "Normcore is a unisex fashion trend characterized by unpretentious, average-looking clothing. Normcore fashion includes jeans, T-shirts, sweats, button-downs, and sneakers.",
           "connector": "Someone asks what \"normcore\" is supposed to mean. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Smart casual · Apparel · in parts",
+          "url": "https://en.wikipedia.org/wiki/Smart_casual",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Smart-casual%2C_success%2C_confident%2C_man.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Sport_coat_Kombination_1987.jpg?width=760"
+          ],
+          "excerpt": "Personal judgment is required to interpret the ill-defined term smart casual based on its context, theme, people, location, weather and spirit. Italian fashion house Brioni explains smart casual is not an issue of inventory or classification but rather knowledge and good taste to understand the environment; demonstrating that smart casual during summer in Sardinia is different from smart casual during winter in Toronto.",
+          "connector": "Someone asks if any name from Friday's houses turns up again today. What do you say?"
         }
       ]
     }

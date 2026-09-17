@@ -688,21 +688,46 @@ function buildSunday(weekDays) {
   // [dayIndex, cardIndex, question] — a spread across the week, favouring
   // cards that stand alone well as an answer to a spoken question.
   const picks = [
+    // Monday
     [0, 0, "Someone asks what a suit even is, technically. What do you say?"],
-    [0, 10, "Someone asks why a necktie knot looks the way it does. What do you say?"],
+    [0, 2, "Someone asks what a tuxedo or a morning coat actually is, next to an ordinary suit. What do you say?"],
+    [0, 16, "Someone asks what a plain pair of trousers actually looks like on this map. Here's one."],
+    [0, 19, "Someone asks how far back trousers actually go. What do you say?"],
+    [0, 23, "Someone asks where the word \"cravat\" came from. What do you say?"],
+    [0, 1, "Someone asks why it's called a \"suit\" in the first place. What do you say?"],
+    // Tuesday
     [1, 0, "Someone asks who decided suits should look like this. What do you say?"],
-    [1, 5, "Someone asks who \"the dandy\" everyone name-drops actually was. What do you say?"],
+    [1, 4, "Someone asks which famous band once recorded an album on a tailoring street. What do you say?"],
+    [1, 17, "Someone asks what actually ended Beau Brummell's career. What do you say?"],
+    [1, 19, "Someone asks where the word \"dandy\" itself came from. What do you say?"],
+    [1, 30, "Someone asks which tailor gets credit for the first tuxedo jacket. What do you say?"],
+    [1, 31, "Someone asks where the word \"tuxedo\" came from. What do you say?"],
+    // Wednesday
+    [2, 5, "Someone asks how much of a suit is actually stitched by hand. What do you say?"],
     [2, 12, "Someone asks why a wool suit can still breathe. What do you say?"],
+    [2, 13, "Someone asks who decides when a sheep's fleece is good enough. What do you say?"],
     [2, 21, "Someone asks what tweed is actually for. What do you say?"],
+    [2, 29, "Someone asks why so little textile history survives from before written records. What do you say?"],
+    [2, 33, "Someone asks what's actually hiding inside a jacket's lining. What do you say?"],
+    // Thursday
     [3, 3, "Someone asks why bespoke costs so much. What do you say?"],
     [3, 5, "Someone asks what made-to-measure even means, then. What do you say?"],
+    [3, 20, "Someone asks where the word \"shoddy\" actually came from. What do you say?"],
+    [3, 19, "Someone asks what a president was actually wearing when he was shot. What do you say?"],
     [3, 24, "Someone asks why fast fashion is so cheap. What do you say?"],
-    [4, 0, "Someone asks why Savile Row of all streets. What do you say?"],
+    [3, 22, "Someone asks which American presidents skipped this brand entirely. What do you say?"],
+    // Friday
+    [4, 4, "Someone asks how a New York socialite's borrowed jacket became a whole word. What do you say?"],
     [4, 11, "Someone asks what one of these tailoring houses actually looks like. Here's one."],
-    [4, 3, "Someone asks where the word \"tuxedo\" came from. What do you say?"],
-    [4, 27, "Someone asks if any tailor on that list isn't British. What do you say?"],
+    [4, 20, "Someone asks which tailor dressed the peers at a coronation. What do you say?"],
+    [4, 16, "Someone asks how a customer's forgotten lunch became permanent shop decor. What do you say?"],
+    [4, 29, "Someone asks what happened to a former king's actual wardrobe. What do you say?"],
+    [4, 36, "Someone asks which spy franchise has a house tailor. What do you say?"],
+    // Saturday
     [5, 4, "Someone asks when suits stopped being mandatory at work. What do you say?"],
+    [5, 15, "Someone asks who's actually credited with inventing streetwear. What do you say?"],
     [5, 21, "Someone asks what \"normcore\" is supposed to mean. What do you say?"],
+    [5, 27, "Someone asks if any name from Friday's houses turns up again today. What do you say?"],
   ];
 
   const cards = picks.map(([dayIdx, cardIdx, question]) => {
