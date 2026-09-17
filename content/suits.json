@@ -1556,6 +1556,15 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Henry Poole & Co · History",
+          "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
+          "media": [],
+          "excerpt": "Both are buried in Highgate Cemetery. The company has remained in the control of the Cundey family through five generations. The current managing director, Simon Cundey, assumed this position after the passing of his father in August 2024.",
+          "connector": "The rest of that same history, past the founding and into who actually runs the place now."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Henry Poole & Co · Origins of the tuxedo",
           "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
           "media": [
@@ -1563,6 +1572,17 @@
           ],
           "excerpt": "In 1860, Henry Poole made a short evening or smoking jacket for the Prince of Wales to wear at informal dinner parties at Sandringham.",
           "connector": "This is the same house Tuesday's black-tie card pointed back to."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Henry Poole & Co · Origins of the tuxedo",
+          "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_of_Henry_Poole_%26_Co_as_of_2016-07-11.jpg?width=760"
+          ],
+          "excerpt": "In 1886, during a visit to London, the Prince invited James Potter of Tuxedo Park, New York, to spend a weekend at Sandringham House. He was advised that he could have a smoking jacket made by the Prince's tailor, Henry Poole & Co. When Potter returned to New York, he wore this new smoking jacket at the Tuxedo Club.",
+          "connector": "One customer's weekend invitation is the entire reason the story continues."
         },
         {
           "source": "Wikipedia",
@@ -1591,11 +1611,43 @@
           "url": "https://en.wikipedia.org/wiki/Gieves_%26_Hawkes",
           "media": [
             "https://commons.wikimedia.org/wiki/Special:FilePath/GHK012_SW.jpg?width=760",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Gieves_%26_Hawkes_-_logo.png?width=760",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Gieves_Hawkes_2519.JPG?width=760"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Gieves_%26_Hawkes_-_logo.png?width=760"
+          ],
+          "excerpt": "After coming to London in 1760, Thomas Hawkes established his first shop in 1771 in Brewer Street, selling to gentlemen. His main clients were commanders of the British Army, through which King George III became a customer. He expanded his retail operation by moving to No.17 (later number No.14) Piccadilly in 1793, where he gained the first of many Royal Warrants in 1809.",
+          "connector": "Before the merger that gave this house its current name, it was two separate ones."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Gieves & Hawkes · History · in parts",
+          "url": "https://en.wikipedia.org/wiki/Gieves_%26_Hawkes",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Gieves_Hawkes_2519.JPG?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Gieves_Hawkes_2522.JPG?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Hawkes-1936-at-no1.jpg?width=760"
           ],
           "excerpt": "In 1852, Gieve partnered with Joseph Galt, whose father John had taken over Meredith's business and in 1887, Gieve purchased the remaining shares to form Gieves & Co. He died in 1888. On 23 December 1912, Hawkes & Co. bought №1 Savile Row from the Royal Geographical Society for £38,000, in part because the firm had dressed so many explorers. In 1974, Gieves Ltd acquired Hawkes & Co., and the freehold of 1 Savile Row.",
           "connector": "This house's own history is dense enough to need three images to sit with."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Gieves & Hawkes · History",
+          "url": "https://en.wikipedia.org/wiki/Gieves_%26_Hawkes",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Hawkes_customer_ledger_for_1837.jpg?width=760"
+          ],
+          "excerpt": "The company was renamed Gieves & Hawkes. In 2009, Kathryn Sargent of Gieves and Hawkes became the first female head cutter in Savile Row. The company also produces the uniforms for the Honourable Corps of Gentlemen at Arms.",
+          "connector": "Past the merger, to a title this house didn't hand out for over two centuries."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Gieves & Hawkes · Collaborations",
+          "url": "https://en.wikipedia.org/wiki/Gieves_%26_Hawkes",
+          "media": [],
+          "excerpt": "2010 – Sponsored Formula 1 team Mercedes GP Petronas and created a Mercedes capsule collection of personal tailoring and accessories. 2011 – British shoes and accessories house Harrys of London has launched a collection of exclusive footwear as part of a collaboration with bespoke tailoring house Gieves & Hawkes.",
+          "connector": "The same house's more recent side projects read like a different business entirely."
         },
         {
           "source": "Wikipedia",
@@ -1611,6 +1663,24 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Anderson & Sheppard · Clientele",
+          "url": "https://en.wikipedia.org/wiki/Anderson_%26_Sheppard",
+          "media": [],
+          "excerpt": "Former clients have included Fred Astaire, Gary Cooper, Noël Coward, and Bryan Ferry. Anderson & Sheppard kept King Charles in double breasted suits for years. In 2004, Tom Ford became a customer of the firm, commissioning suits that would later appear in a W magazine photo shoot. Female clients have included Fran Lebowitz and Marlene Dietrich.",
+          "connector": "Short article, but its client list is worth reading in full anyway."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "H. Huntsman & Sons · History",
+          "url": "https://en.wikipedia.org/wiki/H._Huntsman_%26_Sons",
+          "media": [],
+          "excerpt": "Founded in 1849 by Mr. Henry Huntsman, H. Huntsman & Sons incorporated a Victorian breeches-maker dating back to 1809 when the house was first established at No. 126 New Bond Street. Henry Huntsman thereby founded a tailoring house which quickly gained a reputation for dressing the hunting and riding aristocracy of Europe for much of the nineteenth century.",
+          "connector": "A short article's opposite — this house's own history runs to thirty-one sentences."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "H. Huntsman & Sons · lead",
           "url": "https://en.wikipedia.org/wiki/H._Huntsman_%26_Sons",
           "media": [
@@ -1622,11 +1692,42 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "H. Huntsman & Sons · History",
+          "url": "https://en.wikipedia.org/wiki/H._Huntsman_%26_Sons",
+          "media": [],
+          "excerpt": "One of these clients was Gregory Peck, who Huntsman dressed for half a century between 1953 and 2003. During this time Peck (and his film studios) commissioned over 160 suits from the house both for use on screen and off.",
+          "connector": "One client kept coming back for fifty years, which is its own kind of history."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "H. Huntsman & Sons · History",
+          "url": "https://en.wikipedia.org/wiki/H._Huntsman_%26_Sons",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/11HSavileRow.jpg?width=760"
+          ],
+          "excerpt": "The Prince of Wales (soon to become Edward VIII) was a customer during the 1920s, which prompted much of the jet-set of the time to follow. Cecil Beaton, Laurence Olivier, Bill Blass and Lord Louis Mountbatten were all notable clients. It was during this time that Huntsman came to acquire the two stags' heads which overlook the shop-front today.",
+          "connector": "Earlier in that same history, a different customer's carelessness became permanent decor."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "H. Huntsman & Sons · Bespoke process",
           "url": "https://en.wikipedia.org/wiki/H._Huntsman_%26_Sons",
           "media": [],
           "excerpt": "As outlined on the Huntsman website, the process of placing an order begins with a consultation, during which the customer meets with Johnny Allen, Bespoke Clients Manager, who discusses the customer's requirements for his suit, helping to finalise any stylistic decisions and his choice of fabric. A cutter will then measure-up the client (Huntsman takes an average of 30 different measures for a first suit), before this is drafted into the traditional brown paper pattern. This pattern is then chalked onto the customer's chosen cloth, which is in turn cut out.",
           "connector": "Worth reading start to finish — this is the process the whole week has been circling."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "H. Huntsman & Sons · House style",
+          "url": "https://en.wikipedia.org/wiki/H._Huntsman_%26_Sons",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/11HSavileRow.jpg?width=760"
+          ],
+          "excerpt": "The classic Huntsman house style takes influence from both the hunting jacket and black tie. It is characterised predominantly by its structured shoulders and high armholes. The line through the waist is cut long with a subtle hourglass shape and some flair in the skirt which reflects Huntsman's sporting heritage.",
+          "connector": "Every house on this street has a signature cut — here's what this one's actually looks like."
         },
         {
           "source": "Wikipedia",
@@ -1642,11 +1743,40 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Dege & Skinner · History",
+          "url": "https://en.wikipedia.org/wiki/Dege_%26_Skinner",
+          "media": [],
+          "excerpt": "Dege & Skinner's business was originally based on catering for the needs of the British Army and the Royal Navy, and hence by association with the British royal family. During the Coronation of Queen Elizabeth II in 1953, Dege & Skinner dressed the Peers of the Realm at Westminster Abbey.",
+          "connector": "Its own two-sentence History section, which turns out to be enough."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Dege & Skinner · Timeline",
+          "url": "https://en.wikipedia.org/wiki/Dege_%26_Skinner",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/West_End_Windows_(12)_-_geograph.org.uk_-_5243618.jpg?width=760"
+          ],
+          "excerpt": "1865 - Founded as J.Dege & Sons. 1916 - William Skinner Jr., known as 'Tim', joins the firm; he would later take over the business. 1928 - Dege & Skinner starts to host trunk shows in the North of England and Scotland.",
+          "connector": "The rest of that history lives in a year-by-year list instead of prose."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Norton & Sons · lead",
           "url": "https://en.wikipedia.org/wiki/Norton_%26_Sons",
           "media": [],
           "excerpt": "Norton & Sons is a Savile Row bespoke tailor founded in 1821 by Walter Grant Norton. The firm is located on the east side of the street, at No. 16. It was purchased in 2005 by Scottish designer Patrick Grant, who revitalised the tailoring house.",
           "connector": "Not every house on this street has an unbroken run."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Norton & Sons · History",
+          "url": "https://en.wikipedia.org/wiki/Norton_%26_Sons",
+          "media": [],
+          "excerpt": "Walter Charles Norton founded the tailoring house on the Strand in 1821, attracting city businessman and German royalty. In 1859, his son George James Norton was granted the freedom of the City of London. At about this time, the company became the tailor and Royal Warrant holder to William I, German Emperor.",
+          "connector": "Its own History section fills in exactly how far back that unbroken run goes."
         },
         {
           "source": "Wikipedia",
@@ -1658,6 +1788,17 @@
           ],
           "excerpt": "Ede & Ravenscroft are the high-end luxury and oldest tailors in London, established in 1689. They are also recognised as the oldest continuously operating tailors in the world. They have two London premises, in Chancery Lane and Burlington Gardens, very close to the famous Savile Row.",
           "connector": "Step off the street entirely for the oldest name on today's list."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Ede & Ravenscroft · History",
+          "url": "https://en.wikipedia.org/wiki/Ede_%26_Ravenscroft",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Ede_Ravenscroft_3179.JPG?width=760"
+          ],
+          "excerpt": "The company was founded in 1689 by William and Martha Shudall. The present name dates from 1902 and is a result of the inheriting of the business by Joseph Ede and then merging with wig-maker Ravenscroft (founded by Francis Ravencroft) In 2020, as a result of economic affects from the COVID-19 pandemic, some 200 jobs at the company were terminated.",
+          "connector": "Its own History section gives the founding a specific pair of names."
         },
         {
           "source": "Wikipedia",
@@ -1682,6 +1823,35 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Kiton · History",
+          "url": "https://en.wikipedia.org/wiki/Kiton",
+          "media": [],
+          "excerpt": "Kiton is the trademark brand of the company Ciro Paone SpA, a company founded in 1956. It was set up at Arzano, in the province of Naples, in 1968. The name Kiton derives from the chiton ceremonial tunic worn by the ancient Greeks and Romans.",
+          "connector": "Even its own name has a backstory, borrowed from a garment two thousand years older than the brand."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Kiton · History",
+          "url": "https://en.wikipedia.org/wiki/Kiton",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/IMG_Kiton_Toronto.jpg?width=760"
+          ],
+          "excerpt": "In 1995, Kiton launched a line of womenswear. In 2008, Ciro Paone purchased suits and other wardrobe items that once belonged to Edward VIII, the Duke of Windsor, from a 1998 Sotheby's auction.",
+          "connector": "One of its own purchases put a former king's wardrobe back on display."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Kiton · School of Advanced Tailoring",
+          "url": "https://en.wikipedia.org/wiki/Kiton",
+          "media": [],
+          "excerpt": "In 2000, Kiton launched a training project with the foundation of the School of Advanced Tailoring, aimed at training new generations of tailors. Kiton developed this course with two main goals: to prepare young people to enter the labor market and to ensure that the workforce is constantly updated. The majority of the students hail from Naples, though there are also applications from international students.",
+          "connector": "This house also runs the training program that produces its own future tailors."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Brioni (brand) · lead",
           "url": "https://en.wikipedia.org/wiki/Brioni_(brand)",
           "media": [
@@ -1693,13 +1863,53 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Brioni (brand) · lead",
+          "detail": "Brioni (brand) · Peacock Revolution",
           "url": "https://en.wikipedia.org/wiki/Brioni_(brand)",
           "media": [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Brioniboutique.jpg?width=760"
           ],
+          "excerpt": "The first Brioni store, a tailor menswear boutique, was established on Via Barberini 79 in Rome in 1945 by Nazareno Fonticoli and Gaetano Savini. The name Brioni is a reference to the Croatian Brijuni Islands, the summer residence of Yugoslav president Josip Broz Tito, later converted into a national park.",
+          "connector": "Its own account of the same founding, with the two names actually behind it."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Brioni (brand) · lead",
+          "url": "https://en.wikipedia.org/wiki/Brioni_(brand)",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brioni_logo.png?width=760"
+          ],
           "excerpt": "",
           "connector": "Today's map of houses ends on the image rather than the reading."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Brioni (brand) · Peacock Revolution",
+          "url": "https://en.wikipedia.org/wiki/Brioni_(brand)",
+          "media": [],
+          "excerpt": "In 1952, Brioni staged the first menswear fashion show in the modern history of fashion, inside the Sala Bianca at Palazzo Pitti in Florence, where the Peacock Revolution was introduced. Brioni also invented the trunk show, during which the collections were presented directly in stores, allowing customers to personalize the garments with the Su Misura service (made-to-measure).",
+          "connector": "Except there's one more event this house actually invented, worth closing on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Brioni (brand) · In popular culture",
+          "url": "https://en.wikipedia.org/wiki/Brioni_(brand)",
+          "media": [],
+          "excerpt": "In the 2000 movie American Psycho, Patrick Bateman (played by Christian Bale) wears a Brioni tie. In the 2008 Coen brothers' film Burn After Reading, Brad Pitt's character tries to convince a co-worker that she should consider dating a guy based on the belief that he is wearing a Brioni suit.",
+          "connector": "Its name shows up on screen almost as often as on an actual customer."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Brioni (brand) · In popular culture",
+          "url": "https://en.wikipedia.org/wiki/Brioni_(brand)",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brioniboutique.jpg?width=760"
+          ],
+          "excerpt": "Brioni dressed Pierce Brosnan in all his James Bond movies from GoldenEye (1995) on, and Daniel Craig in Casino Royale (2006). It also supplied Donald Trump with suits for his TV show The Apprentice.",
+          "connector": "Including two franchises and one reality show, which is a strange trio to end the week's houses on."
         }
       ]
     },
@@ -1914,12 +2124,13 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Tweed · lead",
+          "detail": "Tweed · lead · in parts",
           "url": "https://en.wikipedia.org/wiki/Tweed",
           "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Bike_in_Tweed_Stockholm_2013.jpg?width=760"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Charlie_Hunter_-_1863.PNG?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Genuine_Irish_Thornproof_tweed_jacket_(2025-11-22)_1.jpg?width=760"
           ],
-          "excerpt": "Tweed is a rough, woollen fabric, of a soft, open, flexible texture, resembling cheviot or homespun, but more closely woven. It is usually woven with a plain weave, twill or herringbone structure.",
+          "excerpt": "Tweeds are a staple of traditional Scottish, Irish, Welsh, and English clothing, being desirable for informal outerwear, due to the material being moisture-resistant and durable. Tweeds are made to withstand harsh climates and are commonly worn for outdoor activities such as shooting and hunting.",
           "connector": "Someone asks what tweed is actually for. What do you say?"
         },
         {
@@ -1970,19 +2181,6 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Henry Poole & Co · History · in parts",
-          "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
-          "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_of_Henry_Poole_%26_Co_as_of_2016-07-11.jpg?width=760",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row-_Tailoring_at_Henry_Poole_and_Co.%2C_London%2C_England%2C_UK%2C_1944_D21864.jpg?width=760",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Savile_Row-_Tailoring_at_Henry_Poole_and_Co.%2C_London%2C_England%2C_UK%2C_1944_D21869.jpg?width=760"
-          ],
-          "excerpt": "The business first opened in 1806 at Brunswick Square, originally specializing in military tailoring during the Napoleonic Wars. After the death of founder James Poole, it relocated to Savile Row in 1846. Henry Poole ran the business until his death in 1876, after which his cousin, Samuel Cundey (1823-1883), took over.",
-          "connector": "Someone asks where the word \"tuxedo\" came from. What do you say?"
-        },
-        {
-          "source": "Wikipedia",
-          "domain": "en.wikipedia.org",
           "detail": "Anderson & Sheppard · lead",
           "url": "https://en.wikipedia.org/wiki/Anderson_%26_Sheppard",
           "media": [
@@ -1994,10 +2192,23 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "H. Huntsman & Sons · Bespoke process",
-          "url": "https://en.wikipedia.org/wiki/H._Huntsman_%26_Sons",
-          "media": [],
-          "excerpt": "As outlined on the Huntsman website, the process of placing an order begins with a consultation, during which the customer meets with Johnny Allen, Bespoke Clients Manager, who discusses the customer's requirements for his suit, helping to finalise any stylistic decisions and his choice of fabric. A cutter will then measure-up the client (Huntsman takes an average of 30 different measures for a first suit), before this is drafted into the traditional brown paper pattern. This pattern is then chalked onto the customer's chosen cloth, which is in turn cut out.",
+          "detail": "Henry Poole & Co · Origins of the tuxedo",
+          "url": "https://en.wikipedia.org/wiki/Henry_Poole_%26_Co",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Henry_Poole_%26_Co_(1).JPG?width=760"
+          ],
+          "excerpt": "In 1860, Henry Poole made a short evening or smoking jacket for the Prince of Wales to wear at informal dinner parties at Sandringham.",
+          "connector": "Someone asks where the word \"tuxedo\" came from. What do you say?"
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Kiton · lead",
+          "url": "https://en.wikipedia.org/wiki/Kiton",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/IMG_Kiton_Toronto.jpg?width=760"
+          ],
+          "excerpt": "Kiton is an Italian fashion house founded by Ciro Paone in Arzano, NA 1968. Founded in Arzano, Naples in 1968 by Ciro Paone, Kiton is an Italian clothing company with its roots in traditional Italian tailoring. By the end of 2022, Kiton had 60 monobrand stores and 300 wholesale accounts worldwide. The company's slogan is Il meglio del meglio più uno (\"the best of the best plus one\"). Kiton operates five manufacturing facilities located in Arzano (for their primary production), Caserta (for sportswear), Parma (for outerwear), Fidenza (for knitwear), and Biella (for textiles).",
           "connector": "Someone asks if any tailor on that list isn't British. What do you say?"
         },
         {
