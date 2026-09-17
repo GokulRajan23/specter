@@ -811,6 +811,15 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Bespoke tailoring · Overview",
+          "url": "https://en.wikipedia.org/wiki/Bespoke_tailoring",
+          "media": [],
+          "excerpt": "To order a bespoke garment, first the customer does a consultation with a tailor. This is when fabrics, linings, and styling details are chosen. Then the tailor measures the client, in order to draft a pattern from scratch based on the individual measurements. The fabric and lining are chalked out, cut with shears, which allows the tailor to baste the garment together for a fitting.",
+          "connector": "The lead only says bespoke means made specifically for you — here's the actual sequence of appointments that produces it."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Tailor · lead",
           "url": "https://en.wikipedia.org/wiki/Tailor",
           "media": [
@@ -822,6 +831,49 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Tailor · History",
+          "url": "https://en.wikipedia.org/wiki/Tailor",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Fuliru_tailor_in_Uvira_(cropped).jpg?width=760"
+          ],
+          "excerpt": "Although clothing construction goes back to prehistory, there is evidence of tailor shops in Ancient Greece and Rome, as well as tailoring tools such as irons and shears. The profession of tailor in Europe became formalized in the High Middle Ages through the establishment of guilds. Tailors' guilds instituted a system of master craftsmen, journeymen, and apprentices.",
+          "connector": "The person has a job title now — this is how old that title actually is."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Tailor · History",
+          "url": "https://en.wikipedia.org/wiki/Tailor",
+          "media": [],
+          "excerpt": "In England, there were many negative associations with the profession of tailoring. Tailors were often called \"snips\", \"bodkins\", \"thimbles\", \"shreds\", \"stiches\" [sic], and \"geese\" (referring to the tailor's \"goose\" or iron). In William Shakespeare's plays, a tailor was variously called a \"thread\", a \"thimble\", and a \"rag\".",
+          "connector": "Not every historical detail about this trade is flattering."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Tailor · Tailoring · in parts",
+          "url": "https://en.wikipedia.org/wiki/Tailor",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Raja_Daswani_Fitting.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/SaturdayEveningPost15Apr1916.jpg?width=760"
+          ],
+          "excerpt": "Tailoring men's jackets by adding underlayers of padding became fashionable in Europe by the 14th century. Over the years, additional areas were padded to provide an understructure that helped the garment lie neatly on the body. By the 19th century, well-tailored garments were carefully fit to the wearer with a more subtly shaped understructure. Even with the advent of modern machines, nearly 75 percent of a custom-tailored suit's stitching is still done by hand.",
+          "connector": "Zoom from the guild's rules to the actual hand-work those rules were protecting."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Tailor · Italian cut",
+          "url": "https://en.wikipedia.org/wiki/Tailor",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Seamstress_at_work._Buryatia%2C_Russia.jpg?width=760"
+          ],
+          "excerpt": "An Italian cut suit offers a flattering shape with soft tailoring, aiming for the most attractive appearance for the wearer. A suit jacket in northern Italy will usually have a square shoulder, while in southern Italy, the Neapolitan tailoring preference is for a more natural shoulder. Like the British cut, the Italian cut is defined by its inner construction. Since Italy lies in southern Europe and has a warm climate, the Italian tailors developed a cut that was light and cooler to coincide with the conditions.",
+          "connector": "Regional style turns up eventually — here's one variant, with a couple of names Friday circles back to."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Pattern (sewing) · lead",
           "url": "https://en.wikipedia.org/wiki/Pattern_(sewing)",
           "media": [
@@ -829,6 +881,38 @@
           ],
           "excerpt": "In sewing and fashion design, a pattern is the template from which the parts of a garment are traced onto woven or knitted fabric before being cut out and assembled. Patterns are usually made of paper, and are sometimes made of sturdier materials like paperboard or cardboard if they need to be more robust to withstand repeated use. The process of making or cutting patterns is sometimes referred to as patternmaking, but it can also be written as pattern making or pattern cutting.",
           "connector": "The first thing that person makes isn't the garment yet."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Pattern (sewing) · lead",
+          "url": "https://en.wikipedia.org/wiki/Pattern_(sewing)",
+          "media": [],
+          "excerpt": "A sloper pattern, also called a block pattern, is a custom-fitted, basic pattern from which patterns for many different styles can be developed. The process of changing the size of a finished pattern is called pattern grading. Several companies, like Butterick and Simplicity, specialize in selling pre-graded patterns directly to consumers.",
+          "connector": "The lead keeps naming more of itself before it ever gets to technique."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Pattern (sewing) · Pattern making",
+          "url": "https://en.wikipedia.org/wiki/Pattern_(sewing)",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_183-1987-0310-011%2C_Rostock%2C_Zuschnitt_per_Mikroelektronik.jpg?width=760"
+          ],
+          "excerpt": "A patternmaker typically employs one of two methods to create a pattern. The flat-pattern method is where the entire pattern is drafted on a flat surface from measurements, using rulers, curves, and straight-edges. A pattern maker would also use various tools such as a notcher, drill, and awl to mark the pattern. Usually, flat patterning begins with the creation of a \"sloper\" or \"block\" pattern: a simple, fitted garment made to the wearer's measurements.",
+          "connector": "That's the vocabulary. Here's which of the two actual methods menswear uses."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Pattern (sewing) · Fitting patterns · in parts",
+          "url": "https://en.wikipedia.org/wiki/Pattern_(sewing)",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Drei.Hosenschnittmuster.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Fashion_students_2016-15_(25792353403).jpg?width=760"
+          ],
+          "excerpt": "Mass market patterns are made standardized, so store-bought patterns fit most people well. Experienced dressmakers can adjust standard patterns to better fit any body shape. A sewer may choose a standard size (usually from the wearer's bust measurement) that has been pre-graded on a purchased pattern. They may decide to tailor or adjust a pattern to improve the fit or style for the garment wearer by using French curves, hip curves, and cutting or folding on straight edges.",
+          "connector": "A pattern is never final — this is the part where it gets adjusted to an actual body."
         },
         {
           "source": "Wikipedia",
@@ -864,6 +948,38 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Wool · Felting",
+          "url": "https://en.wikipedia.org/wiki/Wool",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Hogget_fleece.JPG?width=760"
+          ],
+          "excerpt": "The felting of wool occurs upon hammering or other mechanical agitation as the microscopic barbs on the surface of wool fibers hook together. Felting generally falls under two main areas, dry felting and wet felting. Wet felting occurs when water and a lubricant (especially an alkali such as soap) are applied to the wool which is then agitated until the fibers mix and bond together.",
+          "connector": "Wool's other defining trick, and the one a tailor spends the whole process trying to avoid by accident."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Wool · Composition and structure · in parts",
+          "url": "https://en.wikipedia.org/wiki/Wool",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Lady_Weaving_Wool.JPG?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Merino_shearing.jpg?width=760"
+          ],
+          "excerpt": "Wool consists mainly of keratin, with about 2–3% lipid material. Keratin is a structural protein also found in human hair and nails (anatomy). A single wool fiber consists of the cuticle, the cortex, and the medulla. Its keratin contains more sulfur than the fibroin of silk because it is rich in cystine.",
+          "connector": "Worth seeing the fibre itself before reading what it's actually made of."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Wool · Etymology",
+          "url": "https://en.wikipedia.org/wiki/Wool",
+          "media": [],
+          "excerpt": "The English word wool is cognate with Dutch wol, German Wolle, Swedish ull, Icelandic ull, Lithuanian vilna, Welsh gwlân, and Latin lāna. These forms are commonly traced to a reconstructed Proto-Indo-European word for wool, conventionally written *h₂wĺ̥h₁-neh₂-. The reconstruction has been used in arguments about the date and location of Proto-Indo-European, although such arguments depend on when woolly sheep and a specialized wool vocabulary developed.",
+          "connector": "Even the raw material's own name has a backstory, same as half of Monday's vocabulary did."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Worsted · lead",
           "url": "https://en.wikipedia.org/wiki/Worsted",
           "media": [
@@ -882,6 +998,15 @@
           ],
           "excerpt": "In the same period, many weavers from the County of Flanders moved to Norfolk. \"Worsted\" yarns/fabrics are distinct from woollens (though both are made from sheep's wool): the former is considered stronger, finer, smoother, and harder than the latter. Worsted was made from the long-staple pasture wool from sheep breeds such as Teeswaters, Old Leicester Longwool and Romney Marsh.",
           "connector": "Worth reading closely — the two terms get confused for a reason."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Worsted · Technique and preparation",
+          "url": "https://en.wikipedia.org/wiki/Worsted",
+          "media": [],
+          "excerpt": "The essential feature of worsted yarn is straight, parallel fibres. Originally, long, fine staple wool was spun to create worsted yarn; today, other long fibres are also used. Many spinners differentiate between worsted preparation and worsted spinning. Worsted preparation refers to the way the fibre is prepared before spinning, using ginning machines which force the fibre staples to lie parallel to each other.",
+          "connector": "The confusion has a mechanical answer, not just a definitional one."
         },
         {
           "source": "Wikipedia",
@@ -909,11 +1034,54 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Tweed · Etymology",
+          "url": "https://en.wikipedia.org/wiki/Tweed",
+          "media": [],
+          "excerpt": "A traditional story has the name coming about almost by chance. Around 1831, a London merchant, James Locke, received a letter from a Hawick firm, Wm. Watson & Sons, Dangerfield Mills about some \"tweels\".",
+          "connector": "Worsted's name traces back to one village — tweed's name traces back to one misread letter."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Tweed · Types of tweed",
+          "url": "https://en.wikipedia.org/wiki/Tweed",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Genuine_Irish_Thornproof_tweed_jacket_(2025-11-22)_2.jpg?width=760"
+          ],
+          "excerpt": "Harris Tweed: A handwoven tweed, defined in the Harris Tweed Act 1993 as cloth that is \"Handwoven by the islanders at their homes in the Outer Hebrides, finished in the Outer Hebrides, and made from pure virgin wool dyed and spun in the Outer Hebrides\". Donegal tweed: A handwoven tweed which has been manufactured for several centuries in County Donegal, Ireland, using wool from locally-bred sheep and dye from indigenous plants such as blackberries, gorse (whins), and moss. Beyond Donegal, traditional woollen fabrics and tweed blends have been produced in County Wicklow at the Avoca mill since 1723, making it one of the oldest surviving working mills in Ireland. Silk tweed: A fabric made of raw silk with flecks of colour typical of woollen tweed.",
+          "connector": "Not one fabric but a small family of them, each tied to a different place."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Sewing · lead",
           "url": "https://en.wikipedia.org/wiki/Sewing",
           "media": [],
           "excerpt": "Sewing is the craft of fastening pieces of textiles together using a sewing needle and thread. Sewing is one of the oldest of the textile arts, originating in the Paleolithic era. Archaeological evidence suggests that early humans in Europe and Asia produced garments from fur and leather clothing using bone, antler or ivory sewing-needles and \"thread\" made of various animal body parts including sinew, catgut, and veins.",
           "connector": "Everything above this line eventually has to meet at a needle."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Sewing · Origins",
+          "url": "https://en.wikipedia.org/wiki/Sewing",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/A_seated_woman_sewing_a_kimono.jpg?width=760"
+          ],
+          "excerpt": "Sewing has an ancient history estimated to begin during the Paleolithic Era. Sewing was used to stitch together animal hides for clothing and for shelter. The Inuit, for example, used sinew from caribou for thread and needles made of bone; the indigenous peoples of the American Plains and Canadian Prairies used sophisticated sewing methods to assemble tipi shelters. Sewing was combined with the weaving of plant leaves in Africa to create baskets, such as those made by Zulu weavers, who used thin strips of palm leaf as \"thread\" to stitch wider strips of palm leaf that had been woven into a coil.",
+          "connector": "The needle itself goes back further than any fabric named so far today."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Sewing · Tools · in parts",
+          "url": "https://en.wikipedia.org/wiki/Sewing",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Alpackaull.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Bangladeshi_women_sewing_clothes.jpg?width=760"
+          ],
+          "excerpt": "Sewers working on a simple project need only a few sewing tools, such as flexible measuring tape, needle, thread, cloth, and sewing shears, but there are many helpful sewing aids and specialized tools available. Rotary cutters may also be used for cutting fabric, usually used with a cutting mat to protect other surfaces from being damaged. Seam rippers are used to remove mistaken stitches or basting stitches. Special washable markers or chalk are used to mark the fabric as a guide to construction.",
+          "connector": "From prehistory to the actual kit a modern sewer keeps on the table."
         },
         {
           "source": "Wikipedia",
@@ -942,6 +1110,15 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Textile · History",
+          "url": "https://en.wikipedia.org/wiki/Textile",
+          "media": [],
+          "excerpt": "Textiles themselves are too fragile to survive across millennia; the tools used for spinning and weaving make up most of the prehistoric evidence for textile work. The earliest tool for spinning was the spindle, to which a whorl was eventually added. The weight of the whorl improved the thickness and twist of the spun thread.",
+          "connector": "The category is old enough that most of its own early evidence never survived to be read."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Suit · Fabric",
           "url": "https://en.wikipedia.org/wiki/Suit",
           "media": [
@@ -955,11 +1132,40 @@
           "domain": "en.wikipedia.org",
           "detail": "Suit · Fabric",
           "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [],
+          "excerpt": "Although wool has traditionally been associated with warm, bulky clothing meant for warding off cold weather, advances in making finer and finer fibre have made wool suits acceptable for warmer weather, as fabrics have accordingly become lighter and more supple. Wool fabric is denominated by the weight of a one-square yard piece; thus, the heavier wools, suitable for winter only, are 12–14 oz.; the medium, \"three-season\" (i.e., excluding summer) are 10–11 oz.; and summer wools are 7–8 oz.",
+          "connector": "That vocabulary turns out to have its own weight classes, literally."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit · Fabric",
+          "url": "https://en.wikipedia.org/wiki/Suit",
           "media": [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Camino_a_la_reuni%C3%B3n_con_con_el_Presidente_de_la_Rep%C3%BAblica_Popular_China%2C_el_Excmo._Sr._Xi_Jinping._(8627337472).jpg?width=760"
           ],
+          "excerpt": "For non-business use, tweed has been popular since Victorian times and still is commonly worn. A wide range of colour is available, including muted shades of green, brown, red, and grey. Tweeds are usually checked, or plain with a herringbone weave, and are most associated with the country.",
+          "connector": "Today's cousin fabric gets a second mention, this time back on the actual garment."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit · Fabric",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Gentleman_in_bowler.JPG?width=760"
+          ],
           "excerpt": "Inside the jacket of a suit, between the outer fabric and the inner lining, there is a layer of sturdy interfacing fabric to prevent the wool from stretching out of shape; this layer of cloth is called the canvas after the fabric from which it was traditionally made. Expensive jackets have a floating canvas, while cheaply manufactured models have a fused (glued) canvas. A fused canvas is less soft and, if poorly done, damages the suppleness and durability of the jacket, so many tailors are quick to deride fused canvas as being less durable, particularly since they may tend to permanently pucker along the jacket's edges after some use or a few dry cleanings.",
           "connector": "One more layer of the same jacket, one you'd never notice unfolded."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Suit · Fabric",
+          "url": "https://en.wikipedia.org/wiki/Suit",
+          "media": [],
+          "excerpt": "However, some selling this type of jacket claim that the difference in quality is very small. A few London tailors state that all bespoke suits should use a floating canvas.",
+          "connector": "Even that hidden layer has its own quality argument, unresolved to this day."
         }
       ]
     },
@@ -1514,23 +1720,19 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Wool · Crimp",
-          "url": "https://en.wikipedia.org/wiki/Wool",
-          "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/CSIRO_ScienceImage_11160_Siroscour.jpg?width=760"
-          ],
-          "excerpt": "Crimp refers to the strong natural wave present in each wool fiber. Wool's crimp, and to a lesser degree scales, make it easier to spin the fleece by helping the individual fibers attach, so they stay together. Because of the crimp, wool fabrics have greater bulk than other textiles, and they hold air, which causes the fabric to retain heat. The amount of crimp corresponds to the fineness of the wool fibers.",
+          "detail": "Tailor · History",
+          "url": "https://en.wikipedia.org/wiki/Tailor",
+          "media": [],
+          "excerpt": "In England, there were many negative associations with the profession of tailoring. Tailors were often called \"snips\", \"bodkins\", \"thimbles\", \"shreds\", \"stiches\" [sic], and \"geese\" (referring to the tailor's \"goose\" or iron). In William Shakespeare's plays, a tailor was variously called a \"thread\", a \"thimble\", and a \"rag\".",
           "connector": "Someone asks why a wool suit can still breathe. What do you say?"
         },
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Tweed · lead",
-          "url": "https://en.wikipedia.org/wiki/Tweed",
-          "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Bike_in_Tweed_Stockholm_2013.jpg?width=760"
-          ],
-          "excerpt": "Tweed is a rough, woollen fabric, of a soft, open, flexible texture, resembling cheviot or homespun, but more closely woven. It is usually woven with a plain weave, twill or herringbone structure.",
+          "detail": "Pattern (sewing) · lead",
+          "url": "https://en.wikipedia.org/wiki/Pattern_(sewing)",
+          "media": [],
+          "excerpt": "A sloper pattern, also called a block pattern, is a custom-fitted, basic pattern from which patterns for many different styles can be developed. The process of changing the size of a finished pattern is called pattern grading. Several companies, like Butterick and Simplicity, specialize in selling pre-graded patterns directly to consumers.",
           "connector": "Someone asks what tweed is actually for. What do you say?"
         },
         {
