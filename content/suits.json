@@ -1256,6 +1256,35 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Made-to-measure · Overview",
+          "url": "https://en.wikipedia.org/wiki/Made-to-measure",
+          "media": [],
+          "excerpt": "The made-to-measure process is simple considering that its purpose is to make an existing garment fit a person better. The very first step is for the tailor to take precise measurements of both the customer and the garment itself. Basic measurements taken include measurements of the chest, waist, seat etc., and most importantly, these measurements are taken as the tailor studies the posture of the person to make sure the garment won't be uncomfortable for the customer to wear.",
+          "connector": "Set the argument aside for a second — this is just what the process itself involves."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Made-to-measure · Overview",
+          "url": "https://en.wikipedia.org/wiki/Made-to-measure",
+          "media": [],
+          "excerpt": "Although the process is simple, it is however lengthy because tailors measure and remeasure the garment on the person to make sure it fits exactly how it's wanted. Made-to-measure items typically have a price markup compared to their ready-to-wear counterparts due to the customization and personalized service involved in their production. The primary benefits to the customer of made-to-measure clothing are that the garments will be well-fitted to the customer's body and the customer may have the opportunity to customize the fabric and detailing.",
+          "connector": "That process has a cost and a benefit, and the article states both plainly."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Made-to-measure · Comparison",
+          "url": "https://en.wikipedia.org/wiki/Made-to-measure",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/TailoringFirstFitFront02.jpg?width=760"
+          ],
+          "excerpt": "In essence, MTM (made-to-measure) is a step up from pret-a-porter. It's affordable for most people and solves some of the common fit issues that shoppers may have with ready-to-wear garments. The main advantage of MTM is that the clothes will be adapted to the customer's physique and the customer can have the option of choosing fabric, details, sleeve length, pose adjustment, shirt length, jacket length, etc. The main disadvantage is that customers have to wait up to several weeks for the clothes to be ready and delivered.",
+          "connector": "Put next to both neighbours on the ladder at once, not just the one above it."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Ready-to-wear · lead",
           "url": "https://en.wikipedia.org/wiki/Ready-to-wear",
           "media": [
@@ -1276,6 +1305,37 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Ready-to-wear · Men's and children's clothing",
+          "url": "https://en.wikipedia.org/wiki/Ready-to-wear",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Maison_Dewachter_Bordeaux%2C_France_Letterhead_1904.png?width=760"
+          ],
+          "excerpt": "The first ready-made garment factory was established in New York City in 1831. During the American Civil War the need for ready-made uniforms helped the garment sector grow in the United States. In 1868, Isidore, Benjamin and Modeste Dewachter offered ready-to-wear clothing for men and children to Belgian clientele when they opened the first chain department stores, Dewachter frères (Dewachter Brothers).",
+          "connector": "Before the argument, the actual first factory this rung of the ladder ran on."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Ready-to-wear · Women's clothing",
+          "url": "https://en.wikipedia.org/wiki/Ready-to-wear",
+          "media": [],
+          "excerpt": "Interest in ready-to-wear was sparked by Yves Saint Laurent, who was the first designer to launch a ready-to-wear collection, and in 1966 he opened Rive Gauche, his first ready-to-wear boutique. Whether he succeeded in democratizing fashion is an open question, since few were able to afford his designs, but he did pave the way for ready-to-wear fashion and the cross-fertilisation between haute-couture and high-street fashion that persists into the 21st century.",
+          "connector": "The men's side got a factory date. The women's side got one designer's name attached to it."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Ready-to-wear · Haute couture and bespoke",
+          "url": "https://en.wikipedia.org/wiki/Ready-to-wear",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Move_In_Day_2011_(6099706937)_(cropped).jpg?width=760"
+          ],
+          "excerpt": "Fashion houses that produce a women's haute couture line, such as Chanel, Dior, Lacroix and Saint Laurent also produce a ready-to-wear line, which returns a greater profit because of the higher volume of garments made and the greater availability of the clothing. The construction of ready-to-wear clothing is also held to a different standard than that of haute couture due to its industrial nature. High-end ready-to-wear lines are sometimes based upon a famous gown or other pattern that is then duplicated and advertised to raise the visibility of the designer.",
+          "connector": "Which puts this rung right back in conversation with the one at the very top."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Brooks Brothers · lead",
           "url": "https://en.wikipedia.org/wiki/Brooks_Brothers",
           "media": [
@@ -1287,15 +1347,78 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
+          "detail": "Brooks Brothers · Founding and 19th century",
+          "url": "https://en.wikipedia.org/wiki/Brooks_Brothers",
+          "media": [],
+          "excerpt": "On April 7, 1818, at the age of 45, Henry Sands Brooks opened H. & D. H. Brooks & Co. on the northeast corner of Catherine St and Cherry St in Manhattan.",
+          "connector": "Its own opening line, rather than a paraphrase of the founding date."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Brooks Brothers · Founding and 19th century",
+          "url": "https://en.wikipedia.org/wiki/Brooks_Brothers",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/BrooksBrothersBevHills.jpg?width=760"
+          ],
+          "excerpt": "A wooly sheep suspended in a ribbon had long been a symbol of British woolen merchants. Dating from the fifteenth century, the image had been the emblem of the Knights of the Golden Fleece, founded by Philip the Good, Duke of Burgundy.",
+          "connector": "Even its logo turns out to be older than the company wearing it."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
           "detail": "Brooks Brothers · Founding and 19th century · in parts",
           "url": "https://en.wikipedia.org/wiki/Brooks_Brothers",
           "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/BrooksBrothersBevHills.jpg?width=760",
             "https://commons.wikimedia.org/wiki/Special:FilePath/BrooksBrothers_Flagship_Glasses.jpg?width=760",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/BrooksBrothers_Flagship_Lincoln.jpg?width=760"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/BrooksBrothers_Flagship_Lincoln.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brooks_Bros_11_E44_jeh.jpg?width=760"
           ],
           "excerpt": "In the mid-nineteenth century, Brooks Brothers outfitted United States president Abraham Lincoln and considered him a loyal customer. At his second inauguration, Lincoln wore a coat specially crafted for him by Brooks Brothers. Hand-stitched into the coat's lining was a design featuring an eagle and the inscription, \"One Country, One Destiny\".",
           "connector": "One customer of that house's early ready-to-wear era is worth seeing in more than one frame."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Brooks Brothers · Founding and 19th century",
+          "url": "https://en.wikipedia.org/wiki/Brooks_Brothers",
+          "media": [],
+          "excerpt": "He was wearing the coat and a Brooks Brothers suit when he was assassinated. New York state troops were outfitted with Brooks Brothers uniforms during the American Civil War. Brooks Brothers took shredded and sometimes decaying rags, glued them together and stitched them into uniforms. They would fall apart in the rain and were the subject of ridicule from other regiments. According to James Murray (primary editor of the Oxford English Dictionary from 1879 until his death in 1915) Brooks Brothers were responsible for bringing \"shoddy\" into American usage.",
+          "connector": "The same coat's aftermath, and a wartime episode the house is less proud of, both worth reading in full."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Brooks Brothers · 20th century",
+          "url": "https://en.wikipedia.org/wiki/Brooks_Brothers",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brooks_Brothers_window.jpg?width=760"
+          ],
+          "excerpt": "By 1971, eleven Brooks Brothers stores were in operation and located in Manhattan, Chicago, Boston, San Francisco, Pittsburgh, Los Angeles, Atlanta, Washington, D.C., and St. Louis as an integral part of the retail conglomerate Garfinckel, Brooks Brothers, Miller & Rhoads, Inc., that held the company until 1981 when it was acquired by Allied Stores. Ralph Lauren began his career as a salesman at the Brooks Brothers Madison Avenue store. Brooks Brothers later sued Polo Ralph Lauren to retain its rights to the original polo button-down collar shirt.",
+          "connector": "A century later, one of its own salesmen went on to found a rival label."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Brooks Brothers · Public officials",
+          "url": "https://en.wikipedia.org/wiki/Brooks_Brothers",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brooks_Clothing_Store%2C_Catharine_St._N.Y._1845.jpg?width=760"
+          ],
+          "excerpt": "Brooks Brothers has outfitted every American president since James Madison, with the exceptions of Jimmy Carter and Ronald Reagan. In 1865, President Abraham Lincoln wore a custom-made Brooks Brothers frock coat to his Second inauguration.",
+          "connector": "Presidents, not just designers, are apparently part of this house's customer list."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Brooks Brothers · Music and fine arts · in parts",
+          "url": "https://en.wikipedia.org/wiki/Brooks_Brothers",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/ABG_logo_2020.png?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/BrooksBrothersBevHills.jpg?width=760"
+          ],
+          "excerpt": "Brooks Brothers is the official clothier of the Jazz at Lincoln Center Orchestra. Andy Warhol was known to buy and wear clothes from Brooks Brothers. According to Carlton Walters: \"I got to [know] Andy quite well, and he always looked bedraggled: always had his tie lopsided, as he didn't have time to tie it, and he never tied his shoe laces, and he even wore different colored socks, but he bought all of his clothes at Brooks Brothers.\" Brooks Brothers is referenced in the opening line of the lyrics to \"Harvard Blues\", written by George Frazier and popularized by Count Basie and Jimmy Rushing in the 1940s. The song begins with the lyric \"I wear Brooks clothes and white shoes all the time\" and goes on to portray the protagonist of the song as a privileged but idle bon vivant.",
+          "connector": "Its customer list runs well past politics, into an unlikely pairing with a pop artist."
         },
         {
           "source": "Wikipedia",
@@ -1312,13 +1435,42 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Fast fashion · lead",
+          "detail": "Fast fashion · Business model",
+          "url": "https://en.wikipedia.org/wiki/Fast_fashion",
+          "media": [],
+          "excerpt": "Fast fashion brands aim to put popular styles on the market as quickly as possible at a lower price than their competitors via optimized supply chains and quick response manufacturing methods. These retailers produce and sell products in small batches, maintain surplus manufacturing capacity to adjust production levels, use category management organization, and are able to make substantial and immediate adjustments to manufacturing based on sales. Fast fashion companies generally invest heavily in marketing, particularly via social media, using influencers and internet celebrities to promote their brand.",
+          "connector": "Not just cheap — the actual mechanics of how it stays cheap."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Fast fashion · History",
           "url": "https://en.wikipedia.org/wiki/Fast_fashion",
           "media": [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Kensington-Roof-Gardens.jpg?width=760"
           ],
+          "excerpt": "Fast fashion originated with utility clothing and tailors who sold mass-produced affordable suits for men. In the 1960s, companies including Inditex and Chelsea Girl attained commercial acumen, but the brand Biba endured as a fast fashion icon.",
+          "connector": "That mechanism has a starting point, and it isn't as recent as it feels."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Fast fashion · lead",
+          "url": "https://en.wikipedia.org/wiki/Fast_fashion",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Recycling_clothing_icon.png?width=760"
+          ],
           "excerpt": "",
           "connector": "The image carries this one — the caption underneath is the whole argument."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Fast fashion · Legal and regulatory issues",
+          "url": "https://en.wikipedia.org/wiki/Fast_fashion",
+          "media": [],
+          "excerpt": "They have been accused of greenwashing, hiding their true impact on carbon emissions and plastic pollution. Shein was fined €1m in Italy for misleading environmental claims about products.",
+          "connector": "That argument has a price tag now, in at least one country."
         },
         {
           "source": "Wikipedia",
@@ -1339,6 +1491,37 @@
           "media": [],
           "excerpt": "The slow fashion or conscious fashion movement has risen in opposition to fast fashion, taking issue with responsibility for pollution (both in the production of clothes and in the decay of synthetic fabrics), poor workmanship, and emphasis on very brief trends over classic style. In the rise of slow fashion, emphasis has been given to quality clothing that is more enduring. British Vogue explained that the process of designing and creating clothing in slow fashion involves consciousness of materials, consumer demand, and climate impact.",
           "connector": "A longer closing read for the day — worth finishing before moving to Friday's houses."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Slow fashion · Principles",
+          "url": "https://en.wikipedia.org/wiki/Slow_fashion",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Recycling_clothing_icon.png?width=760"
+          ],
+          "excerpt": "Slow fashion is a term used to \"identify sustainable fashion solutions, based on the repositioning of strategies of design, production, consumption, use, and reuse, which are emerging alongside the global fashion system, and are posing a potential challenge to it\". As an alternative to fast fashion, its supporters say that it promotes a more ethical and sustainable way of living and consuming.",
+          "connector": "The reaction has an actual definition, not just an opposite-of-fast-fashion vibe."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Slow fashion · History",
+          "url": "https://en.wikipedia.org/wiki/Slow_fashion",
+          "media": [],
+          "excerpt": "In the summer of 1990, British fashion designer Katharine Hamnett, who has been often recognized as one of the first designers to combine environmental activism with fashion, gave a speech about the environmental impacts of fashion at the United Nations. In 1995, Giorgio Armani began to use hemp in his Emporio Armani collection.",
+          "connector": "It has a start date too, roughly the same era fast fashion was accelerating."
+        },
+        {
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "detail": "Slow fashion · History",
+          "url": "https://en.wikipedia.org/wiki/Slow_fashion",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Made_Slow_fashion_show_(28096808709).jpg?width=760"
+          ],
+          "excerpt": "The concept of slow fashion became more well-known after Elizabeth L. Cline published Overdressed: The Shockingly High Cost of Cheap Clothing, which described the pitfalls of fast fashion.",
+          "connector": "And it has the one book most often credited with actually naming the reaction."
         }
       ]
     },
@@ -1720,19 +1903,23 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Tailor · History",
-          "url": "https://en.wikipedia.org/wiki/Tailor",
-          "media": [],
-          "excerpt": "In England, there were many negative associations with the profession of tailoring. Tailors were often called \"snips\", \"bodkins\", \"thimbles\", \"shreds\", \"stiches\" [sic], and \"geese\" (referring to the tailor's \"goose\" or iron). In William Shakespeare's plays, a tailor was variously called a \"thread\", a \"thimble\", and a \"rag\".",
+          "detail": "Wool · Crimp",
+          "url": "https://en.wikipedia.org/wiki/Wool",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/CSIRO_ScienceImage_11160_Siroscour.jpg?width=760"
+          ],
+          "excerpt": "Crimp refers to the strong natural wave present in each wool fiber. Wool's crimp, and to a lesser degree scales, make it easier to spin the fleece by helping the individual fibers attach, so they stay together. Because of the crimp, wool fabrics have greater bulk than other textiles, and they hold air, which causes the fabric to retain heat. The amount of crimp corresponds to the fineness of the wool fibers.",
           "connector": "Someone asks why a wool suit can still breathe. What do you say?"
         },
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Pattern (sewing) · lead",
-          "url": "https://en.wikipedia.org/wiki/Pattern_(sewing)",
-          "media": [],
-          "excerpt": "A sloper pattern, also called a block pattern, is a custom-fitted, basic pattern from which patterns for many different styles can be developed. The process of changing the size of a finished pattern is called pattern grading. Several companies, like Butterick and Simplicity, specialize in selling pre-graded patterns directly to consumers.",
+          "detail": "Tweed · lead",
+          "url": "https://en.wikipedia.org/wiki/Tweed",
+          "media": [
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Bike_in_Tweed_Stockholm_2013.jpg?width=760"
+          ],
+          "excerpt": "Tweed is a rough, woollen fabric, of a soft, open, flexible texture, resembling cheviot or homespun, but more closely woven. It is usually woven with a plain weave, twill or herringbone structure.",
           "connector": "Someone asks what tweed is actually for. What do you say?"
         },
         {
@@ -1760,14 +1947,13 @@
         {
           "source": "Wikipedia",
           "domain": "en.wikipedia.org",
-          "detail": "Brooks Brothers · Founding and 19th century · in parts",
-          "url": "https://en.wikipedia.org/wiki/Brooks_Brothers",
+          "detail": "Fast fashion · lead · in parts",
+          "url": "https://en.wikipedia.org/wiki/Fast_fashion",
           "media": [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/BrooksBrothersBevHills.jpg?width=760",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/BrooksBrothers_Flagship_Glasses.jpg?width=760",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/BrooksBrothers_Flagship_Lincoln.jpg?width=760"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Fast_Fashion_killt_das_Klima.jpg?width=760",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/HK_Central_Queen's_Road_H%26M_Department_Store_clothing_fashion_figures_night_Aug-2012.JPG?width=760"
           ],
-          "excerpt": "In the mid-nineteenth century, Brooks Brothers outfitted United States president Abraham Lincoln and considered him a loyal customer. At his second inauguration, Lincoln wore a coat specially crafted for him by Brooks Brothers. Hand-stitched into the coat's lining was a design featuring an eagle and the inscription, \"One Country, One Destiny\".",
+          "excerpt": "Fast fashion is a business model in textile manufacturing where companies quickly create and sell clothing and footwear at affordable prices by replicating the latest fashion trends and designs using cheap and fast mass production techniques. Fast fashion is defined by Merriam-Webster as \"an approach to the design, creation, and marketing of clothing fashions that emphasizes making fashion trends quickly and cheaply available to consumers.\" Multinational retailers that employ the fast fashion strategy include Shein, Temu, Halara, Semir H&M, Primark, ASOS, Peacocks, Fashion Nova, Forever 21, Uniqlo, Edikted, Zaraand C&A.",
           "connector": "Someone asks why fast fashion is so cheap. What do you say?"
         },
         {
