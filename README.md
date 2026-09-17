@@ -26,8 +26,14 @@ reaches the app.
 
 ## This build
 
-Phone-first PWA carrying a real curated week on **Suits**: 244 cards across seven days,
-31–38 per day, drawn from 43 Wikipedia articles. See
+Phone-first PWA. The viewer is topic-agnostic: it renders whatever week it is handed, and
+the only thing tying it to a subject is which deck `lib/deck.ts` imports.
+
+**Suits** is the first topic, chosen as a test rather than as the point. It is a craft
+subject rather than an academic one, which is the harder case for the seven-day arc to
+handle, so it was a deliberate first try. The week runs to 244 cards across seven days,
+31–38 per day, drawn from 43 Wikipedia articles. Wine, coffee, watches, cycling or
+anything else slots into the same shape. See
 `docs/superpowers/specs/2026-09-13-burrow-card-viewer-design.md` for the design and
 `IDEA.md` for the product thinking.
 
@@ -51,6 +57,13 @@ each article under `scripts/.cache/wikipedia/` and is safe to re-run; `assemble`
 the deck from that cache without touching the network. `lib/variety.ts` holds the
 deck-quality rules (reading time, image spread, register alternation), and the test suite
 enforces them, so a bad deck fails `npm test` rather than shipping.
+
+**Changing topic is not yet one command.** The article list in `build-deck-lib.mjs` and
+the per-card table in `build-deck-assemble.mjs` are both written by hand for the current
+topic: which article, which section, which sentences, and the connector line. Curating a
+new week that way takes hours, not minutes. Turning that judgement into something the
+script can perform from a topic name is the next piece of work, and it is what makes the
+intended Sunday ritual actually a ritual.
 
 ## Installing on an iPhone
 
